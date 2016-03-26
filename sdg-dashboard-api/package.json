@@ -1,0 +1,24 @@
+{
+  "name": "sdg-dashboard-api",
+  "version": "0.0.1",
+  "description": "testbed for dashobard json as an expressjs-based API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apfister/sdg-dashboard-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apfister/sdg-dashboard-api/issues"
+  },
+  "homepage": "https://github.com/apfister/sdg-dashboard-api#readme",
+  "dependencies": {
+    "alasql": "^0.2.5",
+    "cors": "^2.7.1",
+    "express": "^4.13.4"
+  }
+}

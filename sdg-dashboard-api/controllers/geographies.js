@@ -12,13 +12,13 @@
  * limitations under the License.​ */
 
 var express = require('express'),
-  router = express.Router();
+  router = express.Router(),
+  Geographies = require('../models/geographies');
 
 router.get('/', function (req, res) {
-  res.json( { 'meta' : 'info about the api goes here' } );
+  Geographies.get(req.query, function (err, response) {
+    res.json( response );
+  });
 });
-
-router.use('/dashboards', require('./dashboards'));
-router.use('/geographies', require('./geographies'));
 
 module.exports = router;

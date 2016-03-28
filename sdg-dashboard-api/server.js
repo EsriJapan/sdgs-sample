@@ -24,6 +24,9 @@ app.use( require('./controllers') );
 app.listen(port, function () {
   console.log('loading JSON for SDG Dashboards ..');
 
+  // geographies for geo selector
+  GEOGRAPHIES = JSON.parse( fs.readFileSync('data/geographies.json') ); 
+
   // fake dashboard content
   DASHBOARDS = JSON.parse( fs.readFileSync('data/dashboards.json') );
   DASHBOARDS_CITIES = JSON.parse( fs.readFileSync('data/dashboards-cities.json') );

@@ -10,15 +10,25 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.​ */
+ 
+exports.get = function (query, cb) {
+  var out_json = {},
+    data = [],
+    meta = {};
 
-var express = require('express'),
-  router = express.Router();
+  try {
+    out_json['data'] = GEOGRAPHIES;
+    out_json['meta'] = {};
+  }
+  catch (ex) {
+    console.log(e);
+    out_json.errors = [];
+    out_json.errors.push({
+      status: '',
+      detail: e,
+      source: ''
+    });
+  }
 
-router.get('/', function (req, res) {
-  res.json( { 'meta' : 'info about the api goes here' } );
-});
-
-router.use('/dashboards', require('./dashboards'));
-router.use('/geographies', require('./geographies'));
-
-module.exports = router;
+  cb(null, out_json);
+}

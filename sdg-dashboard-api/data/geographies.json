@@ -970,8 +970,13 @@
     "geo_group": "countries"
   },
   {
+    "id": "GLOBAL_CITIES",
+    "display": "Global Progress",
+    "geo_group": "cities"
+  },
+  {
     "id": "city_BOGOTA",
     "display": "Bogota",
     "geo_group": "cities"
-  }
+  }  
 ]

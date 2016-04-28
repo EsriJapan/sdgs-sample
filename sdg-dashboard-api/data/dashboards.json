@@ -368,6 +368,231 @@
             }
           ]
         }
+      },
+      "15": {
+        "15.1": {
+          "levels": [
+            {
+              "title": "Global",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width": 8,
+                  "height": 5,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Total Forest Area (1 000 ha)",
+                      "webmap": "624cbb4658f74520960725679d4225a8",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 0,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "Total Forest Area",
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "Forest",
+                            "outStatisticFieldName": "Forest_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "1 000 ha",
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 3,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "Forest area per capita",
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "PerCapFor",
+                            "outStatisticFieldName": "PerCapFor_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "1 000 ha",
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "width": 6,
+                  "height": 5,
+                  "component": {
+                    "name": "chart-card",
+                    "settings": {
+                      "title": "Total Forest Area by Region",
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "specification": {
+                        "type": "pie",
+                        "dataset": {
+                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
+                          "query": {
+                            "groupByFieldsForStatistics" : "Region",
+                            "outStatistics": [
+                              {
+                                "onStatisticField": "Forest",
+                                "outStatisticFieldName": "Forest_sum",
+                                "statisticType": "sum"
+                              }
+                            ]
+                          },
+                          "mappings": {
+                            "label": {"field":"Region","label":"Region"},
+                            "y" : { "field" : "Forest_sum", "label" : "Region" },
+                            "radius" : 245
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#56c02b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#56c02b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "sdg-15-pie"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 6,
+                  "y": 5,
+                  "width": 6,
+                  "height": 5,
+                  "component": {
+                    "name": "chart-card",
+                    "settings": {
+                      "title": "Top 15 Total Forest Area (1 000 ha)",
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
+                          "query": {
+                            "orderByFields": "Forest DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": { "field":"Country","label":""},
+                            "y" : { "field" : "Forest", "label" : "" }                            
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#56c02b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#56c02b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "sdg-15-bar"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   },

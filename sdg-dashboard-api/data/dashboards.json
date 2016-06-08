@@ -3,6 +3,144 @@
     "country_code": "GLOBAL",
     "country_name": "Global Progress",
     "dashboards": {
+      "1": {
+        "1.1": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Poverty Gap at National Poverty Lines (%)",
+                      "webmap" : "887e245f262a46ae9c3e030fbd18af35",
+                      "indicator_id" : "1.1.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 8,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Poverty Gap at National Poverty Lines (%) - Bottom 15 Countries",
+                      "indicator_id" : "1.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/1.1/WB_POVERTY/MapServer/0",
+                          "query": {
+                            "where" : "1=1 AND SI_POV_NAGP is not null AND year = 2010",
+                            "orderByFields": "SI_POV_NAGP DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "country_name",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "SI_POV_NAGP",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#f9c8ce"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#e5243b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 6,
+                  "width": 4,
+                  "height": 4,
+                  "component": {
+                    "name": "storymap-card",
+                    "settings": {
+                      "title": "Global Poverty",
+                      "url": "http://urbanobservatory.maps.arcgis.com/apps/MapJournal/index.html?appid=3b502ce450414dc29eff9c68a4c982a6&webmap=a1df8a2b683347e0b24aaeffa67708f8",
+                      "thumbnails": [
+                        {
+                          "first_active": true,
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-2.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-3.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-4.png"
+                        }
+                      ],
+                      "data_info": {
+                        "source": "Urban Observatory",
+                        "provider": "Esri",
+                        "item_type": "Story Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "3": {
         "3.3": {
           "levels": [

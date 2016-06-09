@@ -507,6 +507,249 @@
           ]
         }
       },
+      "6": {
+        "6.1": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Improved Water Access (Less than 90%)",
+                      "webmap" : "896e83e2689a410ab1df01107e75b274",
+                      "indicator_id" : "6.1.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 8,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Improved Water Access (Less than 90%) - Bottom 15 Countries",
+                      "indicator_id" : "6.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/Uwxka/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND f26 is not null",
+                            "orderByFields": "f26 ASC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f1",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f26",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#c9eff8"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#26bde2"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 6,
+                  "width": 4,
+                  "height": 4,
+                  "component": {
+                    "name": "storymap-card",
+                    "settings": {
+                      "title": "Managing Coffee - Protecting Water",
+                      "url": "https://crsorg.maps.arcgis.com/apps/MapJournal/index.html?appid=4d1cc16c912c45f48ef81f6c5f40169e",
+                      "thumbnails": [
+                        {
+                          "first_active": true,
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-2.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-3.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-4.png"
+                        }
+                      ],
+                      "data_info": {
+                        "source": "Catholic Relief Services",
+                        "provider": "Esri",
+                        "item_type": "Story Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "7": {
+        "7.1": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Population with Access to Electricity (Less than 90 %)",
+                      "webmap" : "1e47f23f12564b18bddf5cb355d03df0",
+                      "indicator_id" : "7.1.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Population with Access to Electricity (Less than 90 %) - Bottom 15 Countries",
+                      "indicator_id" : "1.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/GUe6R/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND f57 is not null",
+                            "orderByFields": "f57 ASC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f3",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f57",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#fef0c2"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#fcc30b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "15": {
         "15.1": {
           "levels": [

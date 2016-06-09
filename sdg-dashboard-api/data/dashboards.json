@@ -334,6 +334,203 @@
           ]
         }
       },
+      "4": {
+        "4.c": {
+          "levels": [
+            {
+              "title": "Global",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 5,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Teachers in Primary Education with Minimum Training Required",
+                      "webmap": "ecdcbe54378d4751bc9b95ad179241c6",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "UNESCO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Teachers in Primary",
+                      "data_info": {
+                        "source": "UNESCO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/iDMjq/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f33",
+                            "outStatisticFieldName": "f33_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 1,
+                        "suffix" : "%"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Teachers in Pre-Primary",
+                      "data_info": {
+                        "source": "UNESCO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/Lrpyd/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f15",
+                            "outStatisticFieldName": "f15_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "%",
+                        "decimal_places" : 1
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Teachers in Lower Secondary",
+                      "data_info": {
+                        "source": "UNESCO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/m7RlG/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f51",
+                            "outStatisticFieldName": "f51_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "%",
+                        "decimal_places" : 1
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 11,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Teachers in Upper Secondary",
+                      "data_info": {
+                        "source": "UNESCO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/JBWs6/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f69",
+                            "outStatisticFieldName": "f69_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "%",
+                        "decimal_places" : 1
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 9,
+                  "width": 4,
+                  "height": 4,
+                  "component": {
+                    "name": "storymap-card",
+                    "settings": {
+                      "title": "MapED Story Map",
+                      "url": "http://nces.ed.gov/programs/maped/storymaps/naep/default.aspx",
+                      "thumbnails": [
+                        {
+                          "first_active": true,
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
+                        }
+                      ],
+                      "data_info": {
+                        "source": "NCES",
+                        "provider": "Esri",
+                        "item_type": "Story Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "5": {
         "5.5": {
           "levels": [
@@ -750,6 +947,111 @@
           ]
         }
       },
+      "12": {
+        "12.2": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Domestic Material Consumption per Capita",
+                      "webmap" : "c43303e7d2044ccb890c82df41176e99",
+                      "indicator_id" : "12.2.2",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "UNEP",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Domestic Material Consumption per Capita - Top 15 Countries",
+                      "indicator_id" : "12.2.2",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ty5DT/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND f54 is not null",
+                            "orderByFields": "f54 DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f2",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f54",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#f2e6cb"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#c9992d"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "UNEP",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "15": {
         "15.1": {
           "levels": [
@@ -966,6 +1268,278 @@
                         "autolabels": false,
                         "renderer": "svg",
                         "id": "sdg-15-bar"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "16": {
+        "16.1": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width": 8,
+                  "height": 5,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Victims of Intentional Homicide per 100,000 (Greater than 5%)",
+                      "webmap": "7c879c2d71984a5e934e9ba7d18064a0",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "UNODC",
+                        "provider": "ArcGIS",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 0,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "Percent Female Victims",
+                      "data_info": {
+                        "source": "UNODC",
+                        "provider": "ArcGIS",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/kQXfS/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f18",
+                            "outStatisticFieldName": "f18_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "%",
+                        "decimal_places" : 0
+                      },
+                      "post_process": {
+                        "operation" : "multiply",
+                        "value" : 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 3,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "Percent Male Victims",
+                      "data_info": {
+                        "source": "UNODC",
+                        "provider": "ArcGIS",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/xiAsb/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f18",
+                            "outStatisticFieldName": "f18_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "suffix" : "%",
+                        "decimal_places" : 0
+                      },
+                      "post_process": {
+                        "operation" : "multiply",
+                        "value" : 100
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 5,
+                  "width": 12,
+                  "height": 5,
+                  "component": {
+                    "name": "chart-card",
+                    "settings": {
+                      "title": "Victims of Intentional Homicide per 100,000 (Greater than 5%) - Bottom 15 Counties",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/KMNml/FeatureServer/0",
+                          "query": {
+                            "orderByFields": "f20 DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f3",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f20",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#bfd9e7"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#00689d"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "17": {
+        "17.2": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Net Official Development Assistance (% of GNI)",
+                      "webmap" : "ce8e8f0ddc3b460ab8c09201115633c9",
+                      "indicator_id" : "17.2.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "OECD",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Net Official Development Assistance (% of GNI) - Top 15 Countries",
+                      "indicator_id" : "17.2.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/mvO5f/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND f61 is not null",
+                            "orderByFields": "f61 DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f1",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f61",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#c6d1da"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#19486a"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "OECD",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
                       }
                     }
                   }

@@ -141,6 +141,111 @@
           ]
         }
       },
+      "2": {
+        "2.1": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Percent Undernourished",
+                      "webmap" : "4a370469844a43e4bbd6e6684ebdcbcc",
+                      "indicator_id" : "2.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Percent Undernourished - Bottom 15 Countries",
+                      "indicator_id" : "10.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/iAXQ0/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND f26 is not null",
+                            "orderByFields": "f26 DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f1",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f26",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#f9edcd"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#e5b735"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "FAO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "3": {
         "3.3": {
           "levels": [
@@ -947,6 +1052,376 @@
           ]
         }
       },
+      "8": {
+        "8.8": {
+          "levels": [
+            {
+              "title": "Global",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Total Fatal Occupational Injuries in 2014",
+                      "webmap": "d594f3cdec644a8b9278760ae4fb1cc0",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "ILO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 4,
+                  "width": 6,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Total Female Fatal Occupational Injuries",
+                      "data_info": {
+                        "source": "ILO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/cZg2j/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f21",
+                            "outStatisticFieldName": "f21_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 6,
+                  "y": 4,
+                  "width": 6,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Total Male Fatal Occupational Injuries",
+                      "data_info": {
+                        "source": "ILO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/s8hPt/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f21",
+                            "outStatisticFieldName": "f21_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 8,
+                  "width": 6,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Total Female Non-Fatal Occupational Injuries",
+                      "data_info": {
+                        "source": "ILO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/DN6Us/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f20",
+                            "outStatisticFieldName": "f20_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 6,
+                  "y": 8,
+                  "width": 6,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Total Male Non-Fatal Occupational Injuries",
+                      "data_info": {
+                        "source": "ILO",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/jZXDe/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "f20",
+                            "outStatisticFieldName": "f20_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "9": {
+        "9.c": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Mobile Cell Subscriptions per 100",
+                      "webmap" : "b5abbee60ebf44559562fe661de1cf2d",
+                      "indicator_id" : "9.c.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "ITU",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Mobile Cell Subscriptions per 100 - Bottom 15 Countries",
+                      "indicator_id" : "10.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/9.c/ITU_MOBILE_CELL_SUBS_per100/MapServer/0",
+                          "query": {
+                            "where" : "1=1 and MOBILE_CELL_SUBSCRIPTION_PER100 is not null and MOBILE_CELL_SUBSCRIPTION_PER100 > 0 AND year = 2014",
+                            "orderByFields": "MOBILE_CELL_SUBSCRIPTION_PER100 ASC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "country_name",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "MOBILE_CELL_SUBSCRIPTION_PER100",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#ffdac9"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#fd6925"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "ITU",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "10": {
+        "10.1": {
+          "levels" : [
+            {
+              "title" : "Global",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width" : 12,
+                  "height" : 6,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "Annualized Avg Growth Rate in Per Capita Real Consumption",
+                      "webmap" : "02c1cc154c2f481894cd3cb88e6bed2c",
+                      "indicator_id" : "10.1.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 6,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "Annualized Avg Growth Rate in Per Capita Real Consumption - Top 15 Countries",
+                      "indicator_id" : "10.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/dwxle/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND f57 is not null",
+                            "orderByFields": "f57 DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "f1",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "f57",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#f7c4d9"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#dd1367"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "World Bank",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "12": {
         "12.2": {
           "levels" : [
@@ -1038,6 +1513,42 @@
                         "autolabels": false,
                         "renderer": "svg",
                         "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "UNEP",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "14": {
+        "14.1": {
+          "levels" : [
+            {
+              "title": "Global",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Estimate of Plastic Pollution in the World's Oceans (km2)",
+                      "webmap": "e6903a477d1249d39bffc630e41bae10",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
                       },
                       "data_info": {
                         "source": "UNEP",

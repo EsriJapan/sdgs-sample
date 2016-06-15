@@ -303,7 +303,7 @@
                         ]
                       },
                       "display_format" : {
-                        "decimal_places" : 0
+                        "d3format" : ".2s"
                       }
                     }
                   }
@@ -334,7 +334,7 @@
                         ]
                       },
                       "display_format" : {
-                        "decimal_places" : 0
+                        "d3format" : ".2s"
                       }
                     }
                   }
@@ -1067,7 +1067,7 @@
                     "name": "map-card",
                     "settings": {
                       "title": "Total Fatal Occupational Injuries in 2014",
-                      "webmap": "d594f3cdec644a8b9278760ae4fb1cc0",
+                      "webmap": "342e4428baec493e941666f4f97fc9ff",
                       "options": {
                         "mapOptions": {
                           "slider": false,
@@ -1092,18 +1092,18 @@
                     "name": "summary-stat-card",
                     "class_names": "max-font-35",
                     "settings": {
-                      "title": "Total Female Fatal Occupational Injuries",
+                      "title": "Total Female Fatal Occupational Injuries 2014",
                       "data_info": {
                         "source": "ILO",
                         "provider": "ArcGIS Online",
                         "item_type": "Statistic"
                       },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/cZg2j/FeatureServer/0",
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_fatalOI/FeatureServer/0",
                       "query": {
                         "outStatistics": [
                           {
-                            "onStatisticField": "f21",
-                            "outStatisticFieldName": "f21_sum",
+                            "onStatisticField": "female_2014",
+                            "outStatisticFieldName": "female_2014_sum",
                             "statisticType": "sum"
                           }
                         ]
@@ -1123,18 +1123,18 @@
                     "name": "summary-stat-card",
                     "class_names": "max-font-35",
                     "settings": {
-                      "title": "Total Male Fatal Occupational Injuries",
+                      "title": "Total Male Fatal Occupational Injuries 2014",
                       "data_info": {
                         "source": "ILO",
                         "provider": "ArcGIS Online",
                         "item_type": "Statistic"
                       },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/s8hPt/FeatureServer/0",
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_fatalOI/FeatureServer/0",
                       "query": {
                         "outStatistics": [
                           {
-                            "onStatisticField": "f21",
-                            "outStatisticFieldName": "f21_sum",
+                            "onStatisticField": "male_2014",
+                            "outStatisticFieldName": "male_2014_sum",
                             "statisticType": "sum"
                           }
                         ]
@@ -1160,18 +1160,18 @@
                         "provider": "ArcGIS Online",
                         "item_type": "Statistic"
                       },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/DN6Us/FeatureServer/0",
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_nonfatalOI/FeatureServer/0",
                       "query": {
                         "outStatistics": [
                           {
-                            "onStatisticField": "f20",
-                            "outStatisticFieldName": "f20_sum",
+                            "onStatisticField": "female_2014",
+                            "outStatisticFieldName": "female_2014_sum",
                             "statisticType": "sum"
                           }
                         ]
                       },
                       "display_format" : {
-                        "decimal_places" : 0
+                        "d3format" : ".2s"
                       }
                     }
                   }
@@ -1191,18 +1191,18 @@
                         "provider": "ArcGIS Online",
                         "item_type": "Statistic"
                       },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/jZXDe/FeatureServer/0",
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_nonfatalOI/FeatureServer/0",
                       "query": {
                         "outStatistics": [
                           {
-                            "onStatisticField": "f20",
-                            "outStatisticFieldName": "f20_sum",
+                            "onStatisticField": "male_2014",
+                            "outStatisticFieldName": "male_2014_sum",
                             "statisticType": "sum"
                           }
                         ]
                       },
                       "display_format" : {
-                        "decimal_places" : 0
+                        "d3format" : ".2s"
                       }
                     }
                   }
@@ -1527,6 +1527,199 @@
           ]
         }
       },
+      "13": {
+        "13.1": {
+          "levels": [
+            {
+              "title": "Global",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 5,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Deaths per Affected During a Disaster",
+                      "webmap": "fd427c894c6843539e90cc84cf0a9fcd",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "UNISDR",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Deaths",
+                      "data_info": {
+                        "source": "UNISDR",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "Deaths",
+                            "outStatisticFieldName": "Deaths_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 0
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Houses Destroyed",
+                      "data_info": {
+                        "source": "UNISDR",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "Houses_Destroyed",
+                            "outStatisticFieldName": "Houses_Destroyed_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "d3format" : ".2s"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Losses (in USD)",
+                      "data_info": {
+                        "source": "UNISDR",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "Losses__USD",
+                            "outStatisticFieldName": "Losses__USD_sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "d3format" : "($.3s"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 11,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "class_names": "max-font-35",
+                    "settings": {
+                      "title": "Damage in Crops (ha)",
+                      "data_info": {
+                        "source": "UNISDR",
+                        "provider": "ArcGIS Online",
+                        "item_type": "Statistic"
+                      },
+                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "Damages_in_crops_Ha_",
+                            "outStatisticFieldName": "Damages_in_crops_Ha__sum",
+                            "statisticType": "sum"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "d3format" : ".2s"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 9,
+                  "width": 4,
+                  "height": 4,
+                  "component": {
+                    "name": "storymap-card",
+                    "settings": {
+                      "title": "Twister Dashboard",
+                      "url": "http://storymaps.esri.com/stories/2014/tornadoes/",
+                      "thumbnails": [
+                        {
+                          "first_active": true,
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-2.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-3.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-4.png"
+                        }
+                      ],
+                      "data_info": {
+                        "source": "Esri Story Maps Team",
+                        "provider": "Esri",
+                        "item_type": "Story Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       "14": {
         "14.1": {
           "levels" : [
@@ -1602,7 +1795,7 @@
                   "component": {
                     "name": "summary-stat-card",
                     "settings": {
-                      "title": "Total Forest Area",
+                      "title": "Total Forest Area (1 000 ha)",
                       "data_info": {
                         "source": "FAO",
                         "provider": "ArcGIS Online",
@@ -1619,8 +1812,7 @@
                         ]
                       },
                       "display_format" : {
-                        "suffix" : "1 000 ha",
-                        "decimal_places" : 0
+                        "d3format" : ".2s"
                       }
                     }
                   }
@@ -1633,7 +1825,7 @@
                   "component": {
                     "name": "summary-stat-card",
                     "settings": {
-                      "title": "Forest area per capita",
+                      "title": "Forest Area per capita (1 000 ha)",
                       "data_info": {
                         "source": "FAO",
                         "provider": "ArcGIS Online",
@@ -1650,7 +1842,6 @@
                         ]
                       },
                       "display_format" : {
-                        "suffix" : "1 000 ha",
                         "decimal_places" : 0
                       }
                     }
@@ -1687,7 +1878,7 @@
                           "mappings": {
                             "label": {"field":"Region","label":"Region"},
                             "y" : { "field" : "Forest_sum", "label" : "Region" },
-                            "radius" : 245
+                            "radius" : 200
                           }
                         },
                         "override": {

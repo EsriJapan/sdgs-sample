@@ -17,7 +17,7 @@
                     "name": "map-card",
                     "settings": {
                       "title": "Population Living in Slums (size) vs Total City Population (color)",
-                      "webmap": "9f5a5a18dc36494aa52aeb2ce0a1e952",
+                      "webmap": "2d63b810b0e34580819a49e46ce6e7c8",
                       "indicator_id" : "11.1.1",
                       "options": {
                         "mapOptions": {

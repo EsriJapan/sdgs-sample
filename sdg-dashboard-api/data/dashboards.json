@@ -2619,5 +2619,47 @@
         }
       }
     }
+  },
+  {
+    "country_code" : "TZ",
+    "country_name" : "Tanzania",
+    "dashboards" : {
+      "3": {
+        "3.8": {
+          "levels" : [
+            {
+              "title": "Country",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "Operating Health Facilities (2014)",
+                      "webmap": "b816133e0c3d44979a793a16905ddba6",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "opendata.go.tz",
+                        "provider": "CKAN",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
   }
 ]

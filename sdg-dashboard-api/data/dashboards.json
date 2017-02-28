@@ -410,20 +410,14 @@
                     "name": "storymap-card",
                     "settings": {
                       "title": "Understanding the SDGs",
-                      "url": "http://story.maps.arcgis.com/apps/MapJournal/?appid=320279caa7f549678ba428f24a9f12ec",
+                      "url": "http://sdg.esri.com/learn",
                       "thumbnails": [
                         {
                           "first_active": true,
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/understand/understand-300.png"
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-learn-1.png"
                         },
                         {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/understand/understand-1-300.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/understand/understand-2-300.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/understand/understand-3-300.png"
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-learn-2.png"
                         }
                       ],
                       "data_info": {
@@ -714,19 +708,10 @@
                       "thumbnails": [
                         {
                           "first_active": true,
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/iwd-2016/iwd-1.png"
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-iwd2016-1.png"
                         },
                         {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/iwd-2016/iwd-2.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/iwd-2016/iwd-3.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/iwd-2016/iwd-4.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/iwd-2016/iwd-5.png"
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-iwd2016-2.png"
                         }
                       ],
                       "data_info": {
@@ -1938,7 +1923,7 @@
                           },
                           "mappings": {
                             "x": { "field":"Country","label":""},
-                            "y" : { "field" : "Forest", "label" : "" }                            
+                            "y" : { "field" : "Forest", "label" : "" }
                           }
                         },
                         "override": {
@@ -2301,16 +2286,10 @@
                       "thumbnails": [
                         {
                           "first_active": true,
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/epidemic/epidemic-1-300.png"
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/hiv-epidemic-1.png"
                         },
                         {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/epidemic/epidemic-2-300.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/epidemic/epidemic-3-300.png"
-                        },
-                        {
-                          "url": "http://sdg-splash.s3-website-us-east-1.amazonaws.com/images/epidemic/epidemic-4-300.png"
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/hiv-epidemic-2.png"
                         }
                       ],
                       "data_info": {

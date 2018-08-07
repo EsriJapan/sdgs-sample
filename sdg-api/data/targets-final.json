@@ -1,847 +1,847 @@
 [
   {
     "id": "1.1",
-    "title": "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day.",
+    "title": "2030年までに、現在１日1.25ドル未満で生活する人々と定義されている極度の貧困をあらゆる場所で終わらせる。",
     "goal": 1
   },
   {
     "id": "1.2",
-    "title": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions.",
+    "title": "2030年までに、各国定義によるあらゆる次元の貧困状態にある、全ての年齢の男性、女性、子供の割合を半減させる。",
     "goal": 1
   },
   {
     "id": "1.3",
-    "title": "Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable.",
+    "title": "各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030年までに貧困層及び脆弱層に対し十分な保護を達成する。",
     "goal": 1
   },
   {
     "id": "1.4",
-    "title": "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance.",
+    "title": "2030年までに、貧困層及び脆弱層をはじめ、全ての男性及び女性が、基礎的サービスへのアクセス、土地及びその他の形態の財産に対する所有権と管理権限、相続財産、天然資源、適切な新技術、マイクロファイナンスを含む金融サービスに加え、経済的資源についても平等な権利を持つことができるように確保する。",
     "goal": 1
   },
   {
     "id": "1.5",
-    "title": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.",
+    "title": "2030年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に暴露や脆弱性を軽減する。",
     "goal": 1
   },
   {
     "id": "1.a",
-    "title": "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions.",
+    "title": "あらゆる次元での貧困を終わらせるための計画や政策を実施するべく、後発開発途上国をはじめとする開発途上国に対して適切かつ予測可能な手段を講じるため、開発協力の強化などを通じて、さまざまな供給源からの相当量の資源の動員を確保する。",
     "goal": 1
   },
   {
     "id": "1.b",
-    "title": "Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender sensitive development strategies, to support accelerated investment in poverty eradication actions.",
+    "title": "貧困撲滅のための行動への投資拡大を支援するため、国、地域及び国際レベルで、貧困層やジェンダーに配慮した開発戦略に基づいた適正な政策的枠組みを構築する。",
     "goal": 1
   },
   {
     "id": "2.1",
-    "title": "By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.",
+    "title": "2030年までに、飢餓を撲滅し、全ての人々、特に貧困層及び幼児を含む脆弱な立場にある人々が一年中安全かつ栄養のある食料を十分得られるようにする。",
     "goal": 2
   },
   {
     "id": "2.2",
-    "title": "By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons.",
+    "title": "５歳未満の子供の発育阻害や消耗性疾患について国際的に合意されたターゲットを2025年までに達成するなど、2030年までにあらゆる形態の栄養不良を解消し、若年女子、妊婦・授乳婦及び高齢者の栄養ニーズへの対処を行う。",
     "goal": 2
   },
   {
     "id": "2.3",
-    "title": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and nonfarm employment.",
+    "title": "2030年までに、土地、その他の生産資源や、投入財、知識、金融サービス、市場及び高付加価値化や非農業雇用の機会への確実かつ平等なアクセスの確保などを通じて、女性、先住民、家族農家、牧畜民及び漁業者をはじめとする小規模食料生産者の農業生産性及び所得を倍増させる。",
     "goal": 2
   },
   {
     "id": "2.4",
-    "title": "By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality.",
+    "title": "2030年までに、生産性を向上させ、生産量を増やし、生態系を維持し、気候変動や極端な気象現象、干ばつ、洪水及びその他の災害に対する適応能力を向上させ、漸進的に土地と土壌の質を改善させるような、持続可能な食料生産システムを確保し、強靭（レジリエント）な農業を実践する。",
     "goal": 2
   },
   {
     "id": "2.5",
-    "title": "By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and ensure access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed",
+    "title": "2020年までに、国、地域及び国際レベルで適正に管理及び多様化された種子・植物バンクなども通じて、種子、栽培植物、飼育・家畜化された動物及びこれらの近縁野生種の遺伝的多様性を維持し、国際的合意に基づき、遺伝資源及びこれに関連する伝統的な知識へのアクセス及びその利用から生じる利益の公正かつ衡平な配分を促進する。",
     "goal": 2
   },
   {
     "id": "2.a",
-    "title": "Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",
+    "title": "開発途上国、特に後発開発途上国における農業生産能力向上のために、国際協力の強化などを通じて、農村インフラ、農業研究・普及サービス、技術開発及び植物・家畜のジーン・バンクへの投資の拡大を図る。",
     "goal": 2
   },
   {
     "id": "2.b",
-    "title": "Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round.",
+    "title": "ドーハ開発ラウンドのマンデートに従い、全ての農産物輸出補助金及び同等の効果を持つ全ての輸出措置の同時撤廃などを通じて、世界の市場における貿易制限や歪みを是正及び防止する。",
     "goal": 2
   },
   {
     "id": "2.c",
-    "title": "Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, in order to help limit extreme food price volatility.",
+    "title": "食料価格の極端な変動に歯止めをかけるため、食料市場及びデリバティブ市場の適正な機能を確保するための措置を講じ、食料備蓄などの市場情報への適時のアクセスを容易にする。",
     "goal": 2
   },
   {
     "id": "3.1",
-    "title": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births.",
+    "title": "2030年までに、世界の妊産婦の死亡率を出生10万人当たり70人未満に削減する。",
     "goal": 3
   },
   {
     "id": "3.2",
-    "title": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births.",
+    "title": "全ての国が新生児死亡率を少なくとも出生1,000件中12件以下まで減らし、５歳以下死亡率を少なくとも出生1,000件中25件以下まで減らすことを目指し、 2030年までに、新生児及び５歳未満児の予防可能な死亡を根絶する。",
     "goal": 3
   },
   {
     "id": "3.3",
-    "title": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.",
+    "title": "2030年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。",
     "goal": 3
   },
   {
     "id": "3.4",
-    "title": "By 2030, reduce by one third premature mortality from noncommunicable diseases through prevention and treatment and promote mental health and well-being.",
+    "title": "2030年までに、非感染性疾患による若年死亡率を、予防や治療を通じて３分の１減少させ、精神保健及び福祉を促進する。",
     "goal": 3
   },
   {
     "id": "3.5",
-    "title": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol.",
+    "title": "薬物乱用やアルコールの有害な摂取を含む、物質乱用の防止・治療を強化する。",
     "goal": 3
   },
   {
     "id": "3.6",
-    "title": "By 2020, halve the number of global deaths and injuries from road traffic accidents.",
+    "title": "2020年までに、世界の道路交通事故による死傷者を半減させる。",
     "goal": 3
   },
   {
     "id": "3.7",
-    "title": "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes.",
+    "title": "2030年までに、家族計画、情報・教育及び性と生殖に関する健康の国家戦略・計画への組み入れを含む、性と生殖に関する保健サービスを全ての人々が利用できるようにする。",
     "goal": 3
   },
   {
     "id": "3.8",
-    "title": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all.",
+    "title": "全ての人々に対する財政リスクからの保護、質の高い基礎的な保健サービスへのアクセス及び安全で効果的かつ質が高く安価な必須医薬品とワクチンへのアクセスを含む、ユニバーサル・ヘルス・カバレッジ（UHC）を達成する。",
     "goal": 3
   },
   {
     "id": "3.9",
-    "title": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination.",
+    "title": "2030年までに、有害化学物質、並びに大気、水質及び土壌の汚染による死亡及び疾病の件数を大幅に減少させる。",
     "goal": 3
   },
   {
     "id": "3.a",
-    "title": "Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate.",
+    "title": "全ての国々において、たばこの規制に関する世界保健機関枠組条約の実施を適宜強化する。",
     "goal": 3
   },
   {
     "id": "3.b",
-    "title": "Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on TradeRelated Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all.",
+    "title": "主に開発途上国に影響を及ぼす感染性及び非感染性疾患のワクチン及び医薬品の研究開発を支援する。また、知的所有権の貿易関連の側面に関する協定（TRIPS協定）及び公衆の健康に関するドーハ宣言に従い、安価な必須医薬品及びワクチンへのアクセスを提供する。同宣言は公衆衛生保護及び、特に全ての人々への医薬品のアクセス提供にかかわる「知的所有権の貿易関連の側面に関する協定（TRIPS協定）」の柔軟性に関する規定を最大限に行使する開発途上国の権利を確約したものである。",
     "goal": 3
   },
   {
     "id": "3.c",
-    "title": "Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States.",
+    "title": "開発途上国、特に後発開発途上国及び小島嶼開発途上国において保健財政及び保健人材の採用、能力開発・訓練及び定着を大幅に拡大させる。",
     "goal": 3
   },
   {
     "id": "3.d",
-    "title": "Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks.",
+    "title": "全ての国々、特に開発途上国の国家・世界規模な健康危険因子の早期警告、危険因子緩和及び危険因子管理のための能力を強化する。",
     "goal": 3
   },
   {
     "id": "4.1",
-    "title": "By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes.",
+    "title": "2030年までに、全ての子供が男女の区別なく、適切かつ効果的な学習成果をもたらす、無償かつ公正で質の高い初等教育及び中等教育を修了できるようにする。",
     "goal": 4
   },
   {
     "id": "4.2",
-    "title": "By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education.",
+    "title": "2030年までに、全ての子供が男女の区別なく、質の高い乳幼児の発達・ケア及び就学前教育にアクセスすることにより、初等教育を受ける準備が整うようにする。",
     "goal": 4
   },
   {
     "id": "4.3",
-    "title": "By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university.",
+    "title": "2030年までに、全ての人々が男女の区別なく、手の届く質の高い技術教育・職業教育及び大学を含む高等教育への平等なアクセスを得られるようにする。",
     "goal": 4
   },
   {
     "id": "4.4",
-    "title": "By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship.",
+    "title": "2030年までに、技術的・職業的スキルなど、雇用、働きがいのある人間らしい仕事及び起業に必要な技能を備えた若者と成人の割合を大幅に増加させる。",
     "goal": 4
   },
   {
     "id": "4.5",
-    "title": "By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations.",
+    "title": "2030年までに、教育におけるジェンダー格差を無くし、障害者、先住民及び脆弱な立場にある子供など、脆弱層があらゆるレベルの教育や職業訓練に平等にアクセスできるようにする。",
     "goal": 4
   },
   {
     "id": "4.6",
-    "title": "By 2030, ensure that all youth and a substantial proportion of adults, both men and women, and achieve literacy and numeracy.",
+    "title": "2030年までに、全ての若者及び大多数（男女ともに）の成人が、読み書き能力及び基本的計算能力を身に付けられるようにする。",
     "goal": 4
   },
   {
     "id": "4.7",
-    "title": "By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and nonviolence, global citizenship and appreciation of cultural diversity and of culture's contribution to sustainable development.",
+    "title": "2030年までに、持続可能な開発のための教育及び持続可能なライフスタイル、人権、男女の平等、平和及び非暴力的文化の推進、グローバル・シチズンシップ、文化多様性と文化の持続可能な開発への貢献の理解の教育を通して、全ての学習者が、持続可能な開発を促進するために必要な知識及び技能を習得できるようにする。",
     "goal": 4
   },
   {
     "id": "4.a",
-    "title": "Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all.",
+    "title": "子供、障害及びジェンダーに配慮した教育施設を構築・改良し、全ての人々に安全で非暴力的、包摂的、効果的な学習環境を提供できるようにする。",
     "goal": 4
   },
   {
     "id": "4.b",
-    "title": "By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries.",
+    "title": "2020年までに、開発途上国、特に後発開発途上国及び小島嶼開発途上国、並びにアフリカ諸国を対象とした、職業訓練、情報通信技術（ICT）、技術・工学・科学プログラムなど、先進国及びその他の開発途上国における高等教育の奨学金の件数を全世界で大幅に増加させる。",
     "goal": 4
   },
   {
     "id": "4.c",
-    "title": "By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States.",
+    "title": "2030年までに、開発途上国、特に後発開発途上国及び小島嶼開発途上国における教員研修のための国際協力などを通じて、質の高い教員の数を大幅に増加させる。",
     "goal": 4
   },
   {
     "id": "5.1",
-    "title": "End all forms of discrimination against all women and girls everywhere.",
+    "title": "あらゆる場所における全ての女性及び女児に対するあらゆる形態の差別を撤廃する。",
     "goal": 5
   },
   {
     "id": "5.2",
-    "title": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.",
+    "title": "人身売買や性的、その他の種類の搾取など、全ての女性及び女児に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。",
     "goal": 5
   },
   {
     "id": "5.3",
-    "title": "Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation.",
+    "title": "未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。",
     "goal": 5
   },
   {
     "id": "5.4",
-    "title": "Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate.",
+    "title": "公共のサービス、インフラ及び社会保障政策の提供、並びに各国の状況に応じた世帯・家族内における責任分担を通じて、無報酬の育児・介護や家事労働を認識・評価する。",
     "goal": 5
   },
   {
     "id": "5.5",
-    "title": "Ensure women's full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life",
+    "title": "政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。",
     "goal": 5
   },
   {
     "id": "5.6",
-    "title": "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences.",
+    "title": "国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、並びにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。",
     "goal": 5
   },
   {
     "id": "5.a",
-    "title": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws.",
+    "title": "女性に対し、経済的資源に対する同等の権利、並びに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。",
     "goal": 5
   },
   {
     "id": "5.b",
-    "title": "Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.",
+    "title": "女性の能力強化促進のため、ICTをはじめとする実現技術の活用を強化する。",
     "goal": 5
   },
   {
     "id": "5.c",
-    "title": "Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels.",
+    "title": "ジェンダー平等の促進、並びに全ての女性及び女子のあらゆるレベルでの能力強化のための適正な政策及び拘束力のある法規を導入・強化する。",
     "goal": 5
   },
   {
     "id": "6.1",
-    "title": "By 2030, achieve universal and equitable access to safe and affordable drinking water for all.",
+    "title": "2030年までに、全ての人々の、安全で安価な飲料水の普遍的かつ衡平なアクセスを達成する。",
     "goal": 6
   },
   {
     "id": "6.2",
-    "title": "By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.",
+    "title": "2030年までに、全ての人々の、適切かつ平等な下水施設・衛生施設へのアクセスを達成し、野外での排泄をなくす。女性及び女児、並びに脆弱な立場にある人々のニーズに特に注意を払う。",
     "goal": 6
   },
   {
     "id": "6.3",
-    "title": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.",
+    "title": "2030年までに、汚染の減少、投棄の廃絶と有害な化学物・物質の放出の最小化、未処理の排水の割合半減及び再生利用と安全な再利用の世界的規模で大幅に増加させることにより、水質を改善する。",
     "goal": 6
   },
   {
     "id": "6.4",
-    "title": "By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.",
+    "title": "2030年までに、全セクターにおいて水利用の効率を大幅に改善し、淡水の持続可能な採取及び供給を確保し水不足に対処するとともに、水不足に悩む人々の数を大幅に減少させる。",
     "goal": 6
   },
   {
     "id": "6.5",
-    "title": "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate.",
+    "title": "2030年までに、国境を越えた適切な協力を含む、あらゆるレベルでの統合水資源管理を実施する。",
     "goal": 6
   },
   {
     "id": "6.6",
-    "title": "By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes.",
+    "title": "2020年までに、山地、森林、湿地、河川、帯水層、湖沼を含む水に関連する生態系の保護・回復を行う。",
     "goal": 6
   },
   {
     "id": "6.a",
-    "title": "By 2030, expand international cooperation and capacitybuilding support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies.",
+    "title": "2030年までに、集水、海水淡水化、水の効率的利用、排水処理、リサイクル・再利用技術を含む開発途上国における水と衛生分野での活動と計画を対象とした国際協力と能力構築支援を拡大する。",
     "goal": 6
   },
   {
     "id": "6.b",
-    "title": "Support and strengthen the participation of local communities in improving water and sanitation management.",
+    "title": "水と衛生に関わる分野の管理向上における地域コミュニティの参加を支援・強化する。",
     "goal": 6
   },
   {
     "id": "7.1",
-    "title": "By 2030, ensure universal access to affordable, reliable and modern energy services.",
+    "title": "2030年までに、安価かつ信頼できる現代的エネルギーサービスへの普遍的アクセスを確保する。",
     "goal": 7
   },
   {
     "id": "7.2",
-    "title": "By 2030, increase substantially the share of renewable energy in the global energy mix.",
+    "title": "2030年までに、世界のエネルギーミックスにおける再生可能エネルギーの割合を大幅に拡大させる。",
     "goal": 7
   },
   {
     "id": "7.3",
-    "title": "By 2030, double the global rate of improvement in energy efficiency.",
+    "title": "2030年までに、世界全体のエネルギー効率の改善率を倍増させる。",
     "goal": 7
   },
   {
     "id": "7.a",
-    "title": "By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology.",
+    "title": "2030年までに、再生可能エネルギー、エネルギー効率及び先進的かつ環境負荷の低い化石燃料技術などのクリーンエネルギーの研究及び技術へのアクセスを促進するための国際協力を強化し、エネルギー関連インフラとクリーンエネルギー技術への投資を促進する。",
     "goal": 7
   },
   {
     "id": "7.b",
-    "title": "By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries and small island developing States.",
+    "title": "2030年までに、各々の支援プログラムに沿って開発途上国、特に後発開発途上国及び小島嶼開発途上国、内陸開発途上国の全ての人々に現代的で持続可能なエネルギーサービスを供給できるよう、インフラ拡大と技術向上を行う。",
     "goal": 7
   },
   {
     "id": "8.1",
-    "title": "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries.",
+    "title": "各国の状況に応じて、一人当たり経済成長率を持続させる。特に後発開発途上国は少なくとも年率７%の成長率を保つ。",
     "goal": 8
   },
   {
     "id": "8.2",
-    "title": "Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value-added and labour-intensive sectors.",
+    "title": "高付加価値セクターや労働集約型セクターに重点を置くことなどにより、多様化、技術向上及びイノベーションを通じた高いレベルの経済生産性を達成する。",
     "goal": 8
   },
   {
     "id": "8.3",
-    "title": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services.",
+    "title": "生産活動や適切な雇用創出、起業、創造性及びイノベーションを支援する開発重視型の政策を促進するとともに、金融サービスへのアクセス改善などを通じて中小零細企業の設立や成長を奨励する。",
     "goal": 8
   },
   {
     "id": "8.4",
-    "title": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-year framework of programmes on sustainable consumption and production, with developed countries taking the lead.",
+    "title": "2030年までに、世界の消費と生産における資源効率を漸進的に改善させ、先進国主導の下、持続可能な消費と生産に関する10年計画枠組みに従い、経済成長と環境悪化の分断を図る。",
     "goal": 8
   },
   {
     "id": "8.5",
-    "title": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.",
+    "title": "2030年までに、若者や障害者を含む全ての男性及び女性の、完全かつ生産的な雇用及び働きがいのある人間らしい仕事、並びに同一労働同一賃金を達成する。",
     "goal": 8
   },
   {
     "id": "8.6",
-    "title": "By 2020, substantially reduce the proportion of youth not in employment, education or training.",
+    "title": "2020年までに、就労、就学及び職業訓練のいずれも行っていない若者の割合を大幅に減らす。",
     "goal": 8
   },
   {
     "id": "8.7",
-    "title": "Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.",
+    "title": "強制労働を根絶し、現代の奴隷制、人身売買を終らせるための緊急かつ効果的な措置の実施、最悪な形態の児童労働の禁止及び撲滅を確保する。2025年までに児童兵士の募集と使用を含むあらゆる形態の児童労働を撲滅する。",
     "goal": 8
   },
   {
     "id": "8.8",
-    "title": "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment.",
+    "title": "移住労働者、特に女性の移住労働者や不安定な雇用状態にある労働者など、全ての労働者の権利を保護し、安全・安心な労働環境を促進する。",
     "goal": 8
   },
   {
     "id": "8.9",
-    "title": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products.",
+    "title": "2030年までに、雇用創出、地方の文化振興・産品販促につながる持続可能な観光業を促進するための政策を立案し実施する。",
     "goal": 8
   },
   {
     "id": "8.10",
-    "title": "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all.",
+    "title": "国内の金融機関の能力を強化し、全ての人々の銀行取引、保険及び金融サービスへのアクセスを促進・拡大する。",
     "goal": 8
   },
   {
     "id": "8.a",
-    "title": "Increase Aid for Trade support for developing countries, in particular least developed countries, including through the Enhanced Integrated Framework for Trade-Related Technical Assistance to Least Developed Countries.",
+    "title": "後発開発途上国への貿易関連技術支援のための拡大統合フレームワーク（EIF）などを通じた支援を含む、開発途上国、特に後発開発途上国に対する貿易のための援助を拡大する。",
     "goal": 8
   },
   {
     "id": "8.b",
-    "title": "By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization.",
+    "title": "2020年までに、若年雇用のための世界的戦略及び国際労働機関（ILO）の仕事に関する世界協定の実施を展開・運用化する。",
     "goal": 8
   },
   {
     "id": "9.1",
-    "title": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all.",
+    "title": "全ての人々に安価で公平なアクセスに重点を置いた経済発展と人間の福祉を支援するために、地域・越境インフラを含む質の高い、信頼でき、持続可能かつ強靱（レジリエント）なインフラを開発する。",
     "goal": 9
   },
   {
     "id": "9.2",
-    "title": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry's share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries.",
+    "title": "包摂的かつ持続可能な産業化を促進し、2030年までに各国の状況に応じて雇用及びGDPに占める産業セクターの割合を大幅に増加させる。後発開発途上国については同割合を倍増させる。",
     "goal": 9
   },
   {
     "id": "9.3",
-    "title": "Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets.",
+    "title": "特に開発途上国における小規模の製造業その他の企業の、安価な資金貸付などの金融サービスやバリューチェーン及び市場への統合へのアクセスを拡大する。",
     "goal": 9
   },
   {
     "id": "9.4",
-    "title": "By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities.",
+    "title": "2030年までに、資源利用効率の向上とクリーン技術及び環境に配慮した技術・産業プロセスの導入拡大を通じたインフラ改良や産業改善により、持続可能性を向上させる。全ての国々は各国の能力に応じた取組を行う。",
     "goal": 9
   },
   {
     "id": "9.5",
-    "title": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending.",
+    "title": "2030年までにイノベーションを促進させることや100万人当たりの研究開発従事者数を大幅に増加させ、また官民研究開発の支出を拡大させるなど、開発途上国をはじめとする全ての国々の産業セクターにおける科学研究を促進し、技術能力を向上させる。",
     "goal": 9
   },
   {
     "id": "9.a",
-    "title": "Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and Small Island developing States.",
+    "title": "アフリカ諸国、後発開発途上国、内陸開発途上国及び小島嶼開発途上国への金融・テクノロジー・技術の支援強化を通じて、開発途上国における持続可能かつ強靱（レジリエント）なインフラ開発を促進する。",
     "goal": 9
   },
   {
     "id": "9.b",
-    "title": "Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities.",
+    "title": "産業の多様化や商品への付加価値創造などに資する政策環境の確保などを通じて、開発途上国の国内における技術開発、研究及びイノベーションを支援する。",
     "goal": 9
   },
   {
     "id": "9.c",
-    "title": "Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020.",
+    "title": "後発開発途上国において情報通信技術へのアクセスを大幅に向上させ、2020年までに普遍的かつ安価なインターネットアクセスを提供できるよう図る。",
     "goal": 9
   },
   {
     "id": "10.1",
-    "title": "By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average.",
+    "title": "2030年までに、各国の所得下位40%の所得成長率について、国内平均を上回る数値を漸進的に達成し、持続させる。",
     "goal": 10
   },
   {
     "id": "10.2",
-    "title": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status.",
+    "title": "2030年までに、年齢、性別、障害、人種、民族、出自、宗教、あるいは経済的地位その他の状況に関わりなく、全ての人々の能力強化及び社会的、経済的及び政治的な包含を促進する。",
     "goal": 10
   },
   {
     "id": "10.3",
-    "title": "Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard.",
+    "title": "差別的な法律、政策及び慣行の撤廃、並びに適切な関連法規、政策、行動の促進などを通じて、機会均等を確保し、成果の不平等を是正する。",
     "goal": 10
   },
   {
     "id": "10.4",
-    "title": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality.",
+    "title": "税制、賃金、社会保障政策をはじめとする政策を導入し、平等の拡大を漸進的に達成する。",
     "goal": 10
   },
   {
     "id": "10.5",
-    "title": "Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations.",
+    "title": "世界金融市場と金融機関に対する規制とモニタリングを改善し、こうした規制の実施を強化する。",
     "goal": 10
   },
   {
     "id": "10.6",
-    "title": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions.",
+    "title": "地球規模の国際経済・金融制度の意思決定における開発途上国の参加や発言力を拡大させることにより、より効果的で信用力があり、説明責任のある正当な制度を実現する。",
     "goal": 10
   },
   {
     "id": "10.7",
-    "title": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies.",
+    "title": "計画に基づき良く管理された移民政策の実施などを通じて、秩序のとれた、安全で規則的かつ責任ある移住や流動性を促進する。",
     "goal": 10
   },
   {
     "id": "10.a",
-    "title": "Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements.",
+    "title": "世界貿易機関（WTO）協定に従い、開発途上国、特に後発開発途上国に対する特別かつ異なる待遇の原則を実施する。",
     "goal": 10
   },
   {
     "id": "10.b",
-    "title": "Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, Small Island developing States and landlocked developing countries, in accordance with their national plans and programmes.",
+    "title": "各国の国家計画やプログラムに従って、後発開発途上国、アフリカ諸国、小島嶼開発途上国及び内陸開発途上国を始めとする、ニーズが最も大きい国々への、政府開発援助（ODA）及び海外直接投資を含む資金の流入を促進する。",
     "goal": 10
   },
   {
     "id": "10.c",
-    "title": "By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent.",
+    "title": "2030年までに、移住労働者による送金コストを３%未満に引き下げ、コストが5%を越える送金経路を撤廃する。",
     "goal": 10
   },
   {
     "id": "11.1",
-    "title": "By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums.",
+    "title": "2030年までに、全ての人々の、適切、安全かつ安価な住宅及び基本的サービスへのアクセスを確保し、スラムを改善する。",
     "goal": 11
   },
   {
     "id": "11.2",
-    "title": "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.",
+    "title": "2030年までに、脆弱な立場にある人々、女性、子供、障害者及び高齢者のニーズに特に配慮し、公共交通機関の拡大などを通じた交通の安全性改善により、全ての人々に、安全かつ安価で容易に利用できる、持続可能な輸送システムへのアクセスを提供する。",
     "goal": 11
   },
   {
     "id": "11.3",
-    "title": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries.",
+    "title": "2030年までに、包摂的かつ持続可能な都市化を促進し、全ての国々の参加型、包摂的かつ持続可能な人間居住計画・管理の能力を強化する。",
     "goal": 11
   },
   {
     "id": "11.4",
-    "title": "Strengthen efforts to protect and safeguard the world's cultural and natural heritage.",
+    "title": "世界の文化遺産及び自然遺産の保護・保全の努力を強化する。",
     "goal": 11
   },
   {
     "id": "11.5",
-    "title": "By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.",
+    "title": "2030年までに、貧困層及び脆弱な立場にある人々の保護に焦点をあてながら、水関連災害などの災害による死者や被災者数を大幅に削減し、世界の国内総生産比で直接的経済損失を大幅に減らす。",
     "goal": 11
   },
   {
     "id": "11.6",
-    "title": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.",
+    "title": "2030年までに、大気の質及び一般並びにその他の廃棄物の管理に特別な注意を払うことによるものを含め、都市の一人当たりの環境上の悪影響を軽減する。",
     "goal": 11
   },
   {
     "id": "11.7",
-    "title": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.",
+    "title": "2030年までに、女性、子供、高齢者及び障害者を含め、人々に安全で包摂的かつ利用が容易な緑地や公共スペースへの普遍的アクセスを提供する。",
     "goal": 11
   },
   {
     "id": "11.a",
-    "title": "Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning.",
+    "title": "各国・地域規模の開発計画の強化を通じて、経済、社会、環境面における都市部、都市周辺部及び農村部間の良好なつながりを支援する。",
     "goal": 11
   },
   {
     "id": "11.b",
-    "title": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels.",
+    "title": "2020年までに、包含、資源効率、気候変動の緩和と適応、災害に対する強靱さ（レジリエンス）を目指す総合的政策及び計画を導入・実施した都市及び人間居住地の件数を大幅に増加させ、仙台防災枠組2015-2030に沿って、あらゆるレベルでの総合的な災害リスク管理の策定と実施を行う。",
     "goal": 11
   },
   {
     "id": "11.c",
-    "title": "Support least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials.",
+    "title": "財政的及び技術的な支援などを通じて、後発開発途上国における現地の資材を用いた、持続可能かつ強靱（レジリエント）な建造物の整備を支援する。",
     "goal": 11
   },
   {
     "id": "12.1",
-    "title": "Implement the 10-year framework of programmes on sustainable consumption and production, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries.",
+    "title": "開発途上国の開発状況や能力を勘案しつつ、持続可能な消費と生産に関する10年計画枠組み（10YFP）を実施し、先進国主導の下、全ての国々が対策を講じる。",
     "goal": 12
   },
   {
     "id": "12.2",
-    "title": "By 2030, achieve the sustainable management and efficient use of natural resources.",
+    "title": "2030年までに天然資源の持続可能な管理及び効率的な利用を達成する。",
     "goal": 12
   },
   {
     "id": "12.3",
-    "title": "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses.",
+    "title": "2030年までに小売・消費レベルにおける世界全体の一人当たりの食料の廃棄を半減させ、収穫後損失などの生産・サプライチェーンにおける食品ロスを減少させる。",
     "goal": 12
   },
   {
     "id": "12.4",
-    "title": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment.",
+    "title": "2020年までに、合意された国際的な枠組みに従い、製品ライフサイクルを通じ、環境上適正な化学物質や全ての廃棄物の管理を実現し、人の健康や環境への悪影響を最小化するため、化学物質や廃棄物の大気、水、土壌への放出を大幅に削減する。",
     "goal": 12
   },
   {
     "id": "12.5",
-    "title": "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse.",
+    "title": "2030年までに、廃棄物の発生防止、削減、再生利用及び再利用により、廃棄物の発生を大幅に削減する。",
     "goal": 12
   },
   {
     "id": "12.6",
-    "title": "Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle.",
+    "title": "特に大企業や多国籍企業などの企業に対し、持続可能な取り組みを導入し、持続可能性に関する情報を定期報告に盛り込むよう奨励する。",
     "goal": 12
   },
   {
     "id": "12.7",
-    "title": "Promote public procurement practices that are sustainable, in accordance with national policies and priorities.",
+    "title": "国内の政策や優先事項に従って持続可能な公共調達の慣行を促進する。",
     "goal": 12
   },
   {
     "id": "12.8",
-    "title": "By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature.",
+    "title": "2030年までに、人々があらゆる場所において、持続可能な開発及び自然と調和したライフスタイルに関する情報と意識を持つようにする。",
     "goal": 12
   },
   {
     "id": "12.a",
-    "title": "Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production.",
+    "title": "開発途上国に対し、より持続可能な消費・生産形態の促進のための科学的・技術的能力の強化を支援する。",
     "goal": 12
   },
   {
     "id": "12.b",
-    "title": "Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products.",
+    "title": "雇用創出、地方の文化振興・産品販促につながる持続可能な観光業に対して持続可能な開発がもたらす影響を測定する手法を開発・導入する。",
     "goal": 12
   },
   {
     "id": "12.c",
-    "title": "Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities.",
+    "title": "開発途上国の特別なニーズや状況を十分考慮し、貧困層やコミュニティを保護する形で開発に関する悪影響を最小限に留めつつ、税制改正や、有害な補助金が存在する場合はその環境への影響を考慮してその段階的廃止などを通じ、各国の状況に応じて、市場のひずみを除去することで、浪費的な消費を奨励する、化石燃料に対する非効率な補助金を合理化する。",
     "goal": 12
   },
   {
     "id": "13.1",
-    "title": "Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries.",
+    "title": "全ての国々において、気候関連災害や自然災害に対する強靱性（レジリエンス）及び適応の能力を強化する。",
     "goal": 13
   },
   {
     "id": "13.2",
-    "title": "Integrate climate change measures into national policies, strategies and planning.",
+    "title": "気候変動対策を国別の政策、戦略及び計画に盛り込む。",
     "goal": 13
   },
   {
     "id": "13.3",
-    "title": "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.",
+    "title": "気候変動の緩和、適応、影響軽減及び早期警戒に関する教育、啓発、人的能力及び制度機能を改善する。",
     "goal": 13
   },
   {
     "id": "13.a",
-    "title": "Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible.",
+    "title": "重要な緩和行動の実施とその実施における透明性確保に関する開発途上国のニーズに対応するため、2020年までにあらゆる供給源から年間1,000億ドルを共同で動員するという、UNFCCCの先進締約国によるコミットメントを実施するとともに、可能な限り速やかに資本を投入して緑の気候基金を本格始動させる。",
     "goal": 13
   },
   {
     "id": "13.b",
-    "title": "Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries, including focusing on women, youth and local and marginalized communities.",
+    "title": "後発開発途上国及び小島嶼開発途上国において、女性や青年、地方及び社会的に疎外されたコミュニティに焦点を当てることを含め、気候変動関連の効果的な計画策定と管理のための能力を向上するメカニズムを推進する。",
     "goal": 13
   },
   {
     "id": "14.1",
-    "title": "By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution.",
+    "title": "2025年までに、海洋ごみや富栄養化を含む、特に陸上活動による汚染など、あらゆる種類の海洋汚染を防止し、大幅に削減する。",
     "goal": 14
   },
   {
     "id": "14.2",
-    "title": "By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans.",
+    "title": "2020年までに、海洋及び沿岸の生態系に関する重大な悪影響を回避するため、強靱性（レジリエンス）の強化などによる持続的な管理と保護を行い、健全で生産的な海洋を実現するため、海洋及び沿岸の生態系の回復のための取組を行う。",
     "goal": 14
   },
   {
     "id": "14.3",
-    "title": "Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels.",
+    "title": "あらゆるレベルでの科学的協力の促進などを通じて、海洋酸性化の影響を最小限化し、対処する。",
     "goal": 14
   },
   {
     "id": "14.4",
-    "title": "By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics.",
+    "title": "水産資源を、実現可能な最短期間で少なくとも各資源の生物学的特性によって定められる最大持続生産量のレベルまで回復させるため、2020年までに、漁獲を効果的に規制し、過剰漁業や違法・無報告・無規制（IUU）漁業及び破壊的な漁業慣行を終了し、科学的な管理計画を実施する。",
     "goal": 14
   },
   {
     "id": "14.5",
-    "title": "By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information.",
+    "title": "2020年までに、国内法及び国際法に則り、最大限入手可能な科学情報に基づいて、少なくとも沿岸域及び海域の10パーセントを保全する。",
     "goal": 14
   },
   {
     "id": "14.6",
-    "title": "By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation.",
+    "title": "開発途上国及び後発開発途上国に対する適切かつ効果的な、特別かつ異なる待遇が、世界貿易機関（WTO）漁業補助金交渉の不可分の要素であるべきことを認識した上で、2020年までに、過剰漁獲能力や過剰漁獲につながる漁業補助金を禁止し、違法・無報告・無規制（IUU）漁業につながる補助金を撤廃し、同様の新たな補助金の導入を抑制する。",
     "goal": 14
   },
   {
     "id": "14.7",
-    "title": "By 2030, increase the economic benefits to Small Island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism.",
+    "title": "2030年までに、漁業、水産養殖及び観光の持続可能な管理などを通じ、小島嶼開発途上国及び後発開発途上国の海洋資源の持続的な利用による経済的便益を増大させる。",
     "goal": 14
   },
   {
     "id": "14.a",
-    "title": "Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small Island developing States and least developed countries.",
+    "title": "海洋の健全性の改善と、開発途上国、特に小島嶼開発途上国および後発開発途上国の開発における海洋生物多様性の寄与向上のために、海洋技術の移転に関するユネスコ政府間海洋学委員会の基準・ガイドラインを勘案しつつ、科学的知識の増進、研究能力の向上、及び海洋技術の移転を行う。",
     "goal": 14
   },
   {
     "id": "14.b",
-    "title": "Provide access for small-scale artisanal fishers to marine resources and markets.",
+    "title": "小規模・沿岸零細漁業者に対し、海洋資源及び市場へのアクセスを提供する。",
     "goal": 14
   },
   {
     "id": "14.c",
-    "title": "Enhance the conservation and sustainable use of oceans and their resources by implementing law as reflected in UNCLOS, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of The Future We Want.",
+    "title": " 「我々の求める未来」のパラ158において想起されるとおり、海洋及び海洋資源の保全及び持続可能な利用のための法的枠組みを規定する海洋法に関する国際連合条約（UNCLOS）に反映されている国際法を実施することにより、海洋及び海洋資源の保全及び持続可能な利用を強化する。",
     "goal": 14
   },
   {
     "id": "15.1",
-    "title": "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements.",
+    "title": "2020年までに、国際協定の下での義務に則って、森林、湿地、山地及び乾燥地をはじめとする陸域生態系と内陸淡水生態系及びそれらのサービスの保全、回復及び持続可能な利用を確保する。",
     "goal": 15
   },
   {
     "id": "15.2",
-    "title": "By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally.",
+    "title": "2020年までに、あらゆる種類の森林の持続可能な経営の実施を促進し、森林減少を阻止し、劣化した森林を回復し、世界全体で新規植林及び再植林を大幅に増加させる。",
     "goal": 15
   },
   {
     "id": "15.3",
-    "title": "By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world.",
+    "title": "2030年までに、砂漠化に対処し、砂漠化、干ばつ及び洪水の影響を受けた土地などの劣化した土地と土壌を回復し、土地劣化に荷担しない世界の達成に尽力する。",
     "goal": 15
   },
   {
     "id": "15.4",
-    "title": "By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development.",
+    "title": "2030年までに持続可能な開発に不可欠な便益をもたらす山地生態系の能力を強化するため、生物多様性を含む山地生態系の保全を確実に行う。",
     "goal": 15
   },
   {
     "id": "15.5",
-    "title": "Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity, and, by 2020, protect and prevent the extinction of threatened species.",
+    "title": "自然生息地の劣化を抑制し、生物多様性の損失を阻止し、2020年までに絶滅危惧種を保護し、また絶滅防止するための緊急かつ意味のある対策を講じる。",
     "goal": 15
   },
   {
     "id": "15.6",
-    "title": "Ensure fair and equitable sharing of the benefits arising from the utilization of genetic resources and promote appropriate access to such resources.",
+    "title": "国際合意に基づき、遺伝資源の利用から生ずる利益の公正かつ衡平な配分を推進するとともに、遺伝資源への適切なアクセスを推進する。",
     "goal": 15
   },
   {
     "id": "15.7",
-    "title": "Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products.",
+    "title": "保護の対象となっている動植物種の密猟及び違法取引を撲滅するための緊急対策を講じるとともに、違法な野生生物製品の需要と供給の両面に対処する。",
     "goal": 15
   },
   {
     "id": "15.8",
-    "title": "By 2020, introduce measures to prevent the introduction and significantly reduce the impact of invasive alien species on land and water ecosystems and control or eradicate the priority species.",
+    "title": "2020年までに、外来種の侵入を防止するとともに、これらの種による陸域・海洋生態系への影響を大幅に減少させるための対策を導入し、さらに優先種の駆除または根絶を行う。",
     "goal": 15
   },
   {
     "id": "15.9",
-    "title": "By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts.",
+    "title": "2020年までに、生態系と生物多様性の価値を、国や地方の計画策定、開発プロセス及び貧困削減のための戦略及び会計に組み込む。",
     "goal": 15
   },
   {
     "id": "15.a",
-    "title": "Mobilize and significantly increase financial resources from all sources to conserve and sustainable use biodiversity and ecosystems.",
+    "title": "生物多様性と生態系の保全と持続的な利用のために、あらゆる資金源からの資金の動員及び大幅な増額を行う。",
     "goal": 15
   },
   {
     "id": "15.b",
-    "title": "Mobilize significant resources from all sources and at all levels to finance sustainable forest management and provide adequate incentives to developing countries to advance such management, including for conservation and reforestation.",
+    "title": "保全や再植林を含む持続可能な森林経営を推進するため、あらゆるレベルのあらゆる供給源から、持続可能な森林経営のための資金の調達と開発途上国への十分なインセンティブ付与のための相当量の資源を動員する。",
     "goal": 15
   },
   {
     "id": "15.c",
-    "title": "Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities.",
+    "title": "持続的な生計機会を追求するために地域コミュニティの能力向上を図る等、保護種の密猟及び違法な取引に対処するための努力に対する世界的な支援を強化する。",
     "goal": 15
   },
   {
     "id": "16.1",
-    "title": "Significantly reduce all forms of violence and related death rates everywhere.",
+    "title": "あらゆる場所において、全ての形態の暴力及び暴力に関連する死亡率を大幅に減少させる。",
     "goal": 16
   },
   {
     "id": "16.2",
-    "title": "End abuse, exploitations, trafficking and all forms of violence against and torture of children.",
+    "title": "子供に対する虐待、搾取、取引及びあらゆる形態の暴力及び拷問を撲滅する。",
     "goal": 16
   },
   {
     "id": "16.3",
-    "title": "Promote the rule of law at the national and international levels and ensure equal access to justice for all.",
+    "title": "国家及び国際的なレベルでの法の支配を促進し、全ての人々に司法への平等なアクセスを提供する。",
     "goal": 16
   },
   {
     "id": "16.4",
-    "title": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime.",
+    "title": "2030年までに、違法な資金及び武器の取引を大幅に減少させ、奪われた財産の回復及び返還を強化し、あらゆる形態の組織犯罪を根絶する。",
     "goal": 16
   },
   {
     "id": "16.5",
-    "title": "Substantially reduce corruption and bribery in all their forms.",
+    "title": "あらゆる形態の汚職や贈賄を大幅に減少させる。",
     "goal": 16
   },
   {
     "id": "16.6",
-    "title": "Develop effective, accountable and transparent institutions at all levels.",
+    "title": "あらゆるレベルにおいて、有効で説明責任のある透明性の高い公共機関を発展させる。",
     "goal": 16
   },
   {
     "id": "16.7",
-    "title": "Ensure responsive, inclusive, participatory and representative decision-making at all levels.",
+    "title": "あらゆるレベルにおいて、対応的、包摂的、参加型及び代表的な意思決定を確保する。",
     "goal": 16
   },
   {
     "id": "16.8",
-    "title": "Broaden and strengthen the participation of developing countries in the institutions of global governance.",
+    "title": "グローバル・ガバナンス機関への開発途上国の参加を拡大・強化する。",
     "goal": 16
   },
   {
     "id": "16.9",
-    "title": "By 2030, provide legal identity for all, including birth registration.",
+    "title": "2030年までに、全ての人々に出生登録を含む法的な身分証明を提供する。",
     "goal": 16
   },
   {
     "id": "16.10",
-    "title": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements.",
+    "title": "国内法規及び国際協定に従い、情報への公共アクセスを確保し、基本的自由を保障する。",
     "goal": 16
   },
   {
     "id": "16.a",
-    "title": "Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime.",
+    "title": "特に開発途上国において、暴力の防止とテロリズム・犯罪の撲滅に関するあらゆるレベルでの能力構築のため、国際協力などを通じて関連国家機関を強化する。",
     "goal": 16
   },
   {
     "id": "16.b",
-    "title": "Promote and enforce non-discriminatory laws and policies for sustainable development.",
+    "title": "持続可能な開発のための非差別的な法規及び政策を推進し、実施する。",
     "goal": 16
   },
   {
     "id": "17.1",
-    "title": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection.",
+    "title": "課税及び徴税能力の向上のため、開発途上国への国際的な支援なども通じて、国内資源の動員を強化する。",
     "goal": 17
   },
   {
     "id": "17.2",
-    "title": "Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent ODA/GNI to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries.",
+    "title": "先進国は、開発途上国に対するODAをGNI比0.7%に、後発開発途上国に対するODAをGNI比0.15～0.20%にするという目標を達成するとの多くの国によるコミットメントを含むODAに係るコミットメントを完全に実施する。ODA供与国が、少なくともGNI比0.20%のODAを後発開発途上国に供与するという目標の設定を検討することを奨励する。",
     "goal": 17
   },
   {
     "id": "17.3",
-    "title": "Mobilize additional financial resources for developing countries from multiple sources.",
+    "title": "複数の財源から、開発途上国のための追加的資金源を動員する。",
     "goal": 17
   },
   {
     "id": "17.4",
-    "title": "Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress.",
+    "title": "必要に応じた負債による資金調達、債務救済及び債務再編の促進を目的とした協調的な政策により、開発途上国の長期的な債務の持続可能性の実現を支援し、重債務貧困国（HIPC）の対外債務への対応により債務リスクを軽減する。",
     "goal": 17
   },
   {
     "id": "17.5",
-    "title": "Adopt and implement investment promotion regimes for least developed countries.",
+    "title": "後発開発途上国のための投資促進枠組みを導入及び実施する。",
     "goal": 17
   },
   {
     "id": "17.6",
-    "title": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism.",
+    "title": "科学技術イノベーション（STI）及びこれらへのアクセスに関する南北協力、南南協力及び地域的・国際的な三角協力を向上させる。また、国連レベルをはじめとする既存のメカニズム間の調整改善や、全世界的な技術促進メカニズムなどを通じて、相互に合意した条件において知識共有を進める。",
     "goal": 17
   },
   {
     "id": "17.7",
-    "title": "Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed.",
+    "title": "開発途上国に対し、譲許的・特恵的条件などの相互に合意した有利な条件の下で、環境に配慮した技術の開発、移転、普及及び拡散を促進する。",
     "goal": 17
   },
   {
     "id": "17.8",
-    "title": "Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology.",
+    "title": "2017年までに、後発開発途上国のための技術バンク及び科学技術イノベーション能力構築メカニズムを完全運用させ、情報通信技術（ICT）をはじめとする実現技術の利用を強化する。",
     "goal": 17
   },
   {
     "id": "17.9",
-    "title": "Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the sustainable development goals, including through North-South, South-South and triangular cooperation.",
+    "title": "全ての持続可能な開発目標を実施するための国家計画を支援するべく、南北協力、南南協力及び三角協力などを通じて、開発途上国における効果的かつ的をしぼった能力構築の実施に対する国際的な支援を強化する。",
     "goal": 17
   },
   {
     "id": "17.10",
-    "title": "Promote a universal, rules-based, open, non-discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda.",
+    "title": "ドーハ・ラウンド（DDA）交渉の受諾を含むWTOの下での普遍的でルールに基づいた、差別的でない、公平な多角的貿易体制を促進する。",
     "goal": 17
   },
   {
     "id": "17.11",
-    "title": "Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries' share of global exports by 2020.",
+    "title": "開発途上国による輸出を大幅に増加させ、特に2020年までに世界の輸出に占める後発開発途上国のシェアを倍増させる。",
     "goal": 17
   },
   {
     "id": "17.12",
-    "title": "Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access.",
+    "title": "後発開発途上国からの輸入に対する特恵的な原産地規則が透明で簡略的かつ市場アクセスの円滑化に寄与するものとなるようにすることを含む世界貿易機関（WTO）の決定に矛盾しない形で、全ての後発開発途上国に対し、永続的な無税・無枠の市場アクセスを適時実施する。",
     "goal": 17
   },
   {
     "id": "17.13",
-    "title": "Enhance global macroeconomic stability, including through policy coordination and policy coherence.",
+    "title": "政策協調や政策の首尾一貫性などを通じて、世界的なマクロ経済の安定を促進する。",
     "goal": 17
   },
   {
     "id": "17.14",
-    "title": "Enhance policy coherence for sustainable development.",
+    "title": "持続可能な開発のための政策の一貫性を強化する。.",
     "goal": 17
   },
   {
     "id": "17.15",
-    "title": "Respect each country's policy space and leadership to establish and implement policies for poverty eradication and sustainable development.",
+    "title": "貧困撲滅と持続可能な開発のための政策の確立・実施にあたっては、各国の政策空間及びリーダーシップを尊重する。",
     "goal": 17
   },
   {
     "id": "17.16",
-    "title": "Enhance the global partnership for sustainable development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the sustainable development goals in all countries, in particular developing countries.",
+    "title": "全ての国々、特に開発途上国での持続可能な開発目標の達成を支援すべく、知識、専門的知見、技術及び資金源を動員、共有するマルチステークホルダー・パートナーシップによって補完しつつ、持続可能な開発のためのグローバル・パートナーシップを強化する。",
     "goal": 17
   },
   {
     "id": "17.17",
-    "title": "Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships.",
+    "title": "さまざまなパートナーシップの経験や資源戦略を基にした、効果的な公的、官民、市民社会のパートナーシップを奨励・推進する。",
     "goal": 17
   },
   {
     "id": "17.18",
-    "title": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts.",
+    "title": "2020年までに、後発開発途上国及び小島嶼開発途上国を含む開発途上国に対する能力構築支援を強化し、所得、性別、年齢、人種、民族、居住資格、障害、地理的位置及びその他各国事情に関連する特性別の質が高く、タイムリーかつ信頼性のある非集計型データの入手可能性を向上させる。",
     "goal": 17
   },
   {
     "id": "17.19",
-    "title": "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries.",
+    "title": " 2030年までに、持続可能な開発の進捗状況を測るGDP以外の尺度を開発する既存の取組を更に前進させ、開発途上国における統計に関する能力構築を支援する。",
     "goal": 17
   }
 ]

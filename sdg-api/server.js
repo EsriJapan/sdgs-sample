@@ -29,6 +29,7 @@ app.listen(port, function () {
   GOALS.es = JSON.parse( fs.readFileSync('data/goals-final-es.json') );
   GOALS.fr = JSON.parse( fs.readFileSync('data/goals-final-fr.json') );
   GOALS.ru = JSON.parse( fs.readFileSync('data/goals-final-ru.json') );
+  GOALS.ja = JSON.parse( fs.readFileSync('data/goals-final-ja.json') );
 
   TARGETS = JSON.parse( fs.readFileSync('data/targets-final.json') );
   INDICATORS = JSON.parse( fs.readFileSync('data/indicators-final.json') );

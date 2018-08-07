@@ -5,9 +5,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day.",
+    "target": "2030年までに、現在１日1.25ドル未満で生活する人々と定義されている極度の貧困をあらゆる場所で終わらせる。",
     "indicator_id": "1.1.1",
-    "indicator": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
+    "indicator": "国際的な貧困ラインを下回って生活している人口の割合（性別、年齢、雇用形態、地理的ロケーション（都市/地方）別）",
     "responsible_entities": [
       "ILO",
       "World Bank"
@@ -38,9 +38,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions.",
+    "target": "2030年までに、各国定義によるあらゆる次元の貧困状態にある、全ての年齢の男性、女性、子供の割合を半減させる。",
     "indicator_id": "1.2.1",
-    "indicator": "Proportion of population living below the national poverty line, by sex and age",
+    "indicator": "各国の貧困ラインを下回って生活している人口の割合（性別、年齢別）",
     "responsible_entities": [
       "ILO",
       "World Bank"
@@ -71,9 +71,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 6,
-    "target": "By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions.",
+    "target": "2030年までに、各国定義によるあらゆる次元の貧困状態にある、全ての年齢の男性、女性、子供の割合を半減させる。",
     "indicator_id": "1.2.2",
-    "indicator": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions"
+    "indicator": "各国の定義に基づき、あらゆる次元で貧困ラインを下回って生活している男性、女性及び子供の割合（全年齢）"
   },
   {
     "target_id": "1.3",
@@ -81,9 +81,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 7,
-    "target": "Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable.",
+    "target": "各国において最低限の基準を含む適切な社会保護制度及び対策を実施し、2030年までに貧困層及び脆弱層に対し十分な保護を達成する。",
     "indicator_id": "1.3.1",
-    "indicator": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
+    "indicator": "社会保障制度によって保護されている人口の割合（性別、子供、失業者、高齢者、障害者、妊婦、新生児、労務災害被害者、貧困層、脆弱層別）"
   },
   {
     "target_id": "1.4",
@@ -91,9 +91,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance.",
+    "target": "2030年までに、貧困層及び脆弱層をはじめ、全ての男性及び女性が、基礎的サービスへのアクセス、土地及びその他の形態の財産に対する所有権と管理権限、相続財産、天然資源、適切な新技術、マイクロファイナンスを含む金融サービスに加え、経済的資源についても平等な権利を持つことができるように確保する。",
     "indicator_id": "1.4.1",
-    "indicator": "Proportion of population living in households with access to basic services"
+    "indicator": "基礎的サービスにアクセスできる世帯に住んでいる人口の割合"
   },
   {
     "target_id": "1.4",
@@ -101,9 +101,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance.",
+    "target": "2030年までに、貧困層及び脆弱層をはじめ、全ての男性及び女性が、基礎的サービスへのアクセス、土地及びその他の形態の財産に対する所有権と管理権限、相続財産、天然資源、適切な新技術、マイクロファイナンスを含む金融サービスに加え、経済的資源についても平等な権利を持つことができるように確保する。",
     "indicator_id": "1.4.2",
-    "indicator": "Proportion of total adult population with secure tenure rights to land, with legally recognized documentation and who perceive their rights to land as secure, by sex and by type of tenure",
+    "indicator": "(a) 土地に対し、法律上認められた書類により、安全な所有権を有している全成人の割合（性別、保有の種類別）(b) 土地の権利が安全であると認識している全成人の割合（性別、保有の種類別）",
     "responsible_entities": [
       "UN-HABITAT"
     ],
@@ -133,9 +133,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 12,
-    "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.",
+    "target": "2030年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に暴露や脆弱性を軽減する。",
     "indicator_id": "1.5.1",
-    "indicator": "Number of deaths, missing persons and persons affected by disaster per 100,000 people",
+    "indicator": "10万人当たりの災害による死者数、行方不明者数、直接的負傷者数",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -175,9 +175,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 17,
-    "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.",
+    "target": "2030年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に暴露や脆弱性を軽減する。",
     "indicator_id": "1.5.2",
-    "indicator": "Direct disaster economic loss in relation to global gross domestic product (GDP)",
+    "indicator": "グローバルGDPに関する災害による直接的経済損失",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -216,9 +216,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 21,
-    "target": "By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.",
+    "target": "2030年までに、貧困層や脆弱な状況にある人々の強靱性（レジリエンス）を構築し、気候変動に関連する極端な気象現象やその他の経済、社会、環境的ショックや災害に暴露や脆弱性を軽減する。",
     "indicator_id": "1.5.3",
-    "indicator": "Number of countries with national and local disaster risk reduction strategies"
+    "indicator": "仙台防災枠組み2015-2030に沿った国家レベルの防災戦略を採択し実行している国の数"
   },
   {
     "target_id": "1.a",
@@ -226,9 +226,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 22,
-    "target": "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions.",
+    "target": "あらゆる次元での貧困を終わらせるための計画や政策を実施するべく、後発開発途上国をはじめとする開発途上国に対して適切かつ予測可能な手段を講じるため、開発協力の強化などを通じて、さまざまな供給源からの相当量の資源の動員を確保する。",
     "indicator_id": "1.a.1",
-    "indicator": "Proportion of resources allocated by the government directly to poverty reduction programmes"
+    "indicator": "総政府支出額に占める、必要不可欠なサービス（教育、健康、及び社会的な保護）への政府支出総額の割合"
   },
   {
     "target_id": "1.a",
@@ -236,9 +236,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 22,
-    "target": "Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions.",
+    "target": "あらゆる次元での貧困を終わらせるための計画や政策を実施するべく、後発開発途上国をはじめとする開発途上国に対して適切かつ予測可能な手段を講じるため、開発協力の強化などを通じて、さまざまな供給源からの相当量の資源の動員を確保する。",
     "indicator_id": "1.a.2",
-    "indicator": "Proportion of total government spending on essential services (education, health and social protection)"
+    "indicator": "全体の国家財政支出に占める必要不可欠なサービスの割合（教育、健康、及び社会的な保護）"
   },
   {
     "target_id": "1.b",
@@ -246,9 +246,9 @@
     "goal": 1,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-1.pdf",
     "goal_meta_link_page": 23,
-    "target": "Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender sensitive development strategies, to support accelerated investment in poverty eradication actions.",
+    "target": "貧困撲滅のための行動への投資拡大を支援するため、国、地域及び国際レベルで、貧困層やジェンダーに配慮した開発戦略に基づいた適正な政策的枠組みを構築する。",
     "indicator_id": "1.b.1",
-    "indicator": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups"
+    "indicator": "女性、貧困層及び脆弱層グループに重点的に支援を行うセクターへの政府からの周期的な資本投資"
   },
   {
     "target_id": "2.1",
@@ -256,9 +256,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.",
+    "target": "2030年までに、飢餓を撲滅し、全ての人々、特に貧困層及び幼児を含む脆弱な立場にある人々が一年中安全かつ栄養のある食料を十分得られるようにする。",
     "indicator_id": "2.1.1",
-    "indicator": "Prevalence of undernourishment",
+    "indicator": "栄養不足蔓延率（PoU）",
     "responsible_entities": [
       "FAO"
     ],
@@ -288,9 +288,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 4,
-    "target": "By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.",
+    "target": "2030年までに、飢餓を撲滅し、全ての人々、特に貧困層及び幼児を含む脆弱な立場にある人々が一年中安全かつ栄養のある食料を十分得られるようにする。",
     "indicator_id": "2.1.2",
-    "indicator": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+    "indicator": "食料不安の経験尺度(FIES)に基づく、中程度又は重度な食料供給不足の蔓延度",
     "responsible_entities": [
       "FAO"
     ],
@@ -320,9 +320,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 6,
-    "target": "By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons.",
+    "target": "５歳未満の子供の発育阻害や消耗性疾患について国際的に合意されたターゲットを2025年までに達成するなど、2030年までにあらゆる形態の栄養不良を解消し、若年女子、妊婦・授乳婦及び高齢者の栄養ニーズへの対処を行う。",
     "indicator_id": "2.2.1",
-    "indicator": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+    "indicator": "５歳未満の子供の発育阻害の蔓延度（WHO子ども成長基準で、年齢に対する身長が中央値から標準偏差-2未満）",
     "responsible_entities": [
       "UNICEF"
     ],
@@ -352,9 +352,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons.",
+    "target": "５歳未満の子供の発育阻害や消耗性疾患について国際的に合意されたターゲットを2025年までに達成するなど、2030年までにあらゆる形態の栄養不良を解消し、若年女子、妊婦・授乳婦及び高齢者の栄養ニーズへの対処を行う。",
     "indicator_id": "2.2.2",
-    "indicator": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
+    "indicator": "５歳未満の子供の栄養不良の蔓延度（WHOの子ども成長基準で、身長に対する体重が、中央値から標準偏差+2超又は-2未満）（タイプ別（やせ及び肥満））"
   },
   {
     "target_id": "2.3",
@@ -362,9 +362,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and nonfarm employment.",
+    "target": "2030年までに、土地、その他の生産資源や、投入財、知識、金融サービス、市場及び高付加価値化や非農業雇用の機会への確実かつ平等なアクセスの確保などを通じて、女性、先住民、家族農家、牧畜民及び漁業者をはじめとする小規模食料生産者の農業生産性及び所得を倍増させる。",
     "indicator_id": "2.3.1",
-    "indicator": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+    "indicator": "農業/牧畜/林業企業規模の分類ごとの労働単位あたり生産額",
     "responsible_entities": [
       "FAO"
     ],
@@ -394,9 +394,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 9,
-    "target": "By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and nonfarm employment.",
+    "target": "2030年までに、土地、その他の生産資源や、投入財、知識、金融サービス、市場及び高付加価値化や非農業雇用の機会への確実かつ平等なアクセスの確保などを通じて、女性、先住民、家族農家、牧畜民及び漁業者をはじめとする小規模食料生産者の農業生産性及び所得を倍増させる。",
     "indicator_id": "2.3.2",
-    "indicator": "Average income of small-scale food producers, by sex and indigenous status"
+    "indicator": "小規模食料生産者の平均的な収入（性別、先住民・非先住民の別）"
   },
   {
     "target_id": "2.4",
@@ -404,9 +404,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality.",
+    "target": "2030年までに、生産性を向上させ、生産量を増やし、生態系を維持し、気候変動や極端な気象現象、干ばつ、洪水及びその他の災害に対する適応能力を向上させ、漸進的に土地と土壌の質を改善させるような、持続可能な食料生産システムを確保し、強靭（レジリエント）な農業を実践する。",
     "indicator_id": "2.4.1",
-    "indicator": "Proportion of agricultural area under productive and sustainable agriculture",
+    "indicator": "生産的で持続可能な農業の下に行われる農業地域の割合",
     "responsible_entities": [
       "FAO"
     ],
@@ -444,9 +444,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 12,
-    "target": "By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and ensure access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed",
+    "target": "2020年までに、国、地域及び国際レベルで適正に管理及び多様化された種子・植物バンクなども通じて、種子、栽培植物、飼育・家畜化された動物及びこれらの近縁野生種の遺伝的多様性を維持し、国際的合意に基づき、遺伝資源及びこれに関連する伝統的な知識へのアクセス及びその利用から生じる利益の公正かつ衡平な配分を促進する。",
     "indicator_id": "2.5.1",
-    "indicator": "Number of plant and animal genetic resources for food and agriculture secured in either medium or long-term conservation facilities"
+    "indicator": "中期又は長期保存施設に確保されている食物及び農業のための動植物の遺伝資源の数"
   },
   {
     "target_id": "2.5",
@@ -454,9 +454,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 12,
-    "target": "By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and ensure access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed",
+    "target": "2020年までに、国、地域及び国際レベルで適正に管理及び多様化された種子・植物バンクなども通じて、種子、栽培植物、飼育・家畜化された動物及びこれらの近縁野生種の遺伝的多様性を維持し、国際的合意に基づき、遺伝資源及びこれに関連する伝統的な知識へのアクセス及びその利用から生じる利益の公正かつ衡平な配分を促進する。",
     "indicator_id": "2.5.2",
-    "indicator": "Proportion of local breeds classified as being at risk, not-at-risk or at unknown level of risk of extinction",
+    "indicator": "絶滅の危機にある、絶滅の危機にはない、又は、不明というレベルごとに分類された在来種の割合",
     "responsible_entities": [
       "FAO"
     ],
@@ -486,9 +486,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 15,
-    "target": "Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",
+    "target": "開発途上国、特に後発開発途上国における農業生産能力向上のために、国際協力の強化などを通じて、農村インフラ、農業研究・普及サービス、技術開発及び植物・家畜のジーン・バンクへの投資の拡大を図る。",
     "indicator_id": "2.a.1",
-    "indicator": "The agriculture orientation index for government expenditures",
+    "indicator": "政府支出における農業指向指数",
     "responsible_entities": [
       "FAO"
     ],
@@ -518,9 +518,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 17,
-    "target": "Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks in order to enhance agricultural productive capacity in developing countries, in particular least developed countries",
+    "target": "開発途上国、特に後発開発途上国における農業生産能力向上のために、国際協力の強化などを通じて、農村インフラ、農業研究・普及サービス、技術開発及び植物・家畜のジーン・バンクへの投資の拡大を図る。",
     "indicator_id": "2.a.2",
-    "indicator": "Total official flows (official development assistance plus other official flows) to the agriculture sector"
+    "indicator": "農業部門への公的支援の全体的な流れ（ODA及び他の公的支援の流れ）"
   },
   {
     "target_id": "2.b",
@@ -528,9 +528,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 18,
-    "target": "Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round.",
+    "target": "ドーハ開発ラウンドのマンデートに従い、全ての農産物輸出補助金及び同等の効果を持つ全ての輸出措置の同時撤廃などを通じて、世界の市場における貿易制限や歪みを是正及び防止する。",
     "indicator_id": "2.b.1",
-    "indicator": "Producer Support Estimate",
+    "indicator": "農業輸出補助金",
     "responsible_entities": [
       "OECD"
     ],
@@ -560,7 +560,7 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 18,
-    "target": "Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, in accordance with the mandate of the Doha Development Round.",
+    "target": "ドーハ開発ラウンドのマンデートに従い、全ての農産物輸出補助金及び同等の効果を持つ全ての輸出措置の同時撤廃などを通じて、世界の市場における貿易制限や歪みを是正及び防止する。",
     "indicator_id": "2.b.2",
     "indicator": "Agricultural export subsidies"
   },
@@ -570,9 +570,9 @@
     "goal": 2,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-2.pdf",
     "goal_meta_link_page": 20,
-    "target": "Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, in order to help limit extreme food price volatility.",
+    "target": "食料価格の極端な変動に歯止めをかけるため、食料市場及びデリバティブ市場の適正な機能を確保するための措置を講じ、食料備蓄などの市場情報への適時のアクセスを容易にする。",
     "indicator_id": "2.c.1",
-    "indicator": "Indicator of food price anomalies",
+    "indicator": "食料価格の変動指数（IFPA）",
     "responsible_entities": [
       "FAO"
     ],
@@ -602,9 +602,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births.",
+    "target": "2030年までに、世界の妊産婦の死亡率を出生10万人当たり70人未満に削減する。",
     "indicator_id": "3.1.1",
-    "indicator": "Maternal mortality ratio (per 100 000 live births)",
+    "indicator": "妊産婦死亡率",
     "responsible_entities": [
       "WHO"
     ],
@@ -634,9 +634,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 3,
-    "target": "By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births.",
+    "target": "2030年までに、世界の妊産婦の死亡率を出生10万人当たり70人未満に削減する。",
     "indicator_id": "3.1.2",
-    "indicator": "Proportion of births attended by skilled health personnel",
+    "indicator": "専門技能者の立会いの下での出産の割合",
     "responsible_entities": [
       "WHO"
     ],
@@ -666,9 +666,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births.",
+    "target": "全ての国が新生児死亡率を少なくとも出生1,000件中12件以下まで減らし、５歳以下死亡率を少なくとも出生1,000件中25件以下まで減らすことを目指し、 2030年までに、新生児及び５歳未満児の予防可能な死亡を根絶する。",
     "indicator_id": "3.2.1",
-    "indicator": "Under-five mortality rate",
+    "indicator": "５歳未満児死亡率",
     "responsible_entities": [
       "UNICEF"
     ],
@@ -698,9 +698,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 6,
-    "target": "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births.",
+    "target": "全ての国が新生児死亡率を少なくとも出生1,000件中12件以下まで減らし、５歳以下死亡率を少なくとも出生1,000件中25件以下まで減らすことを目指し、 2030年までに、新生児及び５歳未満児の予防可能な死亡を根絶する。",
     "indicator_id": "3.2.2",
-    "indicator": "Neonatal mortality rate",
+    "indicator": "新生児死亡率",
     "responsible_entities": [
       "UNICEF"
     ],
@@ -730,9 +730,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.",
+    "target": "2030年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。",
     "indicator_id": "3.3.1",
-    "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+    "indicator": "非感染者1,000人当たりの新規HIV感染者数（性別、年齢及び主要層別）",
     "responsible_entities": [
       "WHO",
       "UNAIDS"
@@ -763,9 +763,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.",
+    "target": "2030年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。",
     "indicator_id": "3.3.2",
-    "indicator": "Tuberculosis incidence per 1,000 population ",
+    "indicator": "100,000人当たりの結核感染者数",
     "responsible_entities": [
       "WHO"
     ],
@@ -795,9 +795,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.",
+    "target": "2030年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。",
     "indicator_id": "3.3.3",
-    "indicator": "Malaria incidence per 1,000 population",
+    "indicator": "1,000人当たりのマラリア感染者数",
     "responsible_entities": [
       "WHO"
     ],
@@ -827,9 +827,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.",
+    "target": "2030年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。",
     "indicator_id": "3.3.4",
-    "indicator": "Hepatitis B incidence per 100,000 population",
+    "indicator": "10万人当たりのＢ型肝炎感染者数",
     "responsible_entities": [
       "WHO"
     ],
@@ -859,9 +859,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 11,
-    "target": "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.",
+    "target": "2030年までに、エイズ、結核、マラリア及び顧みられない熱帯病といった伝染病を根絶するとともに肝炎、水系感染症及びその他の感染症に対処する。",
     "indicator_id": "3.3.5",
-    "indicator": "Number of people requiring interventions against neglected tropical diseases"
+    "indicator": "「顧みられない熱帯病」（NTDs）に対して介入を必要としている人々の数に対して介入を必要としている人々の数"
   },
   {
     "target_id": "3.4",
@@ -869,9 +869,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 12,
-    "target": "By 2030, reduce by one third premature mortality from noncommunicable diseases through prevention and treatment and promote mental health and well-being.",
+    "target": "2030年までに、非感染性疾患による若年死亡率を、予防や治療を通じて３分の１減少させ、精神保健及び福祉を促進する。",
     "indicator_id": "3.4.1",
-    "indicator": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+    "indicator": "心血管疾患、癌、糖尿病、又は慢性の呼吸器系疾患の死亡率",
     "responsible_entities": [
       "WHO"
     ],
@@ -901,9 +901,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 13,
-    "target": "By 2030, reduce by one third premature mortality from noncommunicable diseases through prevention and treatment and promote mental health and well-being.",
+    "target": "2030年までに、非感染性疾患による若年死亡率を、予防や治療を通じて３分の１減少させ、精神保健及び福祉を促進する。",
     "indicator_id": "3.4.2",
-    "indicator": "Suicide mortality rate"
+    "indicator": "自殺率"
   },
   {
     "target_id": "3.5",
@@ -911,9 +911,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 14,
-    "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol.",
+    "target": "薬物乱用やアルコールの有害な摂取を含む、物質乱用の防止・治療を強化する。",
     "indicator_id": "3.5.1",
-    "indicator": "Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders",
+    "indicator": "薬物使用による障害のための治療介入（薬理学的、心理社会的、リハビリ及びアフターケア・サービス）の適用範囲",
     "responsible_entities": [
       "UNODC"
     ],
@@ -943,9 +943,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 17,
-    "target": "Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol.",
+    "target": "薬物乱用やアルコールの有害な摂取を含む、物質乱用の防止・治療を強化する。",
     "indicator_id": "3.5.2",
-    "indicator": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol"
+    "indicator": "１年間（暦年）の純アルコール量における、（15歳以上の）１人当たりのアルコール消費量に対しての各国の状況に応じ定義されたアルコールの有害な使用（ℓ）"
   },
   {
     "target_id": "3.6",
@@ -953,9 +953,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 18,
-    "target": "By 2020, halve the number of global deaths and injuries from road traffic accidents.",
+    "target": "2020年までに、世界の道路交通事故による死傷者を半減させる。",
     "indicator_id": 3.6,
-    "indicator": "Death rate due to road traffic injuries",
+    "indicator": "道路交通事故による死亡率",
     "responsible_entities": [
       "WHO"
     ],
@@ -985,9 +985,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 19,
-    "target": "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes.",
+    "target": "2030年までに、家族計画、情報・教育及び性と生殖に関する健康の国家戦略・計画への組み入れを含む、性と生殖に関する保健サービスを全ての人々が利用できるようにする。",
     "indicator_id": "3.7.1",
-    "indicator": "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
+    "indicator": "近代的手法によって、家族計画についての自らの要望が満たされている出産可能年齢（15～49歳）にある女性の割合",
     "responsible_entities": [
       "WHO",
       "Population Division/DESA",
@@ -1019,9 +1019,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 29,
-    "target": "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes.",
+    "target": "2030年までに、家族計画、情報・教育及び性と生殖に関する健康の国家戦略・計画への組み入れを含む、性と生殖に関する保健サービスを全ての人々が利用できるようにする。",
     "indicator_id": "3.7.2",
-    "indicator": "Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",
+    "indicator": "女性1000人当たりの青年期（10～14歳；15～19歳）の出生率",
     "responsible_entities": [
       "WHO",
       "Population Division/DESA",
@@ -1053,9 +1053,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 33,
-    "target": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all.",
+    "target": "全ての人々に対する財政リスクからの保護、質の高い基礎的な保健サービスへのアクセス及び安全で効果的かつ質が高く安価な必須医薬品とワクチンへのアクセスを含む、ユニバーサル・ヘルス・カバレッジ（UHC）を達成する。",
     "indicator_id": "3.8.1",
-    "indicator": "Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)",
+    "indicator": "必要不可欠の公共医療サービスの適応範囲（一般及び最も不利な立場の人々についての、生殖、妊婦、新生児及び子供の健康､伝染病、非伝染病、サービス能力とアクセスを含むトレーサー介入を基とする必要不可欠なサービスの平均的適応範囲と定義されたもの ）",
     "responsible_entities": [
       "WHO"
     ],
@@ -1085,9 +1085,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 34,
-    "target": "Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all.",
+    "target": "全ての人々に対する財政リスクからの保護、質の高い基礎的な保健サービスへのアクセス及び安全で効果的かつ質が高く安価な必須医薬品とワクチンへのアクセスを含む、ユニバーサル・ヘルス・カバレッジ（UHC）を達成する。",
     "indicator_id": "3.8.2",
-    "indicator": "Number of people covered by health insurance or a public health system per 1,000 population"
+    "indicator": "家計収支に占める健康関連支出が大きい人口の割合"
   },
   {
     "target_id": "3.9",
@@ -1095,9 +1095,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 35,
-    "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination.",
+    "target": "2030年までに、有害化学物質、並びに大気、水質及び土壌の汚染による死亡及び疾病の件数を大幅に減少させる。",
     "indicator_id": "3.9.1",
-    "indicator": "Mortality rate attributed to household and ambient air pollution"
+    "indicator": "家庭内及び外部の大気汚染による死亡率"
   },
   {
     "target_id": "3.9",
@@ -1105,9 +1105,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 35,
-    "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination.",
+    "target": "2030年までに、有害化学物質、並びに大気、水質及び土壌の汚染による死亡及び疾病の件数を大幅に減少させる。",
     "indicator_id": "3.9.2",
-    "indicator": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)"
+    "indicator": "安全ではない水、安全ではない公衆衛生及び衛生知識不足（安全ではないWASH（基本的な水と衛生）にさらされていること）による死亡率"
   },
   {
     "target_id": "3.9",
@@ -1115,9 +1115,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 35,
-    "target": "By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination.",
+    "target": "2030年までに、有害化学物質、並びに大気、水質及び土壌の汚染による死亡及び疾病の件数を大幅に減少させる。",
     "indicator_id": "3.9.3",
-    "indicator": "Mortality rate attributed to unintentional poisoning"
+    "indicator": "意図的ではない汚染による死亡率"
   },
   {
     "target_id": "3.a",
@@ -1125,9 +1125,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 36,
-    "target": "Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate.",
+    "target": "全ての国々において、たばこの規制に関する世界保健機関枠組条約の実施を適宜強化する。",
     "indicator_id": "3.a.1",
-    "indicator": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+    "indicator": "15歳以上の現在の喫煙率（年齢調整されたもの）",
     "responsible_entities": [
       "WHO"
     ],
@@ -1157,9 +1157,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 37,
-    "target": "Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on TradeRelated Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all.",
+    "target": "主に開発途上国に影響を及ぼす感染性及び非感染性疾患のワクチン及び医薬品の研究開発を支援する。また、知的所有権の貿易関連の側面に関する協定（TRIPS協定）及び公衆の健康に関するドーハ宣言に従い、安価な必須医薬品及びワクチンへのアクセスを提供する。同宣言は公衆衛生保護及び、特に全ての人々への医薬品のアクセス提供にかかわる「知的所有権の貿易関連の側面に関する協定（TRIPS協定）」の柔軟性に関する規定を最大限に行使する開発途上国の権利を確約したものである。",
     "indicator_id": "3.b.1",
-    "indicator": "Proportion of the population with access to affordable medicines and vaccines on a sustainable basis",
+    "indicator": "各国ごとの国家計画に含まれる全ての薬によってカバーされているターゲット人口の割合",
     "responsible_entities": [
       "WHO"
     ],
@@ -1189,9 +1189,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 38,
-    "target": "Support the research and development of vaccines and medicines for the communicable and non-communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on TradeRelated Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all.",
+    "target": "主に開発途上国に影響を及ぼす感染性及び非感染性疾患のワクチン及び医薬品の研究開発を支援する。また、知的所有権の貿易関連の側面に関する協定（TRIPS協定）及び公衆の健康に関するドーハ宣言に従い、安価な必須医薬品及びワクチンへのアクセスを提供する。同宣言は公衆衛生保護及び、特に全ての人々への医薬品のアクセス提供にかかわる「知的所有権の貿易関連の側面に関する協定（TRIPS協定）」の柔軟性に関する規定を最大限に行使する開発途上国の権利を確約したものである。",
     "indicator_id": "3.b.2",
-    "indicator": "Total net official development assistance to the medical research and basic health sectors",
+    "indicator": "薬学研究や基礎的保健部門への純ODAの合計値",
     "responsible_entities": [
       "OECD"
     ],
@@ -1221,9 +1221,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 40,
-    "target": "Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States.",
+    "target": "開発途上国、特に後発開発途上国及び小島嶼開発途上国において保健財政及び保健人材の採用、能力開発・訓練及び定着を大幅に拡大させる。",
     "indicator_id": "3.c.1",
-    "indicator": "Health worker density and distribution",
+    "indicator": " 医療従事者の密度と分布",
     "responsible_entities": [
       "WHO"
     ],
@@ -1253,9 +1253,9 @@
     "goal": 3,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf",
     "goal_meta_link_page": 42,
-    "target": "Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks.",
+    "target": "全ての国々、特に開発途上国の国家・世界規模な健康危険因子の早期警告、危険因子緩和及び危険因子管理のための能力を強化する。",
     "indicator_id": "3.d.1",
-    "indicator": "International Health Regulations (IHR) capacity and health emergency preparedness",
+    "indicator": "国際保健規則 (IHR) キャパシティと衛生緊急対策",
     "responsible_entities": [
       "WHO"
     ],
@@ -1285,9 +1285,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes.",
+    "target": "2030年までに、全ての子供が男女の区別なく、適切かつ効果的な学習成果をもたらす、無償かつ公正で質の高い初等教育及び中等教育を修了できるようにする。",
     "indicator_id": "4.1.1",
-    "indicator": "Proportion of children and young people: (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
+    "indicator": "(i)読解力、(ii)算数について、最低限の習熟度に達している次の子供や若者の割合(性別ごと）(a)２～３学年時、(b)小学校修了時、(c)中学校修了時",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -1317,9 +1317,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 3,
-    "target": "By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education.",
+    "target": "2030年までに、全ての子供が男女の区別なく、質の高い乳幼児の発達・ケア及び就学前教育にアクセスすることにより、初等教育を受ける準備が整うようにする。",
     "indicator_id": "4.2.1",
-    "indicator": "Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
+    "indicator": "健康、学習及び心理社会的な幸福について、順調に発育している５歳未満の子供の割合(性別ごと）",
     "responsible_entities": [
       "UNESCO",
       "UNICEF"
@@ -1350,9 +1350,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre-primary education so that they are ready for primary education.",
+    "target": "2030年までに、全ての子供が男女の区別なく、質の高い乳幼児の発達・ケア及び就学前教育にアクセスすることにより、初等教育を受ける準備が整うようにする。",
     "indicator_id": "4.2.2",
-    "indicator": "Participation rate in organized learning (one year before the official primary entry age), by sex"
+    "indicator": "（小学校に入学する年齢より１年前の時点で）体系的な学習に参加している者の割合（性別ごと）"
   },
   {
     "target_id": "4.3",
@@ -1360,9 +1360,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 6,
-    "target": "By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university.",
+    "target": "2030年までに、全ての人々が男女の区別なく、手の届く質の高い技術教育・職業教育及び大学を含む高等教育への平等なアクセスを得られるようにする。",
     "indicator_id": "4.3.1",
-    "indicator": "Participation rate of youth and adults in formal and non-formal education and training in the last 12 months, by sex",
+    "indicator": "過去12か月にフォーマル及びノンフォーマルな教育や訓練に参加している若者又は成人の割合（性別ごと）",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -1392,9 +1392,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship.",
+    "target": "2030年までに、技術的・職業的スキルなど、雇用、働きがいのある人間らしい仕事及び起業に必要な技能を備えた若者と成人の割合を大幅に増加させる。",
     "indicator_id": "4.4.1",
-    "indicator": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+    "indicator": "ICTスキルを有する若者や成人の割合（スキルのタイプ別）",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -1424,9 +1424,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 9,
-    "target": "By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations.",
+    "target": "2030年までに、教育におけるジェンダー格差を無くし、障害者、先住民及び脆弱な立場にある子供など、脆弱層があらゆるレベルの教育や職業訓練に平等にアクセスできるようにする。",
     "indicator_id": "4.5.1",
-    "indicator": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
+    "indicator": "詳細集計可能な、本リストに記載された全ての教育指数のための、パリティ指数(女性/男性、地方/都市、富の五分位数の底/トップ、その他障害状況、先住民、利用可能になるデータとして議論されたもの等)",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -1456,9 +1456,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, ensure that all youth and a substantial proportion of adults, both men and women, and achieve literacy and numeracy.",
+    "target": "2030年までに、全ての若者及び大多数（男女ともに）の成人が、読み書き能力及び基本的計算能力を身に付けられるようにする。",
     "indicator_id": "4.6.1",
-    "indicator": "Percentage of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+    "indicator": "実用的な(a)読み書き能力、(b)基本的計算能力において、少なくとも決まったレベルを達成した所定の年齢層の人口の割合（性別ごと）",
     "responsible_entities": [
       "UNESCO",
       "OECD"
@@ -1489,9 +1489,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 11,
-    "target": "By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and nonviolence, global citizenship and appreciation of cultural diversity and of culture's contribution to sustainable development.",
+    "target": "2030年までに、持続可能な開発のための教育及び持続可能なライフスタイル、人権、男女の平等、平和及び非暴力的文化の推進、グローバル・シチズンシップ、文化多様性と文化の持続可能な開発への貢献の理解の教育を通して、全ての学習者が、持続可能な開発を促進するために必要な知識及び技能を習得できるようにする。",
     "indicator_id": "4.7.1",
-    "indicator": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in: (a) national education policies, (b) curricula, (c) teacher education and (d) student assessment"
+    "indicator": "ジェンダー平等および人権を含む、(i)地球市民教育、及び(ii)持続可能な開発のための教育が、（a）各国の教育政策、(b) カリキュラム、(c) 教師の教育、及び(d)児童・生徒・学生の達成度評価に関して、全ての教育段階において主流化されているレベル"
   },
   {
     "target_id": "4.a",
@@ -1499,9 +1499,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 12,
-    "target": "Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all.",
+    "target": "子供、障害及びジェンダーに配慮した教育施設を構築・改良し、全ての人々に安全で非暴力的、包摂的、効果的な学習環境を提供できるようにする。",
     "indicator_id": "4.a.1",
-    "indicator": "Proportion of schools with access to: (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water;(f) single-sex basic sanitation facilities; (g) basic handwashing facilities (as per the WASH indicator definitions)",
+    "indicator": "以下の設備等が利用可能な学校の割合(a)電気、(b)教育を目的としたインターネット、(c)教育を目的としたコンピュータ、 (d)障害を持っている学生のための適切な施設や道具、（e) 基本的な飲料水、(f)男女別の基本的なトイレ、(g)基本的な手洗い場(WASH指標の定義別）",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -1531,9 +1531,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 14,
-    "target": "By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries.",
+    "target": "2020年までに、開発途上国、特に後発開発途上国及び小島嶼開発途上国、並びにアフリカ諸国を対象とした、職業訓練、情報通信技術（ICT）、技術・工学・科学プログラムなど、先進国及びその他の開発途上国における高等教育の奨学金の件数を全世界で大幅に増加させる。",
     "indicator_id": "4.b.1",
-    "indicator": "Volume of official development assistance flows for scholarships by sector and type of study",
+    "indicator": "奨学金のためのODAフローの量（部門と研究タイプ別）",
     "responsible_entities": [
       "OECD"
     ],
@@ -1563,9 +1563,9 @@
     "goal": 4,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-4.pdf",
     "goal_meta_link_page": 15,
-    "target": "By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States.",
+    "target": "2030年までに、開発途上国、特に後発開発途上国及び小島嶼開発途上国における教員研修のための国際協力などを通じて、質の高い教員の数を大幅に増加させる。",
     "indicator_id": "4.c.1",
-    "indicator": "Percentage of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (i.e. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country",
+    "indicator": "各国における適切なレベルでの教育を行うために、最低限制度化された養成研修あるいは現職研修（例：教授法研修）を受けた （a）就学前教育、(b）初等教育、（c）前期中等教育、（d）後期中等教育に従事する教員の割合",
     "responsible_entities": [
       "UNESCO",
       "OECD"
@@ -1596,9 +1596,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 2,
-    "target": "End all forms of discrimination against all women and girls everywhere.",
+    "target": "あらゆる場所における全ての女性及び女児に対するあらゆる形態の差別を撤廃する。",
     "indicator_id": "5.1.1",
-    "indicator": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",
+    "indicator": "性別に基づく平等と差別撤廃を促進、実施及びモニターするための法律の枠組みが制定されているかどうか",
     "responsible_entities": [
       "UN-WOMEN"
     ],
@@ -1628,9 +1628,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 4,
-    "target": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.",
+    "target": "人身売買や性的、その他の種類の搾取など、全ての女性及び女児に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。",
     "indicator_id": "5.2.1",
-    "indicator": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age"
+    "indicator": "これまでにパートナーを得た15歳以上の女性や少女のうち、過去12か月以内に、現在、または以前の親密なパートナーから身体的、性的、精神的暴力を受けた者の割合（暴力の形態、年齢別"
   },
   {
     "target_id": "5.2",
@@ -1638,9 +1638,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 4,
-    "target": "Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.",
+    "target": "人身売買や性的、その他の種類の搾取など、全ての女性及び女児に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。",
     "indicator_id": "5.2.2",
-    "indicator": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+    "indicator": "過去12カ月以内に、親密なパートナー以外の人から性的暴力を受けた15歳以上の女性や少女の割合（年齢、発生場所別）",
     "responsible_entities": [
       "UNFPA",
       "UNICEF",
@@ -1672,9 +1672,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 9,
-    "target": "Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation.",
+    "target": "未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。",
     "indicator_id": "5.3.1",
-    "indicator": "Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18",
+    "indicator": "15歳未満、18歳未満で結婚又はパートナーを得た20～24歳の女性の割合",
     "responsible_entities": [
       "UNICEF"
     ],
@@ -1704,9 +1704,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 10,
-    "target": "Eliminate all harmful practices, such as child, early and forced marriage and female genital mutilation.",
+    "target": "未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。",
     "indicator_id": "5.3.2",
-    "indicator": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",
+    "indicator": "女性性器切除を受けた15-49歳の少女や女性の割合（年齢別）",
     "responsible_entities": [
       "UNICEF",
       "WHO"
@@ -1737,9 +1737,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 13,
-    "target": "Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate.",
+    "target": "公共のサービス、インフラ及び社会保障政策の提供、並びに各国の状況に応じた世帯・家族内における責任分担を通じて、無報酬の育児・介護や家事労働を認識・評価する。",
     "indicator_id": "5.4.1",
-    "indicator": "Percentage of time spent on unpaid domestic and care work, by sex, age and location",
+    "indicator": "無償の家事・ケア労働に費やす時間の割合（性別、年齢、場所別）",
     "responsible_entities": [
       "UN-WOMEN"
     ],
@@ -1769,9 +1769,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 16,
-    "target": "Ensure women's full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life",
+    "target": "政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。",
     "indicator_id": "5.5.1",
-    "indicator": "Proportion of seats held by women in national parliaments and local governments",
+    "indicator": "国会及び地方議会において女性が占める議席の割合",
     "responsible_entities": [
       "UN-WOMEN",
       "IPU"
@@ -1806,9 +1806,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 19,
-    "target": "Ensure women's full and effective participation and equal opportunities for leadership at all levels of decision-making in political, economic and public life",
+    "target": "政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。",
     "indicator_id": "5.5.2",
-    "indicator": "Proportion of women in managerial positions",
+    "indicator": "管理職に占める女性の割合",
     "responsible_entities": [
       "UN-WOMEN"
     ],
@@ -1838,9 +1838,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 21,
-    "target": "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences.",
+    "target": "国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、並びにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。",
     "indicator_id": "5.6.1",
-    "indicator": "Proportion of women aged 15-49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+    "indicator": "性的関係、避妊、リプロダクティブ・ヘルスケアについて、自分で意思決定を行うことのできる15歳～49歳の女性の割合",
     "responsible_entities": [
       "UN-WOMEN",
       "UNFPA"
@@ -1871,9 +1871,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 23,
-    "target": "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences.",
+    "target": "国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、並びにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。",
     "indicator_id": "5.6.2",
-    "indicator": "Number of countries with laws and regulations that guarantee women aged 15-49 access to sexual and reproductive health care, information and education",
+    "indicator": "15歳以上の女性及び男性に対し、セクシュアル/リプロダクティブ・ヘルスケア、情報、教育を保障する法律や規定を有する国の数",
     "responsible_entities": [
       "UN-WOMEN",
       "UNFPA"
@@ -1904,9 +1904,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 27,
-    "target": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws.",
+    "target": "女性に対し、経済的資源に対する同等の権利、並びに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。",
     "indicator_id": "5.a.1",
-    "indicator": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rightsbearers of agricultural land, type of tenure",
+    "indicator": "(a)農地への所有権又は保障された権利を有する総農業人口の割合（性別ごと）(b)農地所有者又は権利者における女性の割合（所有条件別）",
     "responsible_entities": [
       "FAO"
     ],
@@ -1936,9 +1936,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 30,
-    "target": "Undertake reforms to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws.",
+    "target": "女性に対し、経済的資源に対する同等の権利、並びに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。",
     "indicator_id": "5.a.2",
-    "indicator": "Proportion of countries where the legal framework (including customary law) guarantees women's equal rights to land ownership and/or control",
+    "indicator": "土地所有及び/又は管理に関する女性の平等な権利を保障している法的枠組（慣習法を含む）を有する国の割合",
     "responsible_entities": [
       "FAO"
     ],
@@ -1968,9 +1968,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 33,
-    "target": "Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women.",
+    "target": "女性の能力強化促進のため、ICTをはじめとする実現技術の活用を強化する。",
     "indicator_id": "5.b.1",
-    "indicator": "Proportion of individuals who own a mobile telephone, by sex",
+    "indicator": "携帯電話を所有する個人の割合（性別ごと)",
     "responsible_entities": [
       "ITU",
       "UN-WOMEN",
@@ -2002,9 +2002,9 @@
     "goal": 5,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-5.pdf",
     "goal_meta_link_page": 35,
-    "target": "Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls at all levels.",
+    "target": "ジェンダー平等の促進、並びに全ての女性及び女子のあらゆるレベルでの能力強化のための適正な政策及び拘束力のある法規を導入・強化する。",
     "indicator_id": "5.c.1",
-    "indicator": "Proportion of countries with systems to track and make public allocations for gender equality and women's empowermentNo metadata received on current indicator formulation"
+    "indicator": "ジェンダー平等及び女性のエンパワーメントのための公的資金を監視、配分するシステムを有する国の割合"
   },
   {
     "target_id": "6.1",
@@ -2012,9 +2012,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, achieve universal and equitable access to safe and affordable drinking water for all.",
+    "target": "2030年までに、全ての人々の、安全で安価な飲料水の普遍的かつ衡平なアクセスを達成する。",
     "indicator_id": "6.1.1",
-    "indicator": "Proportion of population using safely managed drinking water services",
+    "indicator": "安全に管理された飲料水サービスを利用する人口の割合",
     "responsible_entities": [
       "UN-WATER",
       "WHO",
@@ -2046,9 +2046,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open defecation, paying special attention to the needs of women and girls and those in vulnerable situations.",
+    "target": "2030年までに、全ての人々の、適切かつ平等な下水施設・衛生施設へのアクセスを達成し、野外での排泄をなくす。女性及び女児、並びに脆弱な立場にある人々のニーズに特に注意を払う。",
     "indicator_id": "6.2.1",
-    "indicator": "Proportion of population using safely managed sanitation services, including a hand-washing facility with soap and water",
+    "indicator": "(a)安全に管理された公衆衛生サービスを利用する人口の割合、(b)石けんや水のある手洗い場を利用する人口の割合",
     "responsible_entities": [
       "WHO",
       "UNICEF"
@@ -2085,9 +2085,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.",
+    "target": "2030年までに、汚染の減少、投棄の廃絶と有害な化学物・物質の放出の最小化、未処理の排水の割合半減及び再生利用と安全な再利用の世界的規模で大幅に増加させることにより、水質を改善する。",
     "indicator_id": "6.3.1",
-    "indicator": "Proportion of wastewater safely treated",
+    "indicator": "安全に処理された排水の割合",
     "responsible_entities": [
       "UN-WATER",
       "WHO",
@@ -2119,9 +2119,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally.",
+    "target": "2030年までに、汚染の減少、投棄の廃絶と有害な化学物・物質の放出の最小化、未処理の排水の割合半減及び再生利用と安全な再利用の世界的規模で大幅に増加させることにより、水質を改善する。",
     "indicator_id": "6.3.2",
-    "indicator": "Proportion of bodies of water with good ambient water quality",
+    "indicator": "良好な水質を持つ水域の割合",
     "responsible_entities": [
       "UNEP",
       "GEMS",
@@ -2164,9 +2164,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 13,
-    "target": "By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.",
+    "target": "2030年までに、全セクターにおいて水利用の効率を大幅に改善し、淡水の持続可能な採取及び供給を確保し水不足に対処するとともに、水不足に悩む人々の数を大幅に減少させる。",
     "indicator_id": "6.4.1",
-    "indicator": "Change in water-use efficiency over time",
+    "indicator": "水の利用効率の経時変化",
     "responsible_entities": [
       "FAO",
       "AQUASTAT",
@@ -2209,9 +2209,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 16,
-    "target": "By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.",
+    "target": "2030年までに、全セクターにおいて水利用の効率を大幅に改善し、淡水の持続可能な採取及び供給を確保し水不足に対処するとともに、水不足に悩む人々の数を大幅に減少させる。",
     "indicator_id": "6.4.2",
-    "indicator": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+    "indicator": "水ストレスレベル：淡水資源量に占める淡水採取量の割合",
     "responsible_entities": [
       "FAO",
       "AQUASTAT",
@@ -2247,9 +2247,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 21,
-    "target": "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate.",
+    "target": "2030年までに、国境を越えた適切な協力を含む、あらゆるレベルでの統合水資源管理を実施する。",
     "indicator_id": "6.5.1",
-    "indicator": "Degree of integrated water resources management implementation (0- 100)",
+    "indicator": "統合水資源管理（IWRM）実施の度合い（0-100）",
     "responsible_entities": [
       "UNEP",
       "GEMI",
@@ -2284,9 +2284,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 22,
-    "target": "By 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate.",
+    "target": "2030年までに、国境を越えた適切な協力を含む、あらゆるレベルでの統合水資源管理を実施する。",
     "indicator_id": "6.5.2",
-    "indicator": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+    "indicator": "水資源協力のための運営協定がある越境流域の割合",
     "responsible_entities": [
       "UNECE",
       "Secretariat for the Water Convention",
@@ -2321,9 +2321,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 25,
-    "target": "By 2020, protect and restore water-related ecosystems, including mountains, forests, wetlands, rivers, aquifers and lakes.",
+    "target": "2020年までに、山地、森林、湿地、河川、帯水層、湖沼を含む水に関連する生態系の保護・回復を行う。",
     "indicator_id": "6.6.1",
-    "indicator": "Change in the extent of water-related ecosystems over time",
+    "indicator": "水関連生態系範囲の経時変化",
     "responsible_entities": [
       "UNEP",
       "CBD",
@@ -2369,9 +2369,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 28,
-    "target": "By 2030, expand international cooperation and capacitybuilding support to developing countries in water- and sanitation-related activities and programmes, including water harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies.",
+    "target": "2030年までに、集水、海水淡水化、水の効率的利用、排水処理、リサイクル・再利用技術を含む開発途上国における水と衛生分野での活動と計画を対象とした国際協力と能力構築支援を拡大する。",
     "indicator_id": "6.a.1",
-    "indicator": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+    "indicator": "政府調整支出計画の一部である上下水道関連のODAの総量",
     "responsible_entities": [
       "WHO",
       "UN-WATER",
@@ -2411,9 +2411,9 @@
     "goal": 6,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf",
     "goal_meta_link_page": 30,
-    "target": "Support and strengthen the participation of local communities in improving water and sanitation management.",
+    "target": "水と衛生に関わる分野の管理向上における地域コミュニティの参加を支援・強化する。",
     "indicator_id": "6.b.1",
-    "indicator": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+    "indicator": "上下水道管理への地方コミュニティの参加のために制定し、運営されている政策及び手続のある地方公共団体の割合",
     "responsible_entities": [
       "WHO",
       "UN-WATER",
@@ -2452,9 +2452,9 @@
     "goal": 7,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, ensure universal access to affordable, reliable and modern energy services.",
+    "target": "2030年までに、安価かつ信頼できる現代的エネルギーサービスへの普遍的アクセスを確保する。",
     "indicator_id": "7.1.1",
-    "indicator": "Percentage of population with access to electricity",
+    "indicator": "電気を受電可能な人口比率",
     "responsible_entities": [
       "World Bank",
       "UN Energy",
@@ -2486,9 +2486,9 @@
     "goal": 7,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf",
     "goal_meta_link_page": 4,
-    "target": "By 2030, ensure universal access to affordable, reliable and modern energy services.",
+    "target": "2030年までに、安価かつ信頼できる現代的エネルギーサービスへの普遍的アクセスを確保する。",
     "indicator_id": "7.1.2",
-    "indicator": "Proportion of population with primary reliance on clean fuels and technology",
+    "indicator": "クリーンな燃料や技術に依存している人口比率",
     "responsible_entities": [
       "WHO",
       "UN Energy",
@@ -2520,9 +2520,9 @@
     "goal": 7,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, increase substantially the share of renewable energy in the global energy mix.",
+    "target": "2030年までに、世界のエネルギーミックスにおける再生可能エネルギーの割合を大幅に拡大させる。",
     "indicator_id": "7.2.1",
-    "indicator": "Renewable energy share in the total final energy consumption",
+    "indicator": "最終エネルギー消費量に占める再生可能エネルギー比率",
     "responsible_entities": [
       "International Energy Agency",
       "IRENA",
@@ -2556,9 +2556,9 @@
     "goal": 7,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf",
     "goal_meta_link_page": 13,
-    "target": "By 2030, double the global rate of improvement in energy efficiency.",
+    "target": "2030年までに、世界全体のエネルギー効率の改善率を倍増させる。",
     "indicator_id": "7.3.1",
-    "indicator": "Energy intensity measured in terms of primary energy and GDP",
+    "indicator": "一次エネルギー及びGDP単位当たりのエネルギー強度",
     "responsible_entities": [
       "International Energy Agency",
       "UN Statistics",
@@ -2591,9 +2591,9 @@
     "goal": 7,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf",
     "goal_meta_link_page": 15,
-    "target": "By 2030, enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology.",
+    "target": "2030年までに、再生可能エネルギー、エネルギー効率及び先進的かつ環境負荷の低い化石燃料技術などのクリーンエネルギーの研究及び技術へのアクセスを促進するための国際協力を強化し、エネルギー関連インフラとクリーンエネルギー技術への投資を促進する。",
     "indicator_id": "7.a.1",
-    "indicator": "Mobilized amount of United States dollars per year starting in 2020 accountable towards the $100 billion commitment"
+    "indicator": "クリーンなエネルギー研究及び開発と、ハイブリッドシステムに含まれる再生可能エネルギー生成への支援に関する発展途上国に対する国際金融フロー"
   },
   {
     "target_id": "7.b",
@@ -2601,9 +2601,9 @@
     "goal": 7,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-7.pdf",
     "goal_meta_link_page": 16,
-    "target": "By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries and small island developing States.",
+    "target": "2030年までに、各々の支援プログラムに沿って開発途上国、特に後発開発途上国及び小島嶼開発途上国、内陸開発途上国の全ての人々に現代的で持続可能なエネルギーサービスを供給できるよう、インフラ拡大と技術向上を行う。",
     "indicator_id": "7.b.1",
-    "indicator": "Investments in energy efficiency as a percentage of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services"
+    "indicator": "持続可能なサービスへのインフラや技術のための財源移行におけるGDPに占めるエネルギー効率への投資(％)及び海外直接投資の総量"
   },
   {
     "target_id": "8.1",
@@ -2611,9 +2611,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 2,
-    "target": "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries.",
+    "target": "各国の状況に応じて、一人当たり経済成長率を持続させる。特に後発開発途上国は少なくとも年率７%の成長率を保つ。",
     "indicator_id": "8.1.1",
-    "indicator": "Annual growth rate of real GDP per capita"
+    "indicator": "一人当たりの実質GDPの年間成長率"
   },
   {
     "target_id": "8.2",
@@ -2621,9 +2621,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 3,
-    "target": "Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value-added and labour-intensive sectors.",
+    "target": "高付加価値セクターや労働集約型セクターに重点を置くことなどにより、多様化、技術向上及びイノベーションを通じた高いレベルの経済生産性を達成する。",
     "indicator_id": "8.2.1",
-    "indicator": "Annual growth rate of real GDP per employed person ",
+    "indicator": "労働者一人当たりの実質GDPの年間成長率",
     "responsible_entities": [
       "ILO"
     ],
@@ -2653,9 +2653,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 5,
-    "target": "Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services.",
+    "target": "生産活動や適切な雇用創出、起業、創造性及びイノベーションを支援する開発重視型の政策を促進するとともに、金融サービスへのアクセス改善などを通じて中小零細企業の設立や成長を奨励する。",
     "indicator_id": "8.3.1",
-    "indicator": "Proportion of informal employment in non-agriculture employment, by sex",
+    "indicator": "農業以外におけるインフォーマル雇用の割合（性別ごと）",
     "responsible_entities": [
       "ILO"
     ],
@@ -2685,9 +2685,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 7,
-    "target": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-year framework of programmes on sustainable consumption and production, with developed countries taking the lead.",
+    "target": "2030年までに、世界の消費と生産における資源効率を漸進的に改善させ、先進国主導の下、持続可能な消費と生産に関する10年計画枠組みに従い、経済成長と環境悪化の分断を図る。",
     "indicator_id": "8.4.1",
-    "indicator": "Material footprint, material footprint per capita, and material footprint per GDP",
+    "indicator": "マテリアルフットプリント（MF）、一人当たりMF及びGDP当たりのMF",
     "responsible_entities": [
       "UNEP"
     ],
@@ -2717,9 +2717,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 7,
-    "target": "Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10-year framework of programmes on sustainable consumption and production, with developed countries taking the lead.",
+    "target": "2030年までに、世界の消費と生産における資源効率を漸進的に改善させ、先進国主導の下、持続可能な消費と生産に関する10年計画枠組みに従い、経済成長と環境悪化の分断を図る。",
     "indicator_id": "8.4.2",
-    "indicator": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+    "indicator": "国内材料消費（DMC）、一人当たりのDMC及びGDP当たりのDMC",
     "responsible_entities": [
       "UNEP"
     ],
@@ -2749,9 +2749,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.",
+    "target": "2030年までに、若者や障害者を含む全ての男性及び女性の、完全かつ生産的な雇用及び働きがいのある人間らしい仕事、並びに同一労働同一賃金を達成する。",
     "indicator_id": "8.5.1",
-    "indicator": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+    "indicator": "女性及び男性労働者の平均時給（職業、年齢、障害者別）",
     "responsible_entities": [
       "ILO"
     ],
@@ -2781,9 +2781,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 11,
-    "target": "By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.",
+    "target": "2030年までに、若者や障害者を含む全ての男性及び女性の、完全かつ生産的な雇用及び働きがいのある人間らしい仕事、並びに同一労働同一賃金を達成する。",
     "indicator_id": "8.5.2",
-    "indicator": "Unemployment rate, by sex, age and persons with disabilities",
+    "indicator": "失業率（性別、年齢、障害者別）",
     "responsible_entities": [
       "ILO"
     ],
@@ -2813,9 +2813,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 12,
-    "target": "By 2020, substantially reduce the proportion of youth not in employment, education or training.",
+    "target": "2020年までに、就労、就学及び職業訓練のいずれも行っていない若者の割合を大幅に減らす。",
     "indicator_id": "8.6.1",
-    "indicator": "Proportion of youth (aged 15-24 years) not in education, employment or training",
+    "indicator": "就労、就学及び職業訓練のいずれも行っていない15～24歳の若者の割合",
     "responsible_entities": [
       "ILO"
     ],
@@ -2845,9 +2845,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 13,
-    "target": "Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.",
+    "target": "強制労働を根絶し、現代の奴隷制、人身売買を終らせるための緊急かつ効果的な措置の実施、最悪な形態の児童労働の禁止及び撲滅を確保する。2025年までに児童兵士の募集と使用を含むあらゆる形態の児童労働を撲滅する。",
     "indicator_id": "8.7.1",
-    "indicator": "Proportion and number of children aged 5-17 years engaged in child labour, by sex and age",
+    "indicator": "児童労働者（５～17歳）の割合と数（性別、年齢別）",
     "responsible_entities": [
       "ILO",
       "UNICEF"
@@ -2878,9 +2878,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 15,
-    "target": "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment.",
+    "target": "移住労働者、特に女性の移住労働者や不安定な雇用状態にある労働者など、全ての労働者の権利を保護し、安全・安心な労働環境を促進する。",
     "indicator_id": "8.8.1",
-    "indicator": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
+    "indicator": "致命的及び非致命的な労働災害の発生率（性別、移住状況別）",
     "responsible_entities": [
       "ILO",
       "Global Migration Working Group",
@@ -2917,9 +2917,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 16,
-    "target": "Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment.",
+    "target": "移住労働者、特に女性の移住労働者や不安定な雇用状態にある労働者など、全ての労働者の権利を保護し、安全・安心な労働環境を促進する。",
     "indicator_id": "8.8.2",
-    "indicator": "Increase in national compliance of labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
+    "indicator": "国際労働機関（ILO）原文ソース及び国内の法律に基づく、労働権利（結社及び団体交渉の自由）における国内コンプライアンスのレベル（性別、移住状況別）",
     "responsible_entities": [
       "ILO"
     ],
@@ -2949,9 +2949,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 46,
-    "target": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products.",
+    "target": "2030年までに、雇用創出、地方の文化振興・産品販促につながる持続可能な観光業を促進するための政策を立案し実施する。",
     "indicator_id": "8.9.1",
-    "indicator": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+    "indicator": "全GDP及びGDP成長率に占める割合としての観光業の直接GDP",
     "responsible_entities": [
       "UNWTO"
     ],
@@ -2984,9 +2984,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 46,
-    "target": "By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products.",
+    "target": "2030年までに、雇用創出、地方の文化振興・産品販促につながる持続可能な観光業を促進するための政策を立案し実施する。",
     "indicator_id": "8.9.2",
-    "indicator": "Number of jobs in tourism industries as a proportion of totral jobs and growth rate of jobs, by sex",
+    "indicator": "全観光業における従業員数に占める持続可能な観光業の従業員数の割合",
     "responsible_entities": [
       "UNWTO"
     ],
@@ -3019,9 +3019,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 50,
-    "target": "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all.",
+    "target": "国内の金融機関の能力を強化し、全ての人々の銀行取引、保険及び金融サービスへのアクセスを促進・拡大する。",
     "indicator_id": "8.10.1",
-    "indicator": "Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults",
+    "indicator": "成人10万人当たりの市中銀行の支店及びATM数",
     "responsible_entities": [
       "UNCDF"
     ],
@@ -3057,9 +3057,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 51,
-    "target": "Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all.",
+    "target": "国内の金融機関の能力を強化し、全ての人々の銀行取引、保険及び金融サービスへのアクセスを促進・拡大する。",
     "indicator_id": "8.10.2",
-    "indicator": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
+    "indicator": "銀行や他の金融機関に口座を持つ、又はモバイルマネーサービスを利用する成人（15歳以上）の割合",
     "responsible_entities": [
       "UNCDF"
     ],
@@ -3095,9 +3095,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 53,
-    "target": "Increase Aid for Trade support for developing countries, in particular least developed countries, including through the Enhanced Integrated Framework for Trade-Related Technical Assistance to Least Developed Countries.",
+    "target": "後発開発途上国への貿易関連技術支援のための拡大統合フレームワーク（EIF）などを通じた支援を含む、開発途上国、特に後発開発途上国に対する貿易のための援助を拡大する。",
     "indicator_id": "8.a.1",
-    "indicator": "Aid for Trade commitments and disbursements",
+    "indicator": "貿易のための援助に対するコミットメントや支出",
     "responsible_entities": [
       "OECD"
     ],
@@ -3127,9 +3127,9 @@
     "goal": 8,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-8.pdf",
     "goal_meta_link_page": 54,
-    "target": "By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization.",
+    "target": "2020年までに、若年雇用のための世界的戦略及び国際労働機関（ILO）の仕事に関する世界協定の実施を展開・運用化する。",
     "indicator_id": "8.b.1",
-    "indicator": "Total government spending in social protection and employment programmes as a proportion of the national budgets and GDP",
+    "indicator": "国家雇用戦略とは別途あるいはその一部として開発され運用されている若年雇用のための国家戦略の有無",
     "responsible_entities": [
       "ILO"
     ],
@@ -3159,9 +3159,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 2,
-    "target": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all.",
+    "target": "全ての人々に安価で公平なアクセスに重点を置いた経済発展と人間の福祉を支援するために、地域・越境インフラを含む質の高い、信頼でき、持続可能かつ強靱（レジリエント）なインフラを開発する。",
     "indicator_id": "9.1.1",
-    "indicator": "Proportion of the rural population who live within 2 km of an all-season road"
+    "indicator": "全季節利用可能な道路の２km圏内に住んでいる地方の人口の割合"
   },
   {
     "target_id": "9.1",
@@ -3169,9 +3169,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 2,
-    "target": "Develop quality, reliable, sustainable and resilient infrastructure, including regional and transborder infrastructure, to support economic development and human well-being, with a focus on affordable and equitable access for all.",
+    "target": "全ての人々に安価で公平なアクセスに重点を置いた経済発展と人間の福祉を支援するために、地域・越境インフラを含む質の高い、信頼でき、持続可能かつ強靱（レジリエント）なインフラを開発する。",
     "indicator_id": "9.1.2",
-    "indicator": "Passenger and freight volumes, by mode of transport",
+    "indicator": "旅客と貨物量（交通手段別）",
     "responsible_entities": [
       "UPU"
     ],
@@ -3205,9 +3205,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 4,
-    "target": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry's share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries.",
+    "target": "包摂的かつ持続可能な産業化を促進し、2030年までに各国の状況に応じて雇用及びGDPに占める産業セクターの割合を大幅に増加させる。後発開発途上国については同割合を倍増させる。",
     "indicator_id": "9.2.1",
-    "indicator": "Manufacturing value added as a proportion of GDP and per capita",
+    "indicator": "GDPに占める製造業付加価値の割合及び一人当たり製造業付加価値",
     "responsible_entities": [
       "UNIDO"
     ],
@@ -3237,9 +3237,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 4,
-    "target": "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry's share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries.",
+    "target": "包摂的かつ持続可能な産業化を促進し、2030年までに各国の状況に応じて雇用及びGDPに占める産業セクターの割合を大幅に増加させる。後発開発途上国については同割合を倍増させる。",
     "indicator_id": "9.2.2",
-    "indicator": "Manufacturing employment as a proportion of total employment",
+    "indicator": "全労働者数に占める製造業労働者数の割合",
     "responsible_entities": [
       "ILO",
       "UNIDO"
@@ -3270,9 +3270,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 6,
-    "target": "Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets.",
+    "target": "特に開発途上国における小規模の製造業その他の企業の、安価な資金貸付などの金融サービスやバリューチェーン及び市場への統合へのアクセスを拡大する。",
     "indicator_id": "9.3.1",
-    "indicator": "Proportion of small-scale industries in total industry value added",
+    "indicator": "製造業の合計付加価値のうち小規模製造業の占める割合",
     "responsible_entities": [
       "UNIDO"
     ],
@@ -3302,9 +3302,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 6,
-    "target": "Increase the access of small-scale industrial and other enterprises, in particular in developing countries, to financial services, including affordable credit, and their integration into value chains and markets.",
+    "target": "特に開発途上国における小規模の製造業その他の企業の、安価な資金貸付などの金融サービスやバリューチェーン及び市場への統合へのアクセスを拡大する。",
     "indicator_id": "9.3.2",
-    "indicator": "Proportion of small-scale industries with a loan or line of credit",
+    "indicator": "ローン又は与信限度額が設定された小規模製造業の割合",
     "responsible_entities": [
       "UNIDO"
     ],
@@ -3334,9 +3334,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities.",
+    "target": "2030年までに、資源利用効率の向上とクリーン技術及び環境に配慮した技術・産業プロセスの導入拡大を通じたインフラ改良や産業改善により、持続可能性を向上させる。全ての国々は各国の能力に応じた取組を行う。",
     "indicator_id": "9.4.1",
-    "indicator": "CO2 emission per unit of value added",
+    "indicator": "付加価値の単位当たりのCO2排出量",
     "responsible_entities": [
       "UNIDO"
     ],
@@ -3366,9 +3366,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 9,
-    "target": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending.",
+    "target": "2030年までにイノベーションを促進させることや100万人当たりの研究開発従事者数を大幅に増加させ、また官民研究開発の支出を拡大させるなど、開発途上国をはじめとする全ての国々の産業セクターにおける科学研究を促進し、技術能力を向上させる。",
     "indicator_id": "9.5.1",
-    "indicator": "Research and development expenditure as a proportion of GDP",
+    "indicator": "GDPに占める研究開発への支出",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -3398,9 +3398,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 9,
-    "target": "Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending.",
+    "target": "2030年までにイノベーションを促進させることや100万人当たりの研究開発従事者数を大幅に増加させ、また官民研究開発の支出を拡大させるなど、開発途上国をはじめとする全ての国々の産業セクターにおける科学研究を促進し、技術能力を向上させる。",
     "indicator_id": "9.5.2",
-    "indicator": "Researchers (in full-time equivalent) per million inhabitants"
+    "indicator": "100万人当たりの研究者（フルタイム相当）"
   },
   {
     "target_id": "9.a",
@@ -3408,9 +3408,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 10,
-    "target": "Facilitate sustainable and resilient infrastructure development in developing countries through enhanced financial, technological and technical support to African countries, least developed countries, landlocked developing countries and Small Island developing States.",
+    "target": "アフリカ諸国、後発開発途上国、内陸開発途上国及び小島嶼開発途上国への金融・テクノロジー・技術の支援強化を通じて、開発途上国における持続可能かつ強靱（レジリエント）なインフラ開発を促進する。",
     "indicator_id": "9.a.1",
-    "indicator": "Total official international support (official development assistance plus other official flows) to infrastructure",
+    "indicator": "インフラへの公的国際支援の総額（ODAその他公的フロー）",
     "responsible_entities": [
       "OECD"
     ],
@@ -3440,9 +3440,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 12,
-    "target": "Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities.",
+    "target": "産業の多様化や商品への付加価値創造などに資する政策環境の確保などを通じて、開発途上国の国内における技術開発、研究及びイノベーションを支援する。",
     "indicator_id": "9.b.1",
-    "indicator": "Proportion of medium and high-tech industry value added in total value added",
+    "indicator": "全付加価値における中位並びに先端テクノロジー産業の付加価値の割合",
     "responsible_entities": [
       "UNIDO"
     ],
@@ -3472,9 +3472,9 @@
     "goal": 9,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-9.pdf",
     "goal_meta_link_page": 13,
-    "target": "Significantly increase access to information and communications technology and strive to provide universal and affordable access to the Internet in least developed countries by 2020.",
+    "target": "後発開発途上国において情報通信技術へのアクセスを大幅に向上させ、2020年までに普遍的かつ安価なインターネットアクセスを提供できるよう図る。",
     "indicator_id": "9.c.1",
-    "indicator": "Proportion of population covered by a mobile network, by technology",
+    "indicator": "モバイルネットワークにアクセス可能な人口の割合（技術別）",
     "responsible_entities": [
       "ITU",
       "Partnership on Measuring ICT for Development"
@@ -3513,9 +3513,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average.",
+    "target": "2030年までに、各国の所得下位40%の所得成長率について、国内平均を上回る数値を漸進的に達成し、持続させる。",
     "indicator_id": "10.1.1",
-    "indicator": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
+    "indicator": "１人当たりの家計支出又は所得の成長率（人口の下位40％のもの、総人口のもの）",
     "responsible_entities": [
       "OHCHR"
     ],
@@ -3551,9 +3551,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 3,
-    "target": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status.",
+    "target": "2030年までに、年齢、性別、障害、人種、民族、出自、宗教、あるいは経済的地位その他の状況に関わりなく、全ての人々の能力強化及び社会的、経済的及び政治的な包含を促進する。",
     "indicator_id": "10.2.1",
-    "indicator": "Proportion of people living below 50 per cent of median income, by age, sex, and persons with disabilities",
+    "indicator": "中位所得の半分未満で生活する人口の割合（年齢、性別、障害者別）",
     "responsible_entities": [
       "OHCHR"
     ],
@@ -3591,9 +3591,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 4,
-    "target": "Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard.",
+    "target": "差別的な法律、政策及び慣行の撤廃、並びに適切な関連法規、政策、行動の促進などを通じて、機会均等を確保し、成果の不平等を是正する。",
     "indicator_id": "10.3.1",
-    "indicator": "Percentage of the population reporting having personally felt discriminated against or harassed within the last 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+    "indicator": "過去12か月に個人的に国際人権法の下に禁止されている差別又は嫌がらせを感じたと報告した人口の割合",
     "responsible_entities": [
       "OHCHR",
       "TST"
@@ -3629,9 +3629,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 6,
-    "target": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality.",
+    "target": "税制、賃金、社会保障政策をはじめとする政策を導入し、平等の拡大を漸進的に達成する。",
     "indicator_id": "10.4.1",
-    "indicator": "Labour share of GDP, comprising wages and social protection transfers",
+    "indicator": "賃金及び社会保障給付から成るGDP労働分配率",
     "responsible_entities": [
       "ILO"
     ],
@@ -3661,9 +3661,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 7,
-    "target": "Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations.",
+    "target": "世界金融市場と金融機関に対する規制とモニタリングを改善し、こうした規制の実施を強化する。",
     "indicator_id": "10.5.1",
-    "indicator": "Financial Soundness Indicators"
+    "indicator": "金融健全性指標"
   },
   {
     "target_id": "10.6",
@@ -3671,9 +3671,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 8,
-    "target": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions.",
+    "target": "地球規模の国際経済・金融制度の意思決定における開発途上国の参加や発言力を拡大させることにより、より効果的で信用力があり、説明責任のある正当な制度を実現する。",
     "indicator_id": "10.6.4",
-    "indicator": "Proportion of members and voting rights of developing countries in international organizations",
+    "indicator": "国際機関における開発途上国のメンバー数及び投票権の割合",
     "responsible_entities": [
       "OHCHR"
     ],
@@ -3708,9 +3708,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 9,
-    "target": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies.",
+    "target": "計画に基づき良く管理された移民政策の実施などを通じて、秩序のとれた、安全で規則的かつ責任ある移住や流動性を促進する。",
     "indicator_id": "10.7.1",
-    "indicator": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
+    "indicator": "従業者が移住先国で稼いだ年間所得に対する、従業者が負担する採用に関する費用",
     "responsible_entities": [
       "Global Migration Working Group",
       "National Statistical Offices",
@@ -3745,9 +3745,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 9,
-    "target": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies.",
+    "target": "計画に基づき良く管理された移民政策の実施などを通じて、秩序のとれた、安全で規則的かつ責任ある移住や流動性を促進する。",
     "indicator_id": "10.7.2",
-    "indicator": "Number of countries that have implemented well-managed migration policies",
+    "indicator": "十分に管理された移民政策を実施している国の数",
     "responsible_entities": [
       "Global Migration Working Group",
       "TST"
@@ -3785,9 +3785,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 12,
-    "target": "Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements.",
+    "target": "世界貿易機関（WTO）協定に従い、開発途上国、特に後発開発途上国に対する特別かつ異なる待遇の原則を実施する。",
     "indicator_id": "10.a.1",
-    "indicator": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff"
+    "indicator": "後発開発途上国や開発途上国からの輸入品に適用されるゼロ関税の関税分類品目（タリフライン）の割合"
   },
   {
     "target_id": "10.b",
@@ -3795,9 +3795,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 13,
-    "target": "Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, Small Island developing States and landlocked developing countries, in accordance with their national plans and programmes.",
+    "target": "各国の国家計画やプログラムに従って、後発開発途上国、アフリカ諸国、小島嶼開発途上国及び内陸開発途上国を始めとする、ニーズが最も大きい国々への、政府開発援助（ODA）及び海外直接投資を含む資金の流入を促進する。",
     "indicator_id": "10.b.1",
-    "indicator": "Total resources flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)"
+    "indicator": "開発のためのリソースフローの総額（受援国及び援助国、フローの流れ（例：ODA、外国直接投資、その他）別）"
   },
   {
     "target_id": "10.c",
@@ -3805,9 +3805,9 @@
     "goal": 10,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-10.pdf",
     "goal_meta_link_page": 14,
-    "target": "By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent.",
+    "target": "2030年までに、移住労働者による送金コストを３%未満に引き下げ、コストが5%を越える送金経路を撤廃する。",
     "indicator_id": "10.c.1",
-    "indicator": "Remittance costs as a proportion of the amount remitted",
+    "indicator": "総送金額の割合に占める送金コスト",
     "responsible_entities": [
       "Global Migration Working Group",
       "TST",
@@ -3843,9 +3843,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums.",
+    "target": "2030年までに、全ての人々の、適切、安全かつ安価な住宅及び基本的サービスへのアクセスを確保し、スラムを改善する。",
     "indicator_id": "11.1.1",
-    "indicator": "Proportion of urban population living in slums, informal settlements, or inadequate housing",
+    "indicator": "スラム、インフォーマルな居住地及び不適切な住宅に居住する都市人口の割合",
     "responsible_entities": [
       "UN-HABITAT"
     ],
@@ -3875,9 +3875,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 4,
-    "target": "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.",
+    "target": "2030年までに、脆弱な立場にある人々、女性、子供、障害者及び高齢者のニーズに特に配慮し、公共交通機関の拡大などを通じた交通の安全性改善により、全ての人々に、安全かつ安価で容易に利用できる、持続可能な輸送システムへのアクセスを提供する。",
     "indicator_id": "11.2.1",
-    "indicator": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+    "indicator": "公共交通機関へ容易にアクセスできる人口の割合（性別、年齢、障害者別）",
     "responsible_entities": [
       "UN-HABITAT"
     ],
@@ -3907,9 +3907,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries.",
+    "target": "2030年までに、包摂的かつ持続可能な都市化を促進し、全ての国々の参加型、包摂的かつ持続可能な人間居住計画・管理の能力を強化する。",
     "indicator_id": "11.3.1",
-    "indicator": "Ratio of land consumption rate to population growth rate"
+    "indicator": "人口増加率と土地利用率の比率"
   },
   {
     "target_id": "11.3",
@@ -3917,9 +3917,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries.",
+    "target": "2030年までに、包摂的かつ持続可能な都市化を促進し、全ての国々の参加型、包摂的かつ持続可能な人間居住計画・管理の能力を強化する。",
     "indicator_id": "11.3.2",
-    "indicator": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically"
+    "indicator": "定期的かつ民主的に運営されている都市計画及び管理に、市民社会が直接参加する仕組みがある都市の割合"
   },
   {
     "target_id": "11.4",
@@ -3927,9 +3927,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 6,
-    "target": "Strengthen efforts to protect and safeguard the world's cultural and natural heritage.",
+    "target": "世界の文化遺産及び自然遺産の保護・保全の努力を強化する。",
     "indicator_id": "11.4.1",
-    "indicator": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private nonprofit sector and sponsorship)",
+    "indicator": "全ての文化及び自然遺産の保全、保護及び保存における総支出額（公的部門、民間部門）（遺産のタイプ別（文化、自然、混合、世界遺産に登録されているもの）、政府レベル別（国、地域、地方、市）、支出タイプ別（営業費、投資）、民間資金のタイプ別（寄付、非営利部門、後援））",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -3959,9 +3959,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.",
+    "target": "2030年までに、貧困層及び脆弱な立場にある人々の保護に焦点をあてながら、水関連災害などの災害による死者や被災者数を大幅に削減し、世界の国内総生産比で直接的経済損失を大幅に減らす。",
     "indicator_id": "11.5.1",
-    "indicator": "Number of deaths, missing persons and persons affected by disaster per 100,000 people",
+    "indicator": "10万人当たりの災害による死者数、行方不明者数、直接的負傷者数",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -4002,9 +4002,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 10,
-    "target": "By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.",
+    "target": "2030年までに、貧困層及び脆弱な立場にある人々の保護に焦点をあてながら、水関連災害などの災害による死者や被災者数を大幅に削減し、世界の国内総生産比で直接的経済損失を大幅に減らす。",
     "indicator_id": "11.5.2",
-    "indicator": "Direct disaster economic loss in relation to global GDP, including disaster damage to critical infrastructure and disruption of basic services",
+    "indicator": "災害によって起こった、グローバルなGDPに関連した直接的な経済損失、甚大なインフラ被害及び基本サービスの中断の件数",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -4044,9 +4044,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 15,
-    "target": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.",
+    "target": "2030年までに、大気の質及び一般並びにその他の廃棄物の管理に特別な注意を払うことによるものを含め、都市の一人当たりの環境上の悪影響を軽減する。",
     "indicator_id": "11.6.1",
-    "indicator": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
+    "indicator": "都市で生み出された固形廃棄物の総量のうち、定期的に収集され適切に最終処理されたものの割合（都市別）",
     "responsible_entities": [
       "UN-HABITAT"
     ],
@@ -4076,9 +4076,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 16,
-    "target": "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.",
+    "target": "2030年までに、大気の質及び一般並びにその他の廃棄物の管理に特別な注意を払うことによるものを含め、都市の一人当たりの環境上の悪影響を軽減する。",
     "indicator_id": "11.6.2",
-    "indicator": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+    "indicator": "都市部における微粒子物質（例：PM2.5やPM10）の年平均レベル（人口で加重平均したもの）",
     "responsible_entities": [
       "WHO"
     ],
@@ -4108,9 +4108,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 21,
-    "target": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.",
+    "target": "2030年までに、女性、子供、高齢者及び障害者を含め、人々に安全で包摂的かつ利用が容易な緑地や公共スペースへの普遍的アクセスを提供する。",
     "indicator_id": "11.7.1",
-    "indicator": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+    "indicator": "各都市部の建物密集区域における公共スペースの割合の平均（性別、年齢、障害者別）",
     "responsible_entities": [
       "UN-HABITAT"
     ],
@@ -4140,9 +4140,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 26,
-    "target": "By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.",
+    "target": "2030年までに、女性、子供、高齢者及び障害者を含め、人々に安全で包摂的かつ利用が容易な緑地や公共スペースへの普遍的アクセスを提供する。",
     "indicator_id": "11.7.2",
-    "indicator": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+    "indicator": "過去12か月における身体的又は性的ハラスメントの犠牲者の割合（性別、年齢、障害状況、発生場所別）",
     "responsible_entities": [
       "UN-WOMEN"
     ],
@@ -4172,9 +4172,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 28,
-    "target": "Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning.",
+    "target": "各国・地域規模の開発計画の強化を通じて、経済、社会、環境面における都市部、都市周辺部及び農村部間の良好なつながりを支援する。",
     "indicator_id": "11.a.1",
-    "indicator": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",
+    "indicator": "人口予測とリソース需要について取りまとめながら都市及び地域開発計画を実行している都市に住んでいる人口の割合（都市の規模別）",
     "responsible_entities": [
       "UN-HABITAT"
     ],
@@ -4232,9 +4232,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 33,
-    "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels.",
+    "target": "2020年までに、包含、資源効率、気候変動の緩和と適応、災害に対する強靱さ（レジリエンス）を目指す総合的政策及び計画を導入・実施した都市及び人間居住地の件数を大幅に増加させ、仙台防災枠組2015-2030に沿って、あらゆるレベルでの総合的な災害リスク管理の策定と実施を行う。",
     "indicator_id": "11.b.1",
-    "indicator": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030",
+    "indicator": "仙台防災枠組み2015-2030に沿った国家レベルの防災戦略を採択し実行している国の数",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -4275,9 +4275,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 36,
-    "target": "By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, holistic disaster risk management at all levels.",
+    "target": "2020年までに、包含、資源効率、気候変動の緩和と適応、災害に対する強靱さ（レジリエンス）を目指す総合的政策及び計画を導入・実施した都市及び人間居住地の件数を大幅に増加させ、仙台防災枠組2015-2030に沿って、あらゆるレベルでの総合的な災害リスク管理の策定と実施を行う。",
     "indicator_id": "11.b.2",
-    "indicator": "Number of countries with national and local disaster risk reduction strategies"
+    "indicator": "国家防災戦略に沿った地方レベルの防災戦略を採択し実行している地方政府の割合"
   },
   {
     "target_id": "11.c",
@@ -4285,9 +4285,9 @@
     "goal": 11,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf",
     "goal_meta_link_page": 37,
-    "target": "Support least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials.",
+    "target": "財政的及び技術的な支援などを通じて、後発開発途上国における現地の資材を用いた、持続可能かつ強靱（レジリエント）な建造物の整備を支援する。",
     "indicator_id": "11.c.1",
-    "indicator": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resourceefficient buildings utilizing local materials",
+    "indicator": "現地の資材を用いた、持続可能で強靱（レジリエント）で資源効率的である建造物の建設及び改築に割り当てられた後発開発途上国への財政援助の割合",
     "responsible_entities": [
       "OECD"
     ],
@@ -4317,9 +4317,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 2,
-    "target": "Implement the 10-year framework of programmes on sustainable consumption and production, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries.",
+    "target": "開発途上国の開発状況や能力を勘案しつつ、持続可能な消費と生産に関する10年計画枠組み（10YFP）を実施し、先進国主導の下、全ての国々が対策を講じる。",
     "indicator_id": "12.1.1",
-    "indicator": "Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies"
+    "indicator": "持続可能な消費と生産（SCP）に関する国家行動計画を持っている、又は国家政策に優先事項もしくはターゲットとしてSCPが組み込まれている国の数"
   },
   {
     "target_id": "12.2",
@@ -4327,9 +4327,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 3,
-    "target": "By 2030, achieve the sustainable management and efficient use of natural resources.",
+    "target": "2030年までに天然資源の持続可能な管理及び効率的な利用を達成する。",
     "indicator_id": "12.2.1",
-    "indicator": "Material footprint, material footprint per capita, and material footprint per GDP",
+    "indicator": "マテリアルフットプリント（MF）、一人当たりMF及びGDP当たりのMF",
     "responsible_entities": [
       "UNEP"
     ],
@@ -4359,9 +4359,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 3,
-    "target": "By 2030, achieve the sustainable management and efficient use of natural resources.",
+    "target": "2030年までに天然資源の持続可能な管理及び効率的な利用を達成する。",
     "indicator_id": "12.2.2",
-    "indicator": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
+    "indicator": "国内材料消費（DMC）、一人当たりのDMC及びGDP当たりのDMC",
     "responsible_entities": [
       "UNEP"
     ],
@@ -4391,9 +4391,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses.",
+    "target": "2030年までに小売・消費レベルにおける世界全体の一人当たりの食料の廃棄を半減させ、収穫後損失などの生産・サプライチェーンにおける食品ロスを減少させる。",
     "indicator_id": "12.3.1",
-    "indicator": "Global food loss index",
+    "indicator": "グローバル食品ロス指数（GFLI）",
     "responsible_entities": [
       "FAO"
     ],
@@ -4423,9 +4423,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment.",
+    "target": "2020年までに、合意された国際的な枠組みに従い、製品ライフサイクルを通じ、環境上適正な化学物質や全ての廃棄物の管理を実現し、人の健康や環境への悪影響を最小化するため、化学物質や廃棄物の大気、水、土壌への放出を大幅に削減する。",
     "indicator_id": "12.4.1",
-    "indicator": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement"
+    "indicator": "有害廃棄物や他の化学物質に関する国際多国間環境協定で求められる情報の提供（報告）の義務を果たしている締約国の数"
   },
   {
     "target_id": "12.4",
@@ -4433,9 +4433,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment.",
+    "target": "2020年までに、合意された国際的な枠組みに従い、製品ライフサイクルを通じ、環境上適正な化学物質や全ての廃棄物の管理を実現し、人の健康や環境への悪影響を最小化するため、化学物質や廃棄物の大気、水、土壌への放出を大幅に削減する。",
     "indicator_id": "12.4.2",
-    "indicator": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment"
+    "indicator": "有害廃棄物の１人当たり発生量、処理された有害廃棄物の割合（処理手法ごと）"
   },
   {
     "target_id": "12.5",
@@ -4443,9 +4443,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse.",
+    "target": "2030年までに、廃棄物の発生防止、削減、再生利用及び再利用により、廃棄物の発生を大幅に削減する。",
     "indicator_id": "12.5.1",
-    "indicator": "National recycling rate, tons of material recycled"
+    "indicator": "各国の再生利用率、リサイクルされた物質のトン数"
   },
   {
     "target_id": "12.6",
@@ -4453,9 +4453,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 9,
-    "target": "Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle.",
+    "target": "特に大企業や多国籍企業などの企業に対し、持続可能な取り組みを導入し、持続可能性に関する情報を定期報告に盛り込むよう奨励する。",
     "indicator_id": "12.6.1",
-    "indicator": "Number of companies publishing sustainability reports"
+    "indicator": "持続可能性に関する報告書を発行する企業の数"
   },
   {
     "target_id": "12.7",
@@ -4463,9 +4463,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 10,
-    "target": "Promote public procurement practices that are sustainable, in accordance with national policies and priorities.",
+    "target": "国内の政策や優先事項に従って持続可能な公共調達の慣行を促進する。",
     "indicator_id": "12.7.1",
-    "indicator": "Number of countries implementing sustainable public procurement policies and action plans"
+    "indicator": "持続可能な公的調達政策及び行動計画を実施している国の数"
   },
   {
     "target_id": "12.8",
@@ -4473,9 +4473,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 11,
-    "target": "By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature.",
+    "target": "2030年までに、人々があらゆる場所において、持続可能な開発及び自然と調和したライフスタイルに関する情報と意識を持つようにする。",
     "indicator_id": "12.8.1",
-    "indicator": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment"
+    "indicator": "気候変動教育を含む、(i)地球市民教育、及び(ii)持続可能な開発のための教育が、（a）各国の教育政策、(b) カリキュラム、(c) 教師の教育、及び(d)児童・生徒・学生の達成度評価に関して、全ての教育段階において主流化されているレベル"
   },
   {
     "target_id": "12.a",
@@ -4483,9 +4483,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 12,
-    "target": "Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production.",
+    "target": "開発途上国に対し、より持続可能な消費・生産形態の促進のための科学的・技術的能力の強化を支援する。",
     "indicator_id": "12.a.1",
-    "indicator": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies"
+    "indicator": "持続可能な消費、生産形態及び環境に配慮した技術のための研究開発に係る開発途上国への支援総計"
   },
   {
     "target_id": "12.b",
@@ -4493,9 +4493,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 13,
-    "target": "Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products.",
+    "target": "雇用創出、地方の文化振興・産品販促につながる持続可能な観光業に対して持続可能な開発がもたらす影響を測定する手法を開発・導入する。",
     "indicator_id": "12.b.1",
-    "indicator": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
+    "indicator": "承認された評価監視ツールのある持続可能な観光戦略や政策、実施された行動計画の数",
     "responsible_entities": [
       "UNWTO"
     ],
@@ -4525,9 +4525,9 @@
     "goal": 12,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf",
     "goal_meta_link_page": 15,
-    "target": "Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities.",
+    "target": "開発途上国の特別なニーズや状況を十分考慮し、貧困層やコミュニティを保護する形で開発に関する悪影響を最小限に留めつつ、税制改正や、有害な補助金が存在する場合はその環境への影響を考慮してその段階的廃止などを通じ、各国の状況に応じて、市場のひずみを除去することで、浪費的な消費を奨励する、化石燃料に対する非効率な補助金を合理化する。",
     "indicator_id": "12.c.1",
-    "indicator": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as proportion of total national expenditure on fossil fuels"
+    "indicator": "GDP（生産及び消費）の単位当たり及び化石燃料の国家支出総額に占める化石燃料補助金"
   },
   {
     "target_id": "13.1",
@@ -4535,9 +4535,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 2,
-    "target": "Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries.",
+    "target": "全ての国々において、気候関連災害や自然災害に対する強靱性（レジリエンス）及び適応の能力を強化する。",
     "indicator_id": "13.1.1",
-    "indicator": "Number of countries with national and local disaster risk reduction strategies",
+    "indicator": "10万人当たりの災害による死者数、行方不明者数、直接的負傷者数",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -4577,9 +4577,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 6,
-    "target": "Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries.",
+    "target": "全ての国々において、気候関連災害や自然災害に対する強靱性（レジリエンス）及び適応の能力を強化する。",
     "indicator_id": "13.1.2",
-    "indicator": "Number of deaths, missing persons and persons affected by disaster per 100,000 people",
+    "indicator": "仙台防災枠組み2015-2030に沿った国家レベルの防災戦略を採択し実行している国の数",
     "responsible_entities": [
       "UNISDR"
     ],
@@ -4620,9 +4620,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 11,
-    "target": "Integrate climate change measures into national policies, strategies and planning.",
+    "target": "気候変動対策を国別の政策、戦略及び計画に盛り込む。",
     "indicator_id": "13.2.1",
-    "indicator": "Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)"
+    "indicator": "気候変動の悪影響に適応し、食料生産を脅かさない方法で、気候強靱性や温室効果ガスの低排出型の発展を促進するための能力を増加させる統合的な政策/戦略/計画（国の適応計画、国が決定する貢献、国別報告書、隔年更新報告書その他を含む）の確立又は運用を報告している国の数"
   },
   {
     "target_id": "13.3",
@@ -4630,9 +4630,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 12,
-    "target": "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.",
+    "target": "気候変動の緩和、適応、影響軽減及び早期警戒に関する教育、啓発、人的能力及び制度機能を改善する。",
     "indicator_id": "13.3.1",
-    "indicator": "Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula"
+    "indicator": "緩和、適応、影響軽減及び早期警戒を、初等、中等及び高等教育のカリキュラムに組み込んでいる国の数"
   },
   {
     "target_id": "13.3",
@@ -4640,9 +4640,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 12,
-    "target": "Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning.",
+    "target": "気候変動の緩和、適応、影響軽減及び早期警戒に関する教育、啓発、人的能力及び制度機能を改善する。",
     "indicator_id": "13.3.2",
-    "indicator": "Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions"
+    "indicator": "適応、緩和及び技術移転を実施するための制度上、システム上、及び個々人における能力構築の強化や開発行動を報告している国の数"
   },
   {
     "target_id": "13.a",
@@ -4650,9 +4650,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 13,
-    "target": "Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible.",
+    "target": "重要な緩和行動の実施とその実施における透明性確保に関する開発途上国のニーズに対応するため、2020年までにあらゆる供給源から年間1,000億ドルを共同で動員するという、UNFCCCの先進締約国によるコミットメントを実施するとともに、可能な限り速やかに資本を投入して緑の気候基金を本格始動させる。",
     "indicator_id": "13.a.1",
-    "indicator": "Mobilized amount of United States dollars per year starting in 2020 accountable towards the $100 billion commitment"
+    "indicator": "2020-2025年の間に1000億USドルコミットメントを実現するために必要となる１年当たりに投資される総USドル"
   },
   {
     "target_id": "13.b",
@@ -4660,9 +4660,9 @@
     "goal": 13,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-13.pdf",
     "goal_meta_link_page": 14,
-    "target": "Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries, including focusing on women, youth and local and marginalized communities.",
+    "target": "後発開発途上国及び小島嶼開発途上国において、女性や青年、地方及び社会的に疎外されたコミュニティに焦点を当てることを含め、気候変動関連の効果的な計画策定と管理のための能力を向上するメカニズムを推進する。",
     "indicator_id": "13.b.1",
-    "indicator": "Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities",
+    "indicator": "女性や青年、地方及び社会的に疎外されたコミュニティに焦点を当てることを含め、気候変動関連の効果的な計画策定と管理のための能力を向上させるメカニズムのために、専門的なサポートを受けている後発開発途上国や小島嶼開発途上国の数及び財政、技術、能力構築を含む支援総額",
     "responsible_entities": [
       "WMO"
     ],
@@ -4708,9 +4708,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution.",
+    "target": "2025年までに、海洋ごみや富栄養化を含む、特に陸上活動による汚染など、あらゆる種類の海洋汚染を防止し、大幅に削減する。",
     "indicator_id": "14.1.1",
-    "indicator": "Index of coastal eutrophication and floating plastic debris density",
+    "indicator": "沿岸富栄養化指数 (ICEP)及び浮遊プラスチックごみの密度",
     "responsible_entities": [
       "UNEP"
     ],
@@ -4740,9 +4740,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 3,
-    "target": "By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans.",
+    "target": "2020年までに、海洋及び沿岸の生態系に関する重大な悪影響を回避するため、強靱性（レジリエンス）の強化などによる持続的な管理と保護を行い、健全で生産的な海洋を実現するため、海洋及び沿岸の生態系の回復のための取組を行う。",
     "indicator_id": "14.2.1",
-    "indicator": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
+    "indicator": "生態系ベースにアプローチを用いた管理が行われている国内の排他的経済水域の割合",
     "responsible_entities": [
       "UNEP"
     ],
@@ -4772,9 +4772,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 4,
-    "target": "Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels.",
+    "target": "あらゆるレベルでの科学的協力の促進などを通じて、海洋酸性化の影響を最小限化し、対処する。",
     "indicator_id": "14.3.1",
-    "indicator": "Average marine acidity (pH) measured at agreed suite of representative sampling stations"
+    "indicator": "承認された代表標本抽出地点で測定された海洋酸性度（pH）の平均値"
   },
   {
     "target_id": "14.4",
@@ -4782,9 +4782,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics.",
+    "target": "水産資源を、実現可能な最短期間で少なくとも各資源の生物学的特性によって定められる最大持続生産量のレベルまで回復させるため、2020年までに、漁獲を効果的に規制し、過剰漁業や違法・無報告・無規制（IUU）漁業及び破壊的な漁業慣行を終了し、科学的な管理計画を実施する。",
     "indicator_id": "14.4.1",
-    "indicator": "Proportion of fish stocks within biologically sustainable levels",
+    "indicator": "生物学的に持続可能なレベルの水産資源の割合",
     "responsible_entities": [
       "FAO"
     ],
@@ -4814,9 +4814,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 7,
-    "target": "By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information.",
+    "target": "2020年までに、国内法及び国際法に則り、最大限入手可能な科学情報に基づいて、少なくとも沿岸域及び海域の10パーセントを保全する。",
     "indicator_id": "14.5.1",
-    "indicator": "Coverage of protected areas in relation to marine areas",
+    "indicator": "海域に関する保護領域の範囲",
     "responsible_entities": [
       "IUCN"
     ],
@@ -4846,9 +4846,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 14,
-    "target": "By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation.",
+    "target": "開発途上国及び後発開発途上国に対する適切かつ効果的な、特別かつ異なる待遇が、世界貿易機関（WTO）漁業補助金交渉の不可分の要素であるべきことを認識した上で、2020年までに、過剰漁獲能力や過剰漁獲につながる漁業補助金を禁止し、違法・無報告・無規制（IUU）漁業につながる補助金を撤廃し、同様の新たな補助金の導入を抑制する。",
     "indicator_id": "14.6.1",
-    "indicator": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
+    "indicator": "IUU漁業（Illegal（違法）・Unreported（無報告）・Unregulated（無規制）)と対峙することを目的としている国際的な手段を実施する中における各国の進捗状況",
     "responsible_entities": [
       "FAO"
     ],
@@ -4878,9 +4878,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 18,
-    "target": "By 2030, increase the economic benefits to Small Island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism.",
+    "target": "2030年までに、漁業、水産養殖及び観光の持続可能な管理などを通じ、小島嶼開発途上国及び後発開発途上国の海洋資源の持続的な利用による経済的便益を増大させる。",
     "indicator_id": "14.7.1",
-    "indicator": "Sustainable fisheries as a percentage of GDP in small island developing States, least developed countries and all countries"
+    "indicator": "小島嶼開発途上国、後発開発途上国及び全ての国々のGDPに占める持続可能な漁業の割合"
   },
   {
     "target_id": "14.a",
@@ -4888,9 +4888,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 19,
-    "target": "Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small Island developing States and least developed countries.",
+    "target": "海洋の健全性の改善と、開発途上国、特に小島嶼開発途上国および後発開発途上国の開発における海洋生物多様性の寄与向上のために、海洋技術の移転に関するユネスコ政府間海洋学委員会の基準・ガイドラインを勘案しつつ、科学的知識の増進、研究能力の向上、及び海洋技術の移転を行う。",
     "indicator_id": "14.a.1",
-    "indicator": "Proportion of total research budget allocated to research in the field of marine technology"
+    "indicator": "総研究予算額に占める、海洋技術分野に割り当てられた研究予算額の割合"
   },
   {
     "target_id": "14.b",
@@ -4898,9 +4898,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 20,
-    "target": "Provide access for small-scale artisanal fishers to marine resources and markets.",
+    "target": "小規模・沿岸零細漁業者に対し、海洋資源及び市場へのアクセスを提供する。",
     "indicator_id": "14.b.1",
-    "indicator": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+    "indicator": "小規模・零細漁業のためのアクセス権を認識し保護する法的/規制/政策/機関の枠組みの適応についての各国の進捗",
     "responsible_entities": [
       "FAO"
     ],
@@ -4930,9 +4930,9 @@
     "goal": 14,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-14.pdf",
     "goal_meta_link_page": 24,
-    "target": "Enhance the conservation and sustainable use of oceans and their resources by implementing law as reflected in UNCLOS, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of The Future We Want.",
+    "target": "「我々の求める未来」のパラ158において想起されるとおり、海洋及び海洋資源の保全及び持続可能な利用のための法的枠組みを規定する海洋法に関する国際連合条約（UNCLOS）に反映されている国際法を実施することにより、海洋及び海洋資源の保全及び持続可能な利用を強化する。",
     "indicator_id": "14.c.1",
-    "indicator": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nation Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
+    "indicator": "海洋及び海洋資源の保全と持続可能な利用のために「海洋法に関する国際連合条約（UNCLOS）」に反映されているとおり、国際法を実施する海洋関係の手段を、法、政策、機関的枠組みを通して、批准、導入、実施を推進している国の数",
     "responsible_entities": [
       "ILO"
     ],
@@ -4962,9 +4962,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 2,
-    "target": "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements.",
+    "target": "2020年までに、国際協定の下での義務に則って、森林、湿地、山地及び乾燥地をはじめとする陸域生態系と内陸淡水生態系及びそれらのサービスの保全、回復及び持続可能な利用を確保する。",
     "indicator_id": "15.1.1",
-    "indicator": "Forest area as a proportion of total land area",
+    "indicator": "土地全体に対する森林の割合",
     "responsible_entities": [
       "FAO"
     ],
@@ -4997,9 +4997,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 4,
-    "target": "By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements.",
+    "target": "2020年までに、国際協定の下での義務に則って、森林、湿地、山地及び乾燥地をはじめとする陸域生態系と内陸淡水生態系及びそれらのサービスの保全、回復及び持続可能な利用を確保する。",
     "indicator_id": "15.1.2",
-    "indicator": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type"
+    "indicator": "陸生及び淡水性の生物多様性に重要な場所のうち保護区で網羅されている割合（保護地域、生態系のタイプ別）"
   },
   {
     "target_id": "15.2",
@@ -5007,9 +5007,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 5,
-    "target": "By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally.",
+    "target": "2020年までに、あらゆる種類の森林の持続可能な経営の実施を促進し、森林減少を阻止し、劣化した森林を回復し、世界全体で新規植林及び再植林を大幅に増加させる。",
     "indicator_id": "15.2.1",
-    "indicator": "Progress towards sustainable forest management",
+    "indicator": "持続可能な森林管理における進捗",
     "responsible_entities": [
       "FAO"
     ],
@@ -5039,9 +5039,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 8,
-    "target": "By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world.",
+    "target": "2030年までに、砂漠化に対処し、砂漠化、干ばつ及び洪水の影響を受けた土地などの劣化した土地と土壌を回復し、土地劣化に荷担しない世界の達成に尽力する。",
     "indicator_id": "15.3.1",
-    "indicator": "Proportion of land that is degraded over total land area"
+    "indicator": "土地全体のうち劣化した土地の割合"
   },
   {
     "target_id": "15.4",
@@ -5049,9 +5049,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 9,
-    "target": "By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development.",
+    "target": "2030年までに持続可能な開発に不可欠な便益をもたらす山地生態系の能力を強化するため、生物多様性を含む山地生態系の保全を確実に行う。",
     "indicator_id": "15.4.1",
-    "indicator": "Coverage by protected areas of important sites for mountain biodiversity"
+    "indicator": "山地生物多様性のための重要な場所に占める保全された地域の範囲"
   },
   {
     "target_id": "15.4",
@@ -5059,9 +5059,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 9,
-    "target": "By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development.",
+    "target": "2030年までに持続可能な開発に不可欠な便益をもたらす山地生態系の能力を強化するため、生物多様性を含む山地生態系の保全を確実に行う。",
     "indicator_id": "15.4.2",
-    "indicator": "Mountain Green Cover Index",
+    "indicator": "山地グリーンカバー指数",
     "responsible_entities": [
       "FAO"
     ],
@@ -5096,9 +5096,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 11,
-    "target": "Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity, and, by 2020, protect and prevent the extinction of threatened species.",
+    "target": "自然生息地の劣化を抑制し、生物多様性の損失を阻止し、2020年までに絶滅危惧種を保護し、また絶滅防止するための緊急かつ意味のある対策を講じる。",
     "indicator_id": "15.5.1",
-    "indicator": "Red List Index",
+    "indicator": "レッドリスト指数",
     "responsible_entities": [
       "IUCN"
     ],
@@ -5128,9 +5128,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 18,
-    "target": "Ensure fair and equitable sharing of the benefits arising from the utilization of genetic resources and promote appropriate access to such resources.",
+    "target": "国際合意に基づき、遺伝資源の利用から生ずる利益の公正かつ衡平な配分を推進するとともに、遺伝資源への適切なアクセスを推進する。",
     "indicator_id": "15.6.1",
-    "indicator": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
+    "indicator": "利益の公正かつ衡平な配分を確保するための立法上、行政上及び政策上の枠組みを持つ国の数",
     "responsible_entities": [
       "FAO"
     ],
@@ -5160,9 +5160,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 20,
-    "target": "Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products.",
+    "target": "保護の対象となっている動植物種の密猟及び違法取引を撲滅するための緊急対策を講じるとともに、違法な野生生物製品の需要と供給の両面に対処する。",
     "indicator_id": "15.7.1",
-    "indicator": "Proportion of traded wildlife that was poached or illicitly trafficked",
+    "indicator": "密猟された野生生物又は違法に取引された野生生物の取引の割合",
     "responsible_entities": [
       "UNODC"
     ],
@@ -5192,9 +5192,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 22,
-    "target": "By 2020, introduce measures to prevent the introduction and significantly reduce the impact of invasive alien species on land and water ecosystems and control or eradicate the priority species.",
+    "target": "2020年までに、外来種の侵入を防止するとともに、これらの種による陸域・海洋生態系への影響を大幅に減少させるための対策を導入し、さらに優先種の駆除または根絶を行う。",
     "indicator_id": "15.8.1",
-    "indicator": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
+    "indicator": "外来種に関する国内法を採択しており、侵略的外来種の防除や制御に必要な資金等を確保している国の割合",
     "responsible_entities": [
       "UNEP"
     ],
@@ -5224,9 +5224,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 25,
-    "target": "By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts.",
+    "target": "2020年までに、生態系と生物多様性の価値を、国や地方の計画策定、開発プロセス及び貧困削減のための戦略及び会計に組み込む。",
     "indicator_id": "15.9.1",
-    "indicator": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020"
+    "indicator": "生物多様性戦略計画2011-2020の愛知目標の目標２に従って設定された国内目標に対する進捗"
   },
   {
     "target_id": "15.a",
@@ -5234,9 +5234,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 26,
-    "target": "Mobilize and significantly increase financial resources from all sources to conserve and sustainable use biodiversity and ecosystems.",
+    "target": "2020年までに、生態系と生物多様性の価値を、国や地方の計画策定、開発プロセス及び貧困削減のための戦略及び会計に組み込む。",
     "indicator_id": "15.a.1",
-    "indicator": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems"
+    "indicator": "生物多様性及び生態系の保全と持続的な利用に係るODA並びに公的支出"
   },
   {
     "target_id": "15.b",
@@ -5244,9 +5244,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 27,
-    "target": "Mobilize significant resources from all sources and at all levels to finance sustainable forest management and provide adequate incentives to developing countries to advance such management, including for conservation and reforestation.",
+    "target": "保全や再植林を含む持続可能な森林経営を推進するため、あらゆるレベルのあらゆる供給源から、持続可能な森林経営のための資金の調達と開発途上国への十分なインセンティブ付与のための相当量の資源を動員する。",
     "indicator_id": "15.b.1",
-    "indicator": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+    "indicator": "生物多様性及び生態系の保全と持続的な利用に係るODA並びに公的支出",
     "responsible_entities": [
       "OECD"
     ],
@@ -5276,9 +5276,9 @@
     "goal": 15,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-15.pdf",
     "goal_meta_link_page": 18,
-    "target": "Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities.",
+    "target": "持続的な生計機会を追求するために地域コミュニティの能力向上を図る等、保護種の密猟及び違法な取引に対処するための努力に対する世界的な支援を強化する。",
     "indicator_id": "15.c.1",
-    "indicator": "Proportion of traded wildlife that was poached or illicitly trafficked",
+    "indicator": "密猟された野生生物又は違法に取引された野生生物の取引の割合",
     "responsible_entities": [
       "UNODC"
     ],
@@ -5308,9 +5308,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 2,
-    "target": "Significantly reduce all forms of violence and related death rates everywhere.",
+    "target": "あらゆる場所において、全ての形態の暴力及び暴力に関連する死亡率を大幅に減少させる。",
     "indicator_id": "16.1.1",
-    "indicator": "Number of victims of intentional homicide per 100,000 population, by sex and age",
+    "indicator": "10万人当たりの意図的な殺人行為による犠牲者の数（性別、年齢別）",
     "responsible_entities": [
       "UNODC",
       "Goal 16 TST Working Group"
@@ -5341,9 +5341,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 6,
-    "target": "Significantly reduce all forms of violence and related death rates everywhere.",
+    "target": "あらゆる場所において、全ての形態の暴力及び暴力に関連する死亡率を大幅に減少させる。",
     "indicator_id": "16.1.2",
-    "indicator": "Conflict-related deaths per 100,000 population, by sex, age and cause",
+    "indicator": "10万人当たりの紛争関連の死者の数（性別、年齢、原因別）",
     "responsible_entities": [
       "Goal 16 TST Working Group",
       "OHCHR",
@@ -5375,9 +5375,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 9,
-    "target": "Significantly reduce all forms of violence and related death rates everywhere.",
+    "target": "あらゆる場所において、全ての形態の暴力及び暴力に関連する死亡率を大幅に減少させる。",
     "indicator_id": "16.1.3",
-    "indicator": "Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months"
+    "indicator": "過去12か月において(a) 身体的暴力、(b) 精神的暴力、(c)性的暴力を受けた人口の割合"
   },
   {
     "target_id": "16.1",
@@ -5385,9 +5385,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 10,
-    "target": "Significantly reduce all forms of violence and related death rates everywhere.",
+    "target": "あらゆる場所において、全ての形態の暴力及び暴力に関連する死亡率を大幅に減少させる。",
     "indicator_id": "16.1.4",
-    "indicator": "Proportion of people that feel safe walking alone around the area they live"
+    "indicator": "自身の居住区地域を一人で歩いても安全と感じる人口の割合"
   },
   {
     "target_id": "16.2",
@@ -5395,9 +5395,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 11,
-    "target": "End abuse, exploitations, trafficking and all forms of violence against and torture of children.",
+    "target": "子供に対する虐待、搾取、取引及びあらゆる形態の暴力及び拷問を撲滅する。",
     "indicator_id": "16.2.1",
-    "indicator": "Percentage of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month"
+    "indicator": "過去 １か月における保護者等からの身体的な暴力及び/又は心理的な攻撃を受けた１歳～17歳の子供の割合"
   },
   {
     "target_id": "16.2",
@@ -5405,9 +5405,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 11,
-    "target": "End abuse, exploitations, trafficking and all forms of violence against and torture of children.",
+    "target": "子供に対する虐待、搾取、取引及びあらゆる形態の暴力及び拷問を撲滅する。",
     "indicator_id": "16.2.2",
-    "indicator": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
+    "indicator": "10万人当たりの人身取引の犠牲者の数（性別、年齢、搾取形態別）",
     "responsible_entities": [
       "UNODC",
       "OHCHR",
@@ -5446,9 +5446,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 13,
-    "target": "End abuse, exploitations, trafficking and all forms of violence against and torture of children.",
+    "target": "子供に対する虐待、搾取、取引及びあらゆる形態の暴力及び拷問を撲滅する。",
     "indicator_id": "16.2.3",
-    "indicator": "Proportion of young women and men aged 18-29 years who experienced sexual violence by age 18",
+    "indicator": "18歳までに性的暴力を受けた18～29歳の若年女性及び男性の割合",
     "responsible_entities": [
       "UNICEF"
     ],
@@ -5478,9 +5478,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 15,
-    "target": "Promote the rule of law at the national and international levels and ensure equal access to justice for all.",
+    "target": "国家及び国際的なレベルでの法の支配を促進し、全ての人々に司法への平等なアクセスを提供する。",
     "indicator_id": "16.3.1",
-    "indicator": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
+    "indicator": "過去12か月間に暴力を受け、所管官庁又はその他の公的に承認された紛争解決機構に対して、被害を届け出た者の割合",
     "responsible_entities": [
       "UNODC",
       "OHCHR"
@@ -5511,9 +5511,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 16,
-    "target": "Promote the rule of law at the national and international levels and ensure equal access to justice for all.",
+    "target": "国家及び国際的なレベルでの法の支配を促進し、全ての人々に司法への平等なアクセスを提供する。",
     "indicator_id": "16.3.2",
-    "indicator": "Unsentenced detainees as proportion of overall prison population",
+    "indicator": "刑務所の総収容者数に占める判決を受けていない勾留者の割合",
     "responsible_entities": [
       "UNODC",
       "Goal 16 TST Working Group"
@@ -5544,9 +5544,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 18,
-    "target": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime.",
+    "target": "2030年までに、違法な資金及び武器の取引を大幅に減少させ、奪われた財産の回復及び返還を強化し、あらゆる形態の組織犯罪を根絶する。",
     "indicator_id": "16.4.1",
-    "indicator": "Total value of inward and outward illicit financial flows (in current United States dollars).",
+    "indicator": "内外の違法な資金フローの合計額（USドル）",
     "responsible_entities": [
       "Goal 16 TST Working Group",
       "OHCHR",
@@ -5578,9 +5578,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 20,
-    "target": "By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime.",
+    "target": "2030年までに、違法な資金及び武器の取引を大幅に減少させ、奪われた財産の回復及び返還を強化し、あらゆる形態の組織犯罪を根絶する。",
     "indicator_id": "16.4.2",
-    "indicator": "Proportion of seized and small arms and light weapons that are recorded and traced, in accordance with international standards and legal instruments"
+    "indicator": "国際的な要件に従い、所管当局によって、発見/押収された武器で、その違法な起源又は流れが追跡/立証されているものの割合"
   },
   {
     "target_id": "16.5",
@@ -5588,9 +5588,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 21,
-    "target": "Substantially reduce corruption and bribery in all their forms.",
+    "target": "あらゆる形態の汚職や贈賄を大幅に減少させる。",
     "indicator_id": "16.5.1",
-    "indicator": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+    "indicator": "過去12か月間に公務員に賄賂を支払った又は公務員より賄賂を要求されたことが少なくとも１回はあった人の割合",
     "responsible_entities": [
       "UNODC",
       "OHCHR",
@@ -5622,9 +5622,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 22,
-    "target": "Substantially reduce corruption and bribery in all their forms.",
+    "target": "あらゆる形態の汚職や贈賄を大幅に減少させる。",
     "indicator_id": "16.5.2",
-    "indicator": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months"
+    "indicator": "過去12か月間に公務員に賄賂を支払った又は公務員より賄賂を要求されたことが少なくとも１回はあった企業の割合"
   },
   {
     "target_id": "16.6",
@@ -5632,9 +5632,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 23,
-    "target": "Develop effective, accountable and transparent institutions at all levels.",
+    "target": "あらゆるレベルにおいて、有効で説明責任のある透明性の高い公共機関を発展させる。",
     "indicator_id": "16.6.1",
-    "indicator": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+    "indicator": "当初承認された予算に占める第一次政府支出（部門別、（予算別又は類似の分類別））",
     "responsible_entities": [
       "Goal 16 TST Working Group"
     ],
@@ -5664,9 +5664,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 23,
-    "target": "Develop effective, accountable and transparent institutions at all levels.",
+    "target": "あらゆるレベルにおいて、有効で説明責任のある透明性の高い公共機関を発展させる。",
     "indicator_id": "16.6.2",
-    "indicator": "Percentage of the population satisfied with their last experience of public services",
+    "indicator": "最近公的サービスを使用し満足した人の割合",
     "responsible_entities": [
       "OHCHR"
     ],
@@ -5708,9 +5708,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 26,
-    "target": "Ensure responsive, inclusive, participatory and representative decision-making at all levels.",
+    "target": "あらゆるレベルにおいて、対応的、包摂的、参加型及び代表的な意思決定を確保する。",
     "indicator_id": "16.7.1",
-    "indicator": "Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions",
+    "indicator": "国全体における分布と比較した、公的機関（国及び地方議会、公共サービス並びに司法）における役職の割合（性別、年齢別、障害者別、人口グループ別）",
     "responsible_entities": [
       "Goal 16 TST Working Group",
       "OHCHR"
@@ -5745,9 +5745,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 28,
-    "target": "Ensure responsive, inclusive, participatory and representative decision-making at all levels.",
+    "target": "あらゆるレベルにおいて、対応的、包摂的、参加型及び代表的な意思決定を確保する。",
     "indicator_id": "16.7.2",
-    "indicator": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group"
+    "indicator": "意思決定が包括的かつ反映されるものであると考えている人の割合（性別、年齢、障害者、人口グループ別）"
   },
   {
     "target_id": "16.8",
@@ -5755,9 +5755,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 29,
-    "target": "Broaden and strengthen the participation of developing countries in the institutions of global governance.",
+    "target": "グローバル・ガバナンス機関への開発途上国の参加を拡大・強化する。",
     "indicator_id": "16.8.1",
-    "indicator": "Proportion of members and voting rights of developing countries in international organizations",
+    "indicator": "国際機関における開発途上国のメンバー数及び投票権の割合",
     "responsible_entities": [
       "Goal 16 TST Working Group"
     ],
@@ -5792,9 +5792,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 31,
-    "target": "By 2030, provide legal identity for all, including birth registration.",
+    "target": "2030年までに、全ての人々に出生登録を含む法的な身分証明を提供する。",
     "indicator_id": "16.9.1",
-    "indicator": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+    "indicator": "行政機関に出生登録された５歳以下の子供の数（年齢別）",
     "responsible_entities": [
       "UNICEF",
       "Goal 16 TST Working Group",
@@ -5830,9 +5830,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 33,
-    "target": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements.",
+    "target": "国内法規及び国際協定に従い、情報への公共アクセスを確保し、基本的自由を保障する。",
     "indicator_id": "16.10.1",
-    "indicator": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
+    "indicator": "過去12か月間における、ジャーナリスト、メディア関係者、労働組合及び人権活動家に対する、立証された殺人、誘拐、強制的失踪、任意勾留及び拷問の事例の数",
     "responsible_entities": [
       "OHCHR",
       "Goal 16 TST Working Group",
@@ -5870,9 +5870,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 40,
-    "target": "Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements.",
+    "target": "国内法規及び国際協定に従い、情報への公共アクセスを確保し、基本的自由を保障する。",
     "indicator_id": "16.10.2",
-    "indicator": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+    "indicator": "情報への公共アクセスを保障した憲法、法令、政策の実施を採択している国の数",
     "responsible_entities": [
       "UNESCO"
     ],
@@ -5902,9 +5902,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 43,
-    "target": "Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime.",
+    "target": "特に開発途上国において、暴力の防止とテロリズム・犯罪の撲滅に関するあらゆるレベルでの能力構築のため、国際協力などを通じて関連国家機関を強化する。",
     "indicator_id": "16.a.1",
-    "indicator": "Existence of independent national human rights institutions in compliance with the Paris Principles",
+    "indicator": "パリ原則に準拠した独立した国立人権機関の存在の有無",
     "responsible_entities": [
       "OHCHR"
     ],
@@ -5938,9 +5938,9 @@
     "goal": 16,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-16.pdf",
     "goal_meta_link_page": 47,
-    "target": "Promote and enforce non-discriminatory laws and policies for sustainable development.",
+    "target": "持続可能な開発のための非差別的な法規及び政策を推進し、実施する。",
     "indicator_id": "16.b.1",
-    "indicator": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+    "indicator": "過去12か月に個人的に国際人権法の下に禁止されている差別又は嫌がらせを感じたと報告した人口の割合",
     "responsible_entities": [
       "Goal 16 TST Working Group"
     ],
@@ -5975,9 +5975,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 2,
-    "target": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection.",
+    "target": "課税及び徴税能力の向上のため、開発途上国への国際的な支援なども通じて、国内資源の動員を強化する。",
     "indicator_id": "17.1.1",
-    "indicator": "Total government revenue as a proportion of GDP, by source",
+    "indicator": "GDPに占める政府歳入合計の割合（収入源別）",
     "responsible_entities": [
       "OECD"
     ],
@@ -6007,9 +6007,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 4,
-    "target": "Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection.",
+    "target": "課税及び徴税能力の向上のため、開発途上国への国際的な支援なども通じて、国内資源の動員を強化する。",
     "indicator_id": "17.1.2",
-    "indicator": "Proportion of domestic budget funded by domestic taxes",
+    "indicator": "国内予算における、自国内の税収が資金源となっている割合",
     "responsible_entities": [
       "IMF"
     ],
@@ -6042,9 +6042,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 8,
-    "target": "Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent ODA/GNI to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries.",
+    "target": "先進国は、開発途上国に対するODAをGNI比0.7%に、後発開発途上国に対するODAをGNI比0.15～0.20%にするという目標を達成するとの多くの国によるコミットメントを含むODAに係るコミットメントを完全に実施する。ODA供与国が、少なくともGNI比0.20%のODAを後発開発途上国に供与するという目標の設定を検討することを奨励する。",
     "indicator_id": "17.2.1",
-    "indicator": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors' gross national income (GNI)",
+    "indicator": "OECD/DACによる寄与のGNIに占める純ODA総額及び後発開発途上国を対象にした額",
     "responsible_entities": [
       "OECD"
     ],
@@ -6074,9 +6074,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 9,
-    "target": "Mobilize additional financial resources for developing countries from multiple sources.",
+    "target": "複数の財源から、開発途上国のための追加的資金源を動員する。",
     "indicator_id": "17.3.1",
-    "indicator": "Foreign direct investments (FDI), official development assistance and South-South Cooperation as a proportion of total domestic budget"
+    "indicator": "海外直接投資（FDI）、ODA及び南南協力の国内総予算に占める割合"
   },
   {
     "target_id": "17.3",
@@ -6084,9 +6084,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 9,
-    "target": "Mobilize additional financial resources for developing countries from multiple sources.",
+    "target": "複数の財源から、開発途上国のための追加的資金源を動員する。",
     "indicator_id": "17.3.2",
-    "indicator": "Volume of remittances (in United States dollars) as a proportion of total GDP"
+    "indicator": "GDP総額に占める送金額(USドル)"
   },
   {
     "target_id": "17.4",
@@ -6094,9 +6094,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 10,
-    "target": "Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress.",
+    "target": "必要に応じた負債による資金調達、債務救済及び債務再編の促進を目的とした協調的な政策により、開発途上国の長期的な債務の持続可能性の実現を支援し、重債務貧困国（HIPC）の対外債務への対応により債務リスクを軽減する。",
     "indicator_id": "17.4.1",
-    "indicator": "Debt service as a proportion of exports of goods and services"
+    "indicator": "財及びサービスの輸出額に占める債務額"
   },
   {
     "target_id": "17.5",
@@ -6104,9 +6104,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 11,
-    "target": "Adopt and implement investment promotion regimes for least developed countries.",
+    "target": "後発開発途上国のための投資促進枠組みを導入及び実施する。",
     "indicator_id": "17.5.1",
-    "indicator": "Number of countries that adopt and implement investment promotion regimes for least developed countries"
+    "indicator": "後発開発途上国のための投資促進枠組みを導入及び実施している国の数"
   },
   {
     "target_id": "17.6",
@@ -6114,9 +6114,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 12,
-    "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism.",
+    "target": "科学技術イノベーション（STI）及びこれらへのアクセスに関する南北協力、南南協力及び地域的・国際的な三角協力を向上させる。また、国連レベルをはじめとする既存のメカニズム間の調整改善や、全世界的な技術促進メカニズムなどを通じて、相互に合意した条件において知識共有を進める。",
     "indicator_id": "17.6.1",
-    "indicator": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation"
+    "indicator": "各国間における科学技術協力協定及び計画の数（協力形態別）"
   },
   {
     "target_id": "17.6",
@@ -6124,9 +6124,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 12,
-    "target": "Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism.",
+    "target": "科学技術イノベーション（STI）及びこれらへのアクセスに関する南北協力、南南協力及び地域的・国際的な三角協力を向上させる。また、国連レベルをはじめとする既存のメカニズム間の調整改善や、全世界的な技術促進メカニズムなどを通じて、相互に合意した条件において知識共有を進める。",
     "indicator_id": "17.6.2",
-    "indicator": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+    "indicator": "100人当たりの固定インターネットブロードバンド契約数（回線速度別）",
     "responsible_entities": [
       "ITU",
       "Partnership on Measuring ICT for Development"
@@ -6163,9 +6163,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 15,
-    "target": "Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed.",
+    "target": "開発途上国に対し、譲許的・特恵的条件などの相互に合意した有利な条件の下で、環境に配慮した技術の開発、移転、普及及び拡散を促進する。",
     "indicator_id": "17.7.1",
-    "indicator": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies"
+    "indicator": "環境に配慮した技術の開発、移転、普及及び拡散の促進を目的とした開発途上国のための承認された基金の総額"
   },
   {
     "target_id": "17.8",
@@ -6173,9 +6173,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 16,
-    "target": "Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology.",
+    "target": "2017年までに、後発開発途上国のための技術バンク及び科学技術イノベーション能力構築メカニズムを完全運用させ、情報通信技術（ICT）をはじめとする実現技術の利用を強化する。",
     "indicator_id": "17.8.1",
-    "indicator": "Proportion of individuals using the Internet",
+    "indicator": "インターネットを使用している個人の割合",
     "responsible_entities": [
       "ITU",
       "UNCDF",
@@ -6220,9 +6220,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 18,
-    "target": "Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the sustainable development goals, including through North-South, South-South and triangular cooperation.",
+    "target": "全ての持続可能な開発目標を実施するための国家計画を支援するべく、南北協力、南南協力及び三角協力などを通じて、開発途上国における効果的かつ的をしぼった能力構築の実施に対する国際的な支援を強化する。",
     "indicator_id": "17.9.1",
-    "indicator": "Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",
+    "indicator": "開発途上国にコミットした財政支援額及び技術支援額（南北、南南及び三角協力を含む）（ドル）",
     "responsible_entities": [
       "OECD"
     ],
@@ -6252,9 +6252,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 20,
-    "target": "Promote a universal, rules-based, open, non-discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda.",
+    "target": "ドーハ・ラウンド（DDA）交渉の受諾を含むWTOの下での普遍的でルールに基づいた、差別的でない、公平な多角的貿易体制を促進する。",
     "indicator_id": "17.10.1",
-    "indicator": "Worldwide weighted tariff-average",
+    "indicator": "世界中で加重された関税額の平均",
     "responsible_entities": [
       "ITC",
       "UNCTAD",
@@ -6286,9 +6286,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 21,
-    "target": "Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries' share of global exports by 2020.",
+    "target": "開発途上国による輸出を大幅に増加させ、特に2020年までに世界の輸出に占める後発開発途上国のシェアを倍増させる。",
     "indicator_id": "17.11.1",
-    "indicator": "Developing countries' and least developed countries' share of global exports",
+    "indicator": "世界の輸出額シェアに占める開発途上国と後発開発途上国の割合",
     "responsible_entities": [
       "ITC",
       "UNCTAD",
@@ -6325,9 +6325,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 23,
-    "target": "Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access.",
+    "target": "後発開発途上国からの輸入に対する特恵的な原産地規則が透明で簡略的かつ市場アクセスの円滑化に寄与するものとなるようにすることを含む世界貿易機関（WTO）の決定に矛盾しない形で、全ての後発開発途上国に対し、永続的な無税・無枠の市場アクセスを適時実施する。",
     "indicator_id": "17.12.1",
-    "indicator": "Average tariffs faced by developing countries, least developed countries and small island developing States",
+    "indicator": "開発途上国、後発開発途上国及び小島嶼開発途上国が直面している関税の平均",
     "responsible_entities": [
       "ITC",
       "UNCTAD",
@@ -6359,9 +6359,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 25,
-    "target": "Enhance global macroeconomic stability, including through policy coordination and policy coherence.",
+    "target": "政策協調や政策の首尾一貫性などを通じて、世界的なマクロ経済の安定を促進する。",
     "indicator_id": "17.13.1",
-    "indicator": "Macroeconomic Dashboard"
+    "indicator": "マクロ経済ダッシュボード"
   },
   {
     "target_id": "17.14",
@@ -6369,9 +6369,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 26,
-    "target": "Enhance policy coherence for sustainable development.",
+    "target": "持続可能な開発のための政策の一貫性を強化する。",
     "indicator_id": "17.14.1",
-    "indicator": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development"
+    "indicator": "持続可能な開発の政策の一貫性を強化するためのメカニズムがある国の数"
   },
   {
     "target_id": "17.15",
@@ -6379,9 +6379,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 27,
-    "target": "Respect each country's policy space and leadership to establish and implement policies for poverty eradication and sustainable development.",
+    "target": "貧困撲滅と持続可能な開発のための政策の確立・実施にあたっては、各国の政策空間及びリーダーシップを尊重する。",
     "indicator_id": "17.15.1",
-    "indicator": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation"
+    "indicator": "開発協力提供者による国有の結果枠組み及び計画ツールの利用範囲"
   },
   {
     "target_id": "17.16",
@@ -6389,9 +6389,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 28,
-    "target": "Enhance the global partnership for sustainable development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the sustainable development goals in all countries, in particular developing countries.",
+    "target": "全ての国々、特に開発途上国での持続可能な開発目標の達成を支援すべく、知識、専門的知見、技術及び資金源を動員、共有するマルチステークホルダー・パートナーシップによって補完しつつ、持続可能な開発のためのグローバル・パートナーシップを強化する。",
     "indicator_id": "17.16.1",
-    "indicator": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
+    "indicator": "持続可能な開発目標の達成を支援するマルチステークホルダー開発有効性モニタリング枠組みにおいて進捗を報告する国の数",
     "responsible_entities": [
       "OECD",
       "UNDP Secretariat of the Global Partnership for Effective Development Cooperation"
@@ -6422,9 +6422,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 31,
-    "target": "Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships.",
+    "target": "さまざまなパートナーシップの経験や資源戦略を基にした、効果的な公的、官民、市民社会のパートナーシップを奨励・推進する。",
     "indicator_id": "17.17.1",
-    "indicator": "Amount of United States dollars committed to public-private partnerships and civil society partnerships"
+    "indicator": "(a)官民パートナーシップにコミットしたUSドルの総額 (b)市民社会パートナーシップにコミットしたUSドルの総額"
   },
   {
     "target_id": "17.18",
@@ -6432,9 +6432,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 32,
-    "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts.",
+    "target": "2020年までに、後発開発途上国及び小島嶼開発途上国を含む開発途上国に対する能力構築支援を強化し、所得、性別、年齢、人種、民族、居住資格、障害、地理的位置及びその他各国事情に関連する特性別の質が高く、タイムリーかつ信頼性のある非集計型データの入手可能性を向上させる。",
     "indicator_id": "17.18.1",
-    "indicator": "Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
+    "indicator": "公的統計の基本原則に従い、ターゲットに関する場合に、各国レベルで完全に詳細集計されて作成されたSDG指標の割合",
     "responsible_entities": [
       "TST"
     ],
@@ -6464,9 +6464,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 32,
-    "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts.",
+    "target": "2020年までに、後発開発途上国及び小島嶼開発途上国を含む開発途上国に対する能力構築支援を強化し、所得、性別、年齢、人種、民族、居住資格、障害、地理的位置及びその他各国事情に関連する特性別の質が高く、タイムリーかつ信頼性のある非集計型データの入手可能性を向上させる。",
     "indicator_id": "17.18.2",
-    "indicator": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official statistics"
+    "indicator": "公的統計の基本原則に準じた国家統計法のある国の数"
   },
   {
     "target_id": "17.18",
@@ -6474,9 +6474,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 32,
-    "target": "By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts.",
+    "target": "2020年までに、後発開発途上国及び小島嶼開発途上国を含む開発途上国に対する能力構築支援を強化し、所得、性別、年齢、人種、民族、居住資格、障害、地理的位置及びその他各国事情に関連する特性別の質が高く、タイムリーかつ信頼性のある非集計型データの入手可能性を向上させる。",
     "indicator_id": "17.18.3",
-    "indicator": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding"
+    "indicator": "十分な資金提供とともに実施されている国家統計計画を持つ国の数（資金源別）"
   },
   {
     "target_id": "17.19",
@@ -6484,9 +6484,9 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 33,
-    "target": "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries.",
+    "target": "2030年までに、持続可能な開発の進捗状況を測るGDP以外の尺度を開発する既存の取組を更に前進させ、開発途上国における統計に関する能力構築を支援する。",
     "indicator_id": "17.19.1",
-    "indicator": "Dollar Value of all resources made available to strengthen statistical capacity in developing countries"
+    "indicator": "開発途上国における統計能力の強化のために利用可能となった資源のドル額"
   },
   {
     "target_id": "17.19",
@@ -6494,8 +6494,8 @@
     "goal": 17,
     "goal_meta_link": "http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-17.pdf",
     "goal_meta_link_page": 33,
-    "target": "By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries.",
+    "target": "2030年までに、持続可能な開発の進捗状況を測るGDP以外の尺度を開発する既存の取組を更に前進させ、開発途上国における統計に関する能力構築を支援する。",
     "indicator_id": "17.19.2",
-    "indicator": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration"
+    "indicator": "a)少なくとも過去10年に人口・住宅センサスを実施した国の割合 b)出生届が100％登録され、死亡届が80％登録された国の割合"
   }
 ]

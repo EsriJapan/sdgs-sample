@@ -19,7 +19,7 @@ exports.get = function (query, cb) {
     data = [],
     meta = {},
     opts,
-    accepted_locales = ['en','es','fr','ru'],
+    accepted_locales = ['en','es','fr','ru','ja'],
     base_fields = 'indicator_id,indicator,target_id,[target],goal,goal_meta_link,goal_meta_link_page,has_metadata';
 
   try {

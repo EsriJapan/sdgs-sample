@@ -80,13 +80,13 @@ export default Ember.Component.extend({
       svc.getIndicatorsForTarget(target.id, true)
         .then( (response) => {
           console.log(response);
-          
+
           this.$('.targ-sep, .targ-display').fadeIn();
 
           svc.set('target_display', target.id);
-          
+
           svc.set('current_indicators', response.data);
-          
+
           this.$('.target-sheet').fadeOut().promise().done(
             function () {
               this.$('.target-indicator-sheet').fadeIn();

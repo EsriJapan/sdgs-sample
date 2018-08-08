@@ -3,8 +3,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">
-          {{t 'application.target_select.title'}} 
+        <h4 class="modal-title" id="myModalLabel">{{t 'application.target_select.title'}}
           <span class="targ-sep">/</span>
           <span class="targ-display">{{session.target_display}}</span>
           <span class="ind-sep">/</span>
@@ -73,7 +72,7 @@
                   <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> {{t 'application.target_select.no_meta'}}
                 </button>
                 <a href="{{indicator.goal_meta_link}}#page={{indicator.goal_meta_link_page}}" target="_blank"> {{t 'application.target_select.view_repo'}} </a>
-              {{/if}}              
+              {{/if}}
             </div>
           </div>
         {{/each}}

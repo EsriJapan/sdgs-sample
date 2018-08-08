@@ -62,6 +62,6 @@
     "js-cookie": "^2.1.2",
     "liquid-fire": "0.23.0",
     "torii": "0.6.1",
-    "torii-provider-arcgis": "git+https://github.com/dbouwman/torii-provider-arcgis.git"
+    "torii-provider-arcgis": "0.6.2"
   }
 }

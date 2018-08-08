@@ -30,7 +30,7 @@ module.exports = function(defaults) {
     },
 
     amd :{
-      loader: 'https://js.arcgis.com/3.16/',
+      loader: 'https://js.arcgis.com/3.25/',
       configPath: 'config/dojo-config.js',
       packages: [
         'esri','dojo','dojox','dijit',

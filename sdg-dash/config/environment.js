@@ -33,7 +33,7 @@ module.exports = function(environment) {
     },
 
     i18n : {
-      defaultLocale: 'en'
+      defaultLocale: 'ja'
     },
 
     contentSecurityPolicy: {

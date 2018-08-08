@@ -15,7 +15,7 @@ export default Ember.Component.extend({
   map: null,
 
   didInsertElement() {
-    const webmapId = 'cae2a169acfc4263ad66bebc2a1b9c7e';
+    const webmapId = '6133e25641d64d2688eee36f059742e9';
     const options = {
       mapOptions: {
         slider : true,

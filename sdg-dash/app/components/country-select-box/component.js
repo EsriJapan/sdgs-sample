@@ -9,45 +9,75 @@
 
 import Ember from 'ember';
 import colorUtils from 'sdg-dash/utils/colors';
+import ajax from 'ic-ajax';
+import ENV from 'sdg-dash/config/environment';
 
 export default Ember.Component.extend({
 
   classNames: ['btn', 'no-pad-left'],
+
+  fetchCountries() {
+    return ajax({
+      url: ENV.sdgDashboardsApi + 'geographies',
+      dataType: 'json'
+    });
+  },
+
+  addDropDownItems(response) {
+    response.data.forEach(function(item) {
+      if (item.geo_group === 'countries') {
+        this.$('#country-selector-countries').append(
+          '<option data-tokens="' + item.id + ',' + item.display + '" value="' + item.id + '"> ' + item.display.toString() + ' ' + '</option>'
+        );
+      } else if (item.geo_group === 'cities') {
+        this.$('#country-selector-cities').append(
+          '<option data-tokens="' + item.display + '" value="' + item.id + '"> ' + item.display.toString() + ' ' + '</option>'
+        );
+      }
+    }.bind(this));
+
+    return Ember.RSVP.Promise.resolve();
+  },
   
   didInsertElement() {
     let elId = '#country-selector';
-    this.$(elId).selectpicker({
-      style: 'btn-default country-sel-input',
-      selectOnTab: true,
-      size: 8
-      ,width: '185px'
-    });
 
-    this.$('.dropdown-menu.open').css('max-width', '300px');
+    this.fetchCountries()
+      .then(this.addDropDownItems.bind(this))
+      .then(function() {
+        this.$(elId).selectpicker({
+          style: 'btn-default country-sel-input',
+          selectOnTab: true,
+          size: 8,
+          width: '185px'
+        });
 
-    let qp = this.get('container').lookup('router:main').router.state.queryParams;
-    let geo_value = 'Global Progress';
-    if (qp && qp.geo_group && qp.geo_value){
-      geo_value = qp.geo_value;
+        this.$('.dropdown-menu.open').css('max-width', '300px');
 
-      this.$(elId).selectpicker('val', geo_value);
-    }
+        let qp = this.get('container').lookup('router:main').router.state.queryParams;
+        let geo_value = 'Global Progress';
+        if (qp && qp.geo_group && qp.geo_value){
+          geo_value = qp.geo_value;
 
-    this.$(elId).change(function () {
-      let selector = this.$(elId);
-      let selected_item = this.$(':selected', selector);
-      let selected_geo_group = selected_item.parent().attr('value');
-      let selected_geo_value = selector.val();
+          this.$(elId).selectpicker('val', geo_value);
+        }
 
-      let svc = this.get('session');
-      svc.set('selected_geo_group', selected_geo_group);
-      svc.set('selected_geo_value', selected_geo_value);
+        this.$(elId).change(function () {
+          let selector = this.$(elId);
+          let selected_item = this.$(':selected', selector);
+          let selected_geo_group = selected_item.parent().attr('value');
+          let selected_geo_value = selector.val();
 
-      this.get('goToGeography')(selected_geo_group, selected_geo_value);
+          let svc = this.get('session');
+          svc.set('selected_geo_group', selected_geo_group);
+          svc.set('selected_geo_value', selected_geo_value);
 
+          this.get('goToGeography')(selected_geo_group, selected_geo_value);
+
+        }.bind(this));
+
+        this._reTheme();
     }.bind(this));
-
-    this._reTheme();
   },
 
   sessionRouteChanged: Ember.observer('session.selected_sdg', function () {

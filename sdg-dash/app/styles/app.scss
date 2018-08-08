@@ -1,0 +1,108 @@
+/* Now we load calcite variables as overrides*/
+@import 'calcite-bootstrap';
+/* set the output folder for fonts */
+$icon-font-path: './fonts/';
+@import 'bootstrap';
+
+/*routes*/
+@import 'landing';
+@import 'sdg';
+
+@import 'header';
+
+/*partials*/
+@import 'partials/header-nav-right';
+@import 'partials/footer';
+
+/*components*/
+@import 'components/arcgis-map-landing';
+@import 'components/arcgis-map';
+@import 'components/sdg-overview-collage';
+@import 'components/about-modal';
+@import 'components/ranking-component';
+@import 'components/storymap-card';
+@import 'components/summary-stat-card';
+@import 'components/geo-levels-select-box';
+@import 'components/country-select-box';
+@import 'components/geography-search-box';
+@import 'components/target-select-box';
+@import 'components/targets-select-modal';
+
+/*other*/
+@import 'sdg-button-colors-overrides';
+
+html, 
+body {
+  height: 100%;
+}
+
+body > .ember-view {
+  height: 100%;
+}
+
+.master {
+  background-color: #eee;
+  height: 100%;
+}
+
+.bg-gray {
+  background-color: #eee;
+}
+
+[data-ember-action] {
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.no-padding {
+  padding: 0;
+}
+.no-pad-left {
+  padding-left: 0;
+}
+.no-pad-right {
+  padding-right: 0;
+}
+.padding-5 {
+  padding: 5px;
+}
+.pad-top-5 {
+  padding-top: 5px;
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.pad-top-20 {
+  padding-top: 20px;
+}
+
+.pad-top-50 {
+  padding-top: 50px;
+}
+.pad-right-50 {
+  padding-right: 50px;
+}
+.pad-left-50 {
+  padding-left: 50px;
+}
+
+.pad-bottom-10 {
+  padding-bottom: 10px;
+}
+.pad-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.no-marg-top {
+  margin-top: -0;
+}
+.marg-top-neg-50 {
+  margin-top: -50px;
+}
+.marg-bottom-50 {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,105 @@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{t 'application.target_select.title'}}
+          <span class="targ-sep">/</span>
+          <span class="targ-display">{{session.target_display}}</span>
+          <span class="ind-sep">/</span>
+          <span class="ind-display">{{session.indicator_display}}</span>
+        </h4>
+      </div>
+      <div class="modal-body modal-body-container target-sheet">
+        <div class="row">
+          <div class="col-xs-1 target-display">
+            <!-- <h5 class="target-id">SDG Index</h5> -->
+            <span class="glyphicon glyphicon-list-alt glyph-sdg-index-modal"></span>
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-xs-11 target-display pad-bottom-20">
+            <div class="target-desc pad-bottom-10">{{t 'application.target_select.score'}}</div>
+            <button {{action 'setToSdgIndex'}} class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> {{t 'application.target_select.dashboard'}}
+            </button>
+           <!--  <button class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Indicators
+            </button>
+            <button class="btn btn-default btn-sm">
+              <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Datasets
+            </button> -->
+          </div>
+        </div>
+        {{#each session.selected_targets as |target|}}
+          <div class="row">
+            <div class="col-xs-1 target-display">
+              <h5 class="target-id">{{target.id}}</h5>
+              <div class="clearfix"></div>
+            </div>
+            <div class="col-xs-11 target-display pad-bottom-20">
+              <div class="target-desc pad-bottom-10">{{target.title}}</div>
+              <button {{action 'setDashboardTarget' target}} class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> {{t 'application.target_select.setting'}}
+              </button>
+              <button {{action 'loadIndicatorSheet' target}} class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-flag" aria-hidden="true"></span> {{t 'application.target_select.view_indi'}}
+              </button>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+
+      <div class="modal-body modal-body-container target-indicator-sheet">
+        <button {{ action 'backToTargets'}} type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon glyphicon-menu-left"></span> {{t 'application.target_select.back'}}
+        </button>
+        <h3 class="text-center">{{t 'application.target_select.indicators'}}</h3>
+        <br>
+        {{#each session.current_indicators as |indicator|}}
+          <div class="row">
+            <div class="col-xs-2 indicator-id-display">
+              <h5 class="target-id">{{indicator.indicator_id}}</h5>
+              <div class="clearfix"></div>
+            </div>
+            <div class="col-xs-10 indicator-title-display pad-bottom-20">
+              <div class="target-desc pad-bottom-10">{{indicator.indicator}}</div>
+              {{#if indicator.has_metadata}}
+                <button {{action 'loadMetadata' indicator}} class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> {{t 'application.target_select.view_meta'}}
+                </button>
+              {{else}}
+                <button class="btn btn-default btn-sm disabled">
+                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> {{t 'application.target_select.no_meta'}}
+                </button>
+                <a href="{{indicator.goal_meta_link}}#page={{indicator.goal_meta_link_page}}" target="_blank"> {{t 'application.target_select.view_repo'}} </a>
+              {{/if}}
+            </div>
+          </div>
+        {{/each}}
+      </div>
+
+      <div class="modal-body modal-body-container metadata-sheet">
+        <button {{ action 'backToIndicators'}} type="button" class="btn btn-default btn-sm back-link">
+          <span class="glyphicon glyphicon glyphicon-menu-left"></span> {{t 'application.target_select.back'}}
+        </button>
+        <h3 class="text-center">{{session.indicator_display_text}}</h3>
+        <h6 class="text-center">
+          <a href="{{session.indicator_direct_link}}" target="_blank">{{t 'application.target_select.view_full'}}</a>
+        </h6>
+        <br>
+        {{#each session.metadata_display as |item|}}
+          <div class="row">
+            <h5>{{item.header}}</h5>
+            <hr>
+            <p>{{item.text}}</p>
+            <br>
+          </div>
+        {{/each}}
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">{{t 'application.target_select.btn_close'}}</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,982 +1,242 @@
 [
   {
     "id": "GLOBAL",
-    "display": "Global Progress",
+    "display": "全国",
     "geo_group": "countries"
   },
   {
-    "id": "AF",
-    "display": "Afghanistan",
+    "id": "01",
+    "display": "北海道",
     "geo_group": "countries"
   },
   {
-    "id": "AL",
-    "display": "Albania",
+    "id": "02",
+    "display": "青森県",
     "geo_group": "countries"
   },
   {
-    "id": "DZ",
-    "display": "Algeria",
+    "id": "03",
+    "display": "岩手県",
     "geo_group": "countries"
   },
   {
-    "id": "AD",
-    "display": "Andorra",
+    "id": "04",
+    "display": "宮城県",
     "geo_group": "countries"
   },
   {
-    "id": "AO",
-    "display": "Angola",
+    "id": "05",
+    "display": "秋田県",
     "geo_group": "countries"
   },
   {
-    "id": "AG",
-    "display": "Antigua and Barbuda",
+    "id": "06",
+    "display": "山形県",
     "geo_group": "countries"
   },
   {
-    "id": "AR",
-    "display": "Argentina",
+    "id": "07",
+    "display": "福島県",
     "geo_group": "countries"
   },
   {
-    "id": "AM",
-    "display": "Armenia",
+    "id": "08",
+    "display": "茨城県",
     "geo_group": "countries"
   },
   {
-    "id": "AU",
-    "display": "Australia",
+    "id": "09",
+    "display": "栃木県",
     "geo_group": "countries"
   },
   {
-    "id": "AT",
-    "display": "Austria",
+    "id": "10",
+    "display": "群馬県",
     "geo_group": "countries"
   },
   {
-    "id": "AZ",
-    "display": "Azerbaijan",
+    "id": "11",
+    "display": "埼玉県",
     "geo_group": "countries"
   },
   {
-    "id": "BS",
-    "display": "Bahamas",
+    "id": "12",
+    "display": "千葉県",
     "geo_group": "countries"
   },
   {
-    "id": "BH",
-    "display": "Bahrain",
+    "id": "13",
+    "display": "東京都",
     "geo_group": "countries"
   },
   {
-    "id": "BD",
-    "display": "Bangladesh",
+    "id": "14",
+    "display": "神奈川県",
     "geo_group": "countries"
   },
   {
-    "id": "BB",
-    "display": "Barbados",
+    "id": "15",
+    "display": "新潟県",
     "geo_group": "countries"
   },
   {
-    "id": "BY",
-    "display": "Belarus",
+    "id": "16",
+    "display": "富山県",
     "geo_group": "countries"
   },
   {
-    "id": "BE",
-    "display": "Belgium",
+    "id": "17",
+    "display": "石川県",
     "geo_group": "countries"
   },
   {
-    "id": "BZ",
-    "display": "Belize",
+    "id": "18",
+    "display": "福井県",
     "geo_group": "countries"
   },
   {
-    "id": "BJ",
-    "display": "Benin",
+    "id": "19",
+    "display": "山梨県",
     "geo_group": "countries"
   },
   {
-    "id": "BT",
-    "display": "Bhutan",
+    "id": "20",
+    "display": "長野県",
     "geo_group": "countries"
   },
   {
-    "id": "BO",
-    "display": "Bolivia (Plurinational State of)",
+    "id": "21",
+    "display": "岐阜県",
     "geo_group": "countries"
   },
   {
-    "id": "BA",
-    "display": "Bosnia and Herzegovina",
+    "id": "22",
+    "display": "静岡県",
     "geo_group": "countries"
   },
   {
-    "id": "BW",
-    "display": "Botswana",
+    "id": "23",
+    "display": "愛知県",
     "geo_group": "countries"
   },
   {
-    "id": "BR",
-    "display": "Brazil",
+    "id": "24",
+    "display": "三重県",
     "geo_group": "countries"
   },
   {
-    "id": "BN",
-    "display": "Brunei Darussalam",
+    "id": "25",
+    "display": "滋賀県",
     "geo_group": "countries"
   },
   {
-    "id": "BG",
-    "display": "Bulgaria",
+    "id": "26",
+    "display": "京都府",
     "geo_group": "countries"
   },
   {
-    "id": "BF",
-    "display": "Burkina Faso",
+    "id": "27",
+    "display": "大阪府",
     "geo_group": "countries"
   },
   {
-    "id": "BI",
-    "display": "Burundi",
+    "id": "28",
+    "display": "兵庫県",
     "geo_group": "countries"
   },
   {
-    "id": "CV",
-    "display": "Cabo Verde",
+    "id": "29",
+    "display": "奈良県",
     "geo_group": "countries"
   },
   {
-    "id": "KH",
-    "display": "Cambodia",
+    "id": "30",
+    "display": "和歌山県",
     "geo_group": "countries"
   },
   {
-    "id": "CM",
-    "display": "Cameroon",
+    "id": "31",
+    "display": "鳥取県",
     "geo_group": "countries"
   },
   {
-    "id": "CA",
-    "display": "Canada",
+    "id": "32",
+    "display": "島根県",
     "geo_group": "countries"
   },
   {
-    "id": "CF",
-    "display": "Central African Republic",
+    "id": "33",
+    "display": "岡山県",
     "geo_group": "countries"
   },
   {
-    "id": "TD",
-    "display": "Chad",
+    "id": "34",
+    "display": "広島県",
     "geo_group": "countries"
   },
   {
-    "id": "CL",
-    "display": "Chile",
+    "id": "35",
+    "display": "山口県",
     "geo_group": "countries"
   },
   {
-    "id": "CN",
-    "display": "China",
+    "id": "36",
+    "display": "徳島県",
     "geo_group": "countries"
   },
   {
-    "id": "CO",
-    "display": "Colombia",
+    "id": "37",
+    "display": "香川県",
     "geo_group": "countries"
   },
   {
-    "id": "KM",
-    "display": "Comoros",
+    "id": "38",
+    "display": "愛媛県",
     "geo_group": "countries"
   },
   {
-    "id": "CG",
-    "display": "Congo",
+    "id": "39",
+    "display": "高知県",
     "geo_group": "countries"
   },
   {
-    "id": "CR",
-    "display": "Costa Rica",
+    "id": "40",
+    "display": "福岡県",
     "geo_group": "countries"
   },
   {
-    "id": "CI",
-    "display": "Côte D'Ivoire",
+    "id": "41",
+    "display": "佐賀県",
     "geo_group": "countries"
   },
   {
-    "id": "HR",
-    "display": "Croatia",
+    "id": "42",
+    "display": "長崎県",
     "geo_group": "countries"
   },
   {
-    "id": "CU",
-    "display": "Cuba",
+    "id": "43",
+    "display": "熊本県",
     "geo_group": "countries"
   },
   {
-    "id": "CY",
-    "display": "Cyprus",
+    "id": "44",
+    "display": "大分県",
     "geo_group": "countries"
   },
   {
-    "id": "CZ",
-    "display": "Czech Republic",
+    "id": "45",
+    "display": "宮崎県",
     "geo_group": "countries"
   },
   {
-    "id": "KP",
-    "display": "Democratic People's Republic of Korea",
+    "id": "46",
+    "display": "鹿児島県",
     "geo_group": "countries"
   },
   {
-    "id": "CD",
-    "display": "Democratic Republic of the Congo",
+    "id": "47",
+    "display": "沖縄県",
     "geo_group": "countries"
-  },
-  {
-    "id": "DK",
-    "display": "Denmark",
-    "geo_group": "countries"
-  },
-  {
-    "id": "DJ",
-    "display": "Djibouti",
-    "geo_group": "countries"
-  },
-  {
-    "id": "DM",
-    "display": "Dominica",
-    "geo_group": "countries"
-  },
-  {
-    "id": "DO",
-    "display": "Dominican Republic",
-    "geo_group": "countries"
-  },
-  {
-    "id": "EC",
-    "display": "Ecuador",
-    "geo_group": "countries"
-  },
-  {
-    "id": "EG",
-    "display": "Egypt",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SV",
-    "display": "El Salvador",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GQ",
-    "display": "Equatorial Guinea",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ER",
-    "display": "Eritrea",
-    "geo_group": "countries"
-  },
-  {
-    "id": "EE",
-    "display": "Estonia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ET",
-    "display": "Ethiopia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "FJ",
-    "display": "Fiji",
-    "geo_group": "countries"
-  },
-  {
-    "id": "FI",
-    "display": "Finland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "FR",
-    "display": "France",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GA",
-    "display": "Gabon",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GM",
-    "display": "Gambia (The)",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GE",
-    "display": "Georgia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "DE",
-    "display": "Germany",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GH",
-    "display": "Ghana",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GR",
-    "display": "Greece",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GD",
-    "display": "Grenada",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GT",
-    "display": "Guatemala",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GN",
-    "display": "Guinea",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GW",
-    "display": "Guinea-Bissau",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GY",
-    "display": "Guyana",
-    "geo_group": "countries"
-  },
-  {
-    "id": "HT",
-    "display": "Haiti",
-    "geo_group": "countries"
-  },
-  {
-    "id": "HN",
-    "display": "Honduras",
-    "geo_group": "countries"
-  },
-  {
-    "id": "HU",
-    "display": "Hungary",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IS",
-    "display": "Iceland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IN",
-    "display": "India",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ID",
-    "display": "Indonesia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IR",
-    "display": "Iran (Islamic Republic of)",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IQ",
-    "display": "Iraq",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IE",
-    "display": "Ireland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IL",
-    "display": "Israel",
-    "geo_group": "countries"
-  },
-  {
-    "id": "IT",
-    "display": "Italy",
-    "geo_group": "countries"
-  },
-  {
-    "id": "JM",
-    "display": "Jamaica",
-    "geo_group": "countries"
-  },
-  {
-    "id": "JP",
-    "display": "Japan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "JO",
-    "display": "Jordan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KZ",
-    "display": "Kazakhstan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KE",
-    "display": "Kenya",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KI",
-    "display": "Kiribati",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KW",
-    "display": "Kuwait",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KG",
-    "display": "Kyrgyzstan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LA",
-    "display": "Lao People's Democratic Republic",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LV",
-    "display": "Latvia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LB",
-    "display": "Lebanon",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LS",
-    "display": "Lesotho",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LR",
-    "display": "Liberia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LY",
-    "display": "Libya",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LI",
-    "display": "Liechtenstein",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LT",
-    "display": "Lithuania",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LU",
-    "display": "Luxembourg",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MG",
-    "display": "Madagascar",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MW",
-    "display": "Malawi",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MY",
-    "display": "Malaysia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MV",
-    "display": "Maldives",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ML",
-    "display": "Mali",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MT",
-    "display": "Malta",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MH",
-    "display": "Marshall Islands",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MR",
-    "display": "Mauritania",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MU",
-    "display": "Mauritius",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MX",
-    "display": "Mexico",
-    "geo_group": "countries"
-  },
-  {
-    "id": "FM",
-    "display": "Micronesia (Federated States of)",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MC",
-    "display": "Monaco",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MN",
-    "display": "Mongolia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ME",
-    "display": "Montenegro",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MA",
-    "display": "Morocco",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MZ",
-    "display": "Mozambique",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MM",
-    "display": "Myanmar",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NA",
-    "display": "Namibia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NR",
-    "display": "Nauru",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NP",
-    "display": "Nepal",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NL",
-    "display": "Netherlands",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NZ",
-    "display": "New Zealand",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NI",
-    "display": "Nicaragua",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NE",
-    "display": "Niger",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NG",
-    "display": "Nigeria",
-    "geo_group": "countries"
-  },
-  {
-    "id": "NO",
-    "display": "Norway",
-    "geo_group": "countries"
-  },
-  {
-    "id": "OM",
-    "display": "Oman",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PK",
-    "display": "Pakistan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PW",
-    "display": "Palau",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PA",
-    "display": "Panama",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PG",
-    "display": "Papua New Guinea",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PY",
-    "display": "Paraguay",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PE",
-    "display": "Peru",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PH",
-    "display": "Philippines",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PL",
-    "display": "Poland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "PT",
-    "display": "Portugal",
-    "geo_group": "countries"
-  },
-  {
-    "id": "QA",
-    "display": "Qatar",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KR",
-    "display": "Republic of Korea",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MD",
-    "display": "Republic of Moldova",
-    "geo_group": "countries"
-  },
-  {
-    "id": "RO",
-    "display": "Romania",
-    "geo_group": "countries"
-  },
-  {
-    "id": "RU",
-    "display": "Russian Federation",
-    "geo_group": "countries"
-  },
-  {
-    "id": "RW",
-    "display": "Rwanda",
-    "geo_group": "countries"
-  },
-  {
-    "id": "KN",
-    "display": "Saint Kitts and Nevis",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LC",
-    "display": "Saint Lucia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "VC",
-    "display": "Saint Vincent and the Grenadines",
-    "geo_group": "countries"
-  },
-  {
-    "id": "WS",
-    "display": "Samoa",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SM",
-    "display": "San Marino",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ST",
-    "display": "Sao Tome and Principe",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SA",
-    "display": "Saudi Arabia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SN",
-    "display": "Senegal",
-    "geo_group": "countries"
-  },
-  {
-    "id": "RS",
-    "display": "Serbia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SC",
-    "display": "Seychelles",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SL",
-    "display": "Sierra Leone",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SG",
-    "display": "Singapore",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SK",
-    "display": "Slovakia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SI",
-    "display": "Slovenia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SB",
-    "display": "Solomon Islands",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SO",
-    "display": "Somalia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ZA",
-    "display": "South Africa",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SS",
-    "display": "South Sudan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ES",
-    "display": "Spain",
-    "geo_group": "countries"
-  },
-  {
-    "id": "LK",
-    "display": "Sri Lanka",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SD",
-    "display": "Sudan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SR",
-    "display": "Suriname",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SZ",
-    "display": "Swaziland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SE",
-    "display": "Sweden",
-    "geo_group": "countries"
-  },
-  {
-    "id": "CH",
-    "display": "Switzerland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "SY",
-    "display": "Syrian Arab Republic",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TJ",
-    "display": "Tajikistan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TH",
-    "display": "Thailand",
-    "geo_group": "countries"
-  },
-  {
-    "id": "MK",
-    "display": "The former Yugoslav Republic of Macedonia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TL",
-    "display": "Timor-Leste",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TG",
-    "display": "Togo",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TO",
-    "display": "Tonga",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TT",
-    "display": "Trinidad and Tobago",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TN",
-    "display": "Tunisia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TR",
-    "display": "Turkey",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TM",
-    "display": "Turkmenistan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TV",
-    "display": "Tuvalu",
-    "geo_group": "countries"
-  },
-  {
-    "id": "UG",
-    "display": "Uganda",
-    "geo_group": "countries"
-  },
-  {
-    "id": "UA",
-    "display": "Ukraine",
-    "geo_group": "countries"
-  },
-  {
-    "id": "AE",
-    "display": "United Arab Emirates",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GB",
-    "display": "United Kingdom of Great Britain and Northern Ireland",
-    "geo_group": "countries"
-  },
-  {
-    "id": "TZ",
-    "display": "United Republic of Tanzania",
-    "geo_group": "countries"
-  },
-  {
-    "id": "US",
-    "display": "United States of America",
-    "geo_group": "countries"
-  },
-  {
-    "id": "UY",
-    "display": "Uruguay",
-    "geo_group": "countries"
-  },
-  {
-    "id": "UZ",
-    "display": "Uzbekistan",
-    "geo_group": "countries"
-  },
-  {
-    "id": "VU",
-    "display": "Vanuatu",
-    "geo_group": "countries"
-  },
-  {
-    "id": "VE",
-    "display": "Venezuela (Bolivarian Republic of)",
-    "geo_group": "countries"
-  },
-  {
-    "id": "VN",
-    "display": "Vietnam",
-    "geo_group": "countries"
-  },
-  {
-    "id": "YE",
-    "display": "Yemen",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ZM",
-    "display": "Zambia",
-    "geo_group": "countries"
-  },
-  {
-    "id": "ZW",
-    "display": "Zimbabwe",
-    "geo_group": "countries"
-  },
-  {
-    "id": "GLOBAL_CITIES",
-    "display": "Global Progress",
-    "geo_group": "cities"
-  },
-  {
-    "id": "city_BOGOTA",
-    "display": "Bogota",
-    "geo_group": "cities"
-  }  
+  }
 ]

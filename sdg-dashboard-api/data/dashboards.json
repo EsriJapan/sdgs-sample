@@ -1,24 +1,24 @@
 [
   {
     "country_code": "GLOBAL",
-    "country_name": "Global Progress",
+    "country_name": "全国",
     "dashboards": {
       "1": {
         "1.1": {
           "levels" : [
             {
-              "title" : "Global",
+              "title" : "1.1.1 全国",
               "items" : [
                 {
                   "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
+                  "y": 5,
+                  "width" : 8,
+                  "height" : 4,
                   "component" : {
                     "name" : "map-card",
                     "settings" : {
-                      "title" : "Poverty Gap at National Poverty Lines (%)",
-                      "webmap" : "887e245f262a46ae9c3e030fbd18af35",
+                      "title" : "年間収入300万円未満の世帯割合（全国）",
+                      "webmap" : "68a138a89d3240f9b5e1d18058919f3f",
                       "indicator_id" : "1.1.1",
                       "options" : {
                         "mapOptions" : {
@@ -28,42 +28,173 @@
                         }
                       },
                       "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
                         "item_type": "Web Map"
                       }
                     }
                   }
                 },
                 {
+                  "x": 8,
+                  "y": 5,
+                  "width": 4,
+                  "height": 4,
+                  "component": {
+                    "name": "storymap-card",
+                    "settings": {
+                      "title": "世界の貧困",
+                      "url": "http://urbanobservatory.maps.arcgis.com/apps/MapJournal/index.html?appid=3b502ce450414dc29eff9c68a4c982a6&webmap=a1df8a2b683347e0b24aaeffa67708f8",
+                      "thumbnails": [
+                        {
+                          "first_active": true,
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-2.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-3.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-4.png"
+                        }
+                      ],
+                      "data_info": {
+                        "source": "Urban Observatory",
+                        "provider": "Esri",
+                        "item_type": "Story Map"
+                      }
+                    }
+                  }
+                },
+                {
                   "x": 0,
-                  "y": 6,
-                  "width" : 8,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "平均",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places": 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最小",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_min",
+                            "statisticType": "min"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最大",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_max",
+                            "statisticType": "max"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "width" : 12,
                   "height" : 4,
                   "component" : {
                     "name" : "chart-card",
                     "settings": {
-                      "title": "Poverty Gap at National Poverty Lines (%) - Bottom 15 Countries",
+                      "title": "トップ 15",
                       "indicator_id" : "1.1.1",
                       "specification": {
                         "type": "bar",
                         "dataset": {
-                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/1.1/WB_POVERTY/MapServer/0",
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
                           "query": {
-                            "where" : "1=1 AND SI_POV_NAGP is not null AND year = 2010",
-                            "orderByFields": "SI_POV_NAGP DESC",
+                            "where" : "1=1 AND INCOME_RATE is not null",
+                            "orderByFields": "RANK ASC",
                             "resultRecordCount": 15
                           },
                           "mappings": {
                             "x": {
-                              "field": "country_name",
+                              "field": "KEN",
                               "label": ""
                             },
                             "y": {
-                              "field": "SI_POV_NAGP",
+                              "field": "INCOME_RATE",
                               "label": ""
                             }
                           }
+                        },
+                        "tooltip": {
+                          "title": "{KEN}",
+                          "content": "{INCOME_RATE}%"
                         },
                         "override": {
                           "marks": [
@@ -96,78 +227,9 @@
                         "id": "chart1"
                       },
                       "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 6,
-                  "width": 4,
-                  "height": 4,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "Global Poverty",
-                      "url": "http://urbanobservatory.maps.arcgis.com/apps/MapJournal/index.html?appid=3b502ce450414dc29eff9c68a4c982a6&webmap=a1df8a2b683347e0b24aaeffa67708f8",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-2.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-3.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-4.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "Urban Observatory",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "2": {
-        "2.1": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Percent Undernourished",
-                      "webmap" : "4a370469844a43e4bbd6e6684ebdcbcc",
-                      "indicator_id" : "2.1",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
                         "item_type": "Web Map"
                       }
                     }
@@ -175,581 +237,37 @@
                 },
                 {
                   "x": 0,
-                  "y": 6,
-                  "width" : 12,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Percent Undernourished - Bottom 15 Countries",
-                      "indicator_id" : "10.1.1",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/iAXQ0/FeatureServer/0",
-                          "query": {
-                            "where" : "1=1 AND f26 is not null",
-                            "orderByFields": "f26 DESC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f1",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f26",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#f9edcd"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#e5b735"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "3": {
-        "3.3": {
-          "levels": [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 5,
+                  "y": 18,
                   "width": 12,
                   "height": 4,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Estimated number of people (all ages) living with HIV",
-                      "webmap": "0ec1d786df4a48bebf29d66dee5b66b7",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "WHO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Reported Malaria Cases",
-                      "data_info": {
-                        "source": "WHO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/WHO/MapServer/3",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "WHS3_48",
-                            "outStatisticFieldName": "WHS3_48_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 4,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Estimate HIV Cases",
-                      "data_info": {
-                        "source": "WHO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/WHO/MapServer/2",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "HIV_0000000001",
-                            "outStatisticFieldName": "HIV_0000000001_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 11,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Incidents of TB Cases",
-                      "data_info": {
-                        "source": "WHO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/WHO/MapServer/1",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "MDG_0000000020",
-                            "outStatisticFieldName": "MDG_0000000020_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 4,
-                  "y": 11,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "HEPB Immun % (1 yr. olds)",
-                      "data_info": {
-                        "source": "WHO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/WHO/MapServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "WHS4_117",
-                            "outStatisticFieldName": "WHS4_117_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 9,
-                  "width": 4,
-                  "height": 4,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "Understanding the SDGs",
-                      "url": "http://sdg.esri.com/learn",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-learn-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-learn-2.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "United Nations",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "4": {
-        "4.c": {
-          "levels": [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 5,
-                  "width": 12,
-                  "height": 4,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Teachers in Primary Education with Minimum Training Required",
-                      "webmap": "ecdcbe54378d4751bc9b95ad179241c6",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "UNESCO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Teachers in Primary",
-                      "data_info": {
-                        "source": "UNESCO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/iDMjq/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "f33",
-                            "outStatisticFieldName": "f33_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 1,
-                        "suffix" : "%"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 4,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Teachers in Pre-Primary",
-                      "data_info": {
-                        "source": "UNESCO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/Lrpyd/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "f15",
-                            "outStatisticFieldName": "f15_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 1
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 11,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Teachers in Lower Secondary",
-                      "data_info": {
-                        "source": "UNESCO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/m7RlG/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "f51",
-                            "outStatisticFieldName": "f51_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 1
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 4,
-                  "y": 11,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Teachers in Upper Secondary",
-                      "data_info": {
-                        "source": "UNESCO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/JBWs6/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "f69",
-                            "outStatisticFieldName": "f69_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 1
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 9,
-                  "width": 4,
-                  "height": 4,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "MapED Story Map",
-                      "url": "http://nces.ed.gov/programs/maped/storymaps/naep/default.aspx",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/maped/sm-maped-1.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "NCES",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "5": {
-        "5.5": {
-          "levels": [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 8,
-                  "height": 5,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Proportion of seats held by women in national parliaments (%)",
-                      "webmap": "b865f7965a64419fad9e0681173f9d5a",
-                      "indicator_id": "5.5.1",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map",
-                        "method_name" : "UNSD",
-                        "method_url" : "http://mdgs.un.org/unsd/mi/wiki/3-3-Proportion-of-seats-held-by-women-in-national-parliament.ashx"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 0,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Avg Primary Compl. Female",
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/5.1/WORLD_BANK/MapServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "SE_PRM_CMPT_FE_ZS",
-                            "outStatisticFieldName": "SE_PRM_CMPT_FE_ZS_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 2,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "International Women's Day 2016",
-                      "url": "http://storymaps.esri.com/stories/2016/womens-rights/",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-iwd2016-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sdg-iwd2016-2.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "Project Everyone, Trollback+Co, World Bank, Esri",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 5,
-                  "width": 12,
-                  "height": 5,
                   "component": {
                     "name": "chart-card",
                     "settings": {
-                      "title": "Total Secondary Completion Rate (%) - Bottom 15 Countries",
+                      "title": "ワースト 15",
                       "specification": {
                         "type": "bar",
                         "dataset": {
-                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/5.1/WORLD_BANK/MapServer/0",
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
                           "query": {
-                            "where": "1=1 AND year=2013 and SE_SEC_CMPT_LO_ZS IS NOT NULL and SE_SEC_CMPT_LO_ZS <= 100",
-                            "orderByFields": "SE_SEC_CMPT_LO_ZS ASC",
+                            "where": "1=1 AND INCOME_RATE is not null",
+                            "orderByFields": "RANK DESC",
                             "resultRecordCount": 15
                           },
                           "mappings": {
+                            "sort": "RANK DESC",
                             "x": {
-                              "field": "country_name",
+                              "field": "KEN",
                               "label": ""
                             },
                             "y": {
-                              "field": "SE_SEC_CMPT_LO_ZS",
+                              "field": "INCOME_RATE",
                               "label": ""
                             }
                           }
+                        },
+                        "tooltip": {
+                          "title": "{KEN}",
+                          "content": "{INCOME_RATE}%"
                         },
                         "override": {
                           "marks": [
@@ -757,7 +275,7 @@
                               "properties": {
                                 "hover": {
                                   "fill": {
-                                    "value": "#ff3a21"
+                                    "value": "#8b389f"
                                   },
                                   "fillOpacity": {
                                     "value": 0.5
@@ -765,7 +283,7 @@
                                 },
                                 "update": {
                                   "fill": {
-                                    "value": "#ff3a21"
+                                    "value": "#8b389f"
                                   },
                                   "fillOpacity": {
                                     "value": 1
@@ -777,1456 +295,9 @@
                         }
                       },
                       "options": {
-                        "autolabels": false,
+                        "autolabels": true,
                         "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "6": {
-        "6.1": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Improved Water Access (Less than 90%)",
-                      "webmap" : "896e83e2689a410ab1df01107e75b274",
-                      "indicator_id" : "6.1.1",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 6,
-                  "width" : 8,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Improved Water Access (Less than 90%) - Bottom 15 Countries",
-                      "indicator_id" : "6.1.1",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/Uwxka/FeatureServer/0",
-                          "query": {
-                            "where" : "1=1 AND f26 is not null",
-                            "orderByFields": "f26 ASC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f1",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f26",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#c9eff8"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#26bde2"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 6,
-                  "width": 4,
-                  "height": 4,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "Managing Coffee - Protecting Water",
-                      "url": "https://crsorg.maps.arcgis.com/apps/MapJournal/index.html?appid=4d1cc16c912c45f48ef81f6c5f40169e",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-2.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-3.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/crs-water/sm-crs-water-4.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "Catholic Relief Services",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "7": {
-        "7.1": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Population with Access to Electricity (Less than 90 %)",
-                      "webmap" : "1e47f23f12564b18bddf5cb355d03df0",
-                      "indicator_id" : "7.1.1",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 6,
-                  "width" : 12,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Population with Access to Electricity (Less than 90 %) - Bottom 15 Countries",
-                      "indicator_id" : "1.1.1",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/GUe6R/FeatureServer/0",
-                          "query": {
-                            "where" : "1=1 AND f57 is not null",
-                            "orderByFields": "f57 ASC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f3",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f57",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#fef0c2"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#fcc30b"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "8": {
-        "8.8": {
-          "levels": [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 12,
-                  "height": 4,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Total Fatal Occupational Injuries in 2014",
-                      "webmap": "342e4428baec493e941666f4f97fc9ff",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "ILO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 4,
-                  "width": 6,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Total Female Fatal Occupational Injuries 2014",
-                      "data_info": {
-                        "source": "ILO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_fatalOI/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "female_2014",
-                            "outStatisticFieldName": "female_2014_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 6,
-                  "y": 4,
-                  "width": 6,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Total Male Fatal Occupational Injuries 2014",
-                      "data_info": {
-                        "source": "ILO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_fatalOI/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "male_2014",
-                            "outStatisticFieldName": "male_2014_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 8,
-                  "width": 6,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Total Female Non-Fatal Occupational Injuries",
-                      "data_info": {
-                        "source": "ILO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_nonfatalOI/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "female_2014",
-                            "outStatisticFieldName": "female_2014_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 6,
-                  "y": 8,
-                  "width": 6,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Total Male Non-Fatal Occupational Injuries",
-                      "data_info": {
-                        "source": "ILO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ilo_nonfatalOI/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "male_2014",
-                            "outStatisticFieldName": "male_2014_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "9": {
-        "9.c": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Mobile Cell Subscriptions per 100",
-                      "webmap" : "b5abbee60ebf44559562fe661de1cf2d",
-                      "indicator_id" : "9.c.1",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "ITU",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 6,
-                  "width" : 12,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Mobile Cell Subscriptions per 100 - Bottom 15 Countries",
-                      "indicator_id" : "10.1.1",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/9.c/ITU_MOBILE_CELL_SUBS_per100/MapServer/0",
-                          "query": {
-                            "where" : "1=1 and MOBILE_CELL_SUBSCRIPTION_PER100 is not null and MOBILE_CELL_SUBSCRIPTION_PER100 > 0 AND year = 2014",
-                            "orderByFields": "MOBILE_CELL_SUBSCRIPTION_PER100 ASC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "country_name",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "MOBILE_CELL_SUBSCRIPTION_PER100",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#ffdac9"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#fd6925"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "ITU",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "10": {
-        "10.1": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Annualized Avg Growth Rate in Per Capita Real Consumption",
-                      "webmap" : "02c1cc154c2f481894cd3cb88e6bed2c",
-                      "indicator_id" : "10.1.1",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 6,
-                  "width" : 12,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Annualized Avg Growth Rate in Per Capita Real Consumption - Top 15 Countries",
-                      "indicator_id" : "10.1.1",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/dwxle/FeatureServer/0",
-                          "query": {
-                            "where" : "1=1 AND f57 is not null",
-                            "orderByFields": "f57 DESC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f1",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f57",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#f7c4d9"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#dd1367"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "World Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "12": {
-        "12.2": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Domestic Material Consumption per Capita",
-                      "webmap" : "c43303e7d2044ccb890c82df41176e99",
-                      "indicator_id" : "12.2.2",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "UNEP",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 6,
-                  "width" : 12,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Domestic Material Consumption per Capita - Top 15 Countries",
-                      "indicator_id" : "12.2.2",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/ty5DT/FeatureServer/0",
-                          "query": {
-                            "where" : "1=1 AND f54 is not null",
-                            "orderByFields": "f54 DESC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f2",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f54",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#f2e6cb"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#c9992d"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "UNEP",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "13": {
-        "13.1": {
-          "levels": [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 5,
-                  "width": 12,
-                  "height": 4,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Deaths per Affected During a Disaster",
-                      "webmap": "fd427c894c6843539e90cc84cf0a9fcd",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "UNISDR",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Deaths",
-                      "data_info": {
-                        "source": "UNISDR",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "Deaths",
-                            "outStatisticFieldName": "Deaths_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 4,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Houses Destroyed",
-                      "data_info": {
-                        "source": "UNISDR",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "Houses_Destroyed",
-                            "outStatisticFieldName": "Houses_Destroyed_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 11,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Losses (in USD)",
-                      "data_info": {
-                        "source": "UNISDR",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "Losses__USD",
-                            "outStatisticFieldName": "Losses__USD_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : "($.3s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 4,
-                  "y": 11,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "class_names": "max-font-35",
-                    "settings": {
-                      "title": "Damage in Crops (ha)",
-                      "data_info": {
-                        "source": "UNISDR",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/UNISDR_Disasters/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "Damages_in_crops_Ha_",
-                            "outStatisticFieldName": "Damages_in_crops_Ha__sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 9,
-                  "width": 4,
-                  "height": 4,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "Twister Dashboard",
-                      "url": "http://storymaps.esri.com/stories/2014/tornadoes/",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-2.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-3.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/twister-dashboard/sm-twister-4.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "Esri Story Maps Team",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "14": {
-        "14.1": {
-          "levels" : [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 12,
-                  "height": 4,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Estimate of Plastic Pollution in the World's Oceans (km2)",
-                      "webmap": "e6903a477d1249d39bffc630e41bae10",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "UNEP",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "15": {
-        "15.1": {
-          "levels": [
-            {
-              "title": "Global",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 8,
-                  "height": 5,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Total Forest Area (1 000 ha)",
-                      "webmap": "624cbb4658f74520960725679d4225a8",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 0,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Total Forest Area (1 000 ha)",
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "Forest",
-                            "outStatisticFieldName": "Forest_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "d3format" : ".2s"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 3,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Forest Area per capita (1 000 ha)",
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "PerCapFor",
-                            "outStatisticFieldName": "PerCapFor_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 5,
-                  "width": 6,
-                  "height": 5,
-                  "component": {
-                    "name": "chart-card",
-                    "settings": {
-                      "title": "Total Forest Area by Region",
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "specification": {
-                        "type": "pie",
-                        "dataset": {
-                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
-                          "query": {
-                            "groupByFieldsForStatistics" : "Region",
-                            "outStatistics": [
-                              {
-                                "onStatisticField": "Forest",
-                                "outStatisticFieldName": "Forest_sum",
-                                "statisticType": "sum"
-                              }
-                            ]
-                          },
-                          "mappings": {
-                            "label": {"field":"Region","label":"Region"},
-                            "y" : { "field" : "Forest_sum", "label" : "Region" },
-                            "radius" : 200
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#56c02b"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#56c02b"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "sdg-15-pie"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 6,
-                  "y": 5,
-                  "width": 6,
-                  "height": 5,
-                  "component": {
-                    "name": "chart-card",
-                    "settings": {
-                      "title": "Top 15 Total Forest Area (1 000 ha)",
-                      "data_info": {
-                        "source": "FAO",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/15.1/FRA_2015_BASIC/MapServer/0",
-                          "query": {
-                            "orderByFields": "Forest DESC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": { "field":"Country","label":""},
-                            "y" : { "field" : "Forest", "label" : "" }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#56c02b"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#56c02b"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "sdg-15-bar"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "16": {
-        "16.1": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 8,
-                  "height": 5,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Victims of Intentional Homicide per 100,000 (Greater than 5%)",
-                      "webmap": "7c879c2d71984a5e934e9ba7d18064a0",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "UNODC",
-                        "provider": "ArcGIS",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 0,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Percent Female Victims",
-                      "data_info": {
-                        "source": "UNODC",
-                        "provider": "ArcGIS",
-                        "item_type": "Statistic"
-                      },
-                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/ArcGIS/rest/services/kQXfS/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "f18",
-                            "outStatisticFieldName": "f18_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 0
-                      },
-                      "post_process": {
-                        "operation" : "multiply",
-                        "value" : 100
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 3,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Percent Male Victims",
-                      "data_info": {
-                        "source": "UNODC",
-                        "provider": "ArcGIS",
-                        "item_type": "Statistic"
-                      },
-                      "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/xiAsb/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "f18",
-                            "outStatisticFieldName": "f18_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 0
-                      },
-                      "post_process": {
-                        "operation" : "multiply",
-                        "value" : 100
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 5,
-                  "width": 12,
-                  "height": 5,
-                  "component": {
-                    "name": "chart-card",
-                    "settings": {
-                      "title": "Victims of Intentional Homicide per 100,000 (Greater than 5%) - Bottom 15 Counties",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "https://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/KMNml/FeatureServer/0",
-                          "query": {
-                            "orderByFields": "f20 DESC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f3",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f20",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#bfd9e7"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#00689d"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "17": {
-        "17.2": {
-          "levels" : [
-            {
-              "title" : "Global",
-              "items" : [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width" : 12,
-                  "height" : 6,
-                  "component" : {
-                    "name" : "map-card",
-                    "settings" : {
-                      "title" : "Net Official Development Assistance (% of GNI)",
-                      "webmap" : "ce8e8f0ddc3b460ab8c09201115633c9",
-                      "indicator_id" : "17.2.1",
-                      "options" : {
-                        "mapOptions" : {
-                          "slider" : false,
-                          "logo" : false,
-                          "showAttribution" : false
-                        }
-                      },
-                      "data_info": {
-                        "source": "OECD",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 0,
-                  "y": 6,
-                  "width" : 12,
-                  "height" : 4,
-                  "component" : {
-                    "name" : "chart-card",
-                    "settings": {
-                      "title": "Net Official Development Assistance (% of GNI) - Top 15 Countries",
-                      "indicator_id" : "17.2.1",
-                      "specification": {
-                        "type": "bar",
-                        "dataset": {
-                          "url": "http://services3.arcgis.com/7pxWboj3YvCWYdcm/arcgis/rest/services/mvO5f/FeatureServer/0",
-                          "query": {
-                            "where" : "1=1 AND f61 is not null",
-                            "orderByFields": "f61 DESC",
-                            "resultRecordCount": 15
-                          },
-                          "mappings": {
-                            "x": {
-                              "field": "f1",
-                              "label": ""
-                            },
-                            "y": {
-                              "field": "f61",
-                              "label": ""
-                            }
-                          }
-                        },
-                        "override": {
-                          "marks": [
-                            {
-                              "properties": {
-                                "hover": {
-                                  "fill": {
-                                    "value": "#c6d1da"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 0.5
-                                  }
-                                },
-                                "update": {
-                                  "fill": {
-                                    "value": "#19486a"
-                                  },
-                                  "fillOpacity": {
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      "options": {
-                        "autolabels": false,
-                        "renderer": "svg",
-                        "id": "chart1"
-                      },
-                      "data_info": {
-                        "source": "OECD",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Web Map"
+                        "id": "chart2"
                       }
                     }
                   }
@@ -2239,26 +310,26 @@
     }
   },
   {
-    "country_code": "TH",
-    "country_name": "THAILAND",
+    "country_code": "22",
+    "country_name": "静岡",
     "dashboards": {
-      "3": {
-        "3.3": {
+      "1": {
+        "1.1": {
           "levels": [
             {
-              "title": "Admin Level 2",
+              "title": "1.1.1 静岡",
               "items": [
                 {
                   "x": 0,
-                  "y": 5,
-                  "width": 8,
-                  "height": 4,
+                  "y": 0,
+                  "width": 12,
+                  "height": 8,
                   "component": {
                     "name": "map-card",
                     "settings": {
-                      "title": "Number of HIV Cases",
-                      "webmap": "6651e492313b47bba7a612a73695072e",
-                      "indicator_id": "3.3.1",
+                      "title": "年間収入300万円未満の世帯割合（静岡）",
+                      "webmap": "fcd53e58ff3f4a26bcefef549eb6047f",
+                      "indicator_id": "1.1.1",
                       "options": {
                         "mapOptions": {
                           "slider": false,
@@ -2267,132 +338,140 @@
                         }
                       },
                       "data_info": {
-                        "source": "AIDS Data Bank",
-                        "provider": "ArcGIS Online"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 5,
-                  "width": 4,
-                  "height": 4,
-                  "component": {
-                    "name": "storymap-card",
-                    "settings": {
-                      "title": "The Epidemic World-Wide Spread of HIV/AIDS",
-                      "url": "http://www.arcgis.com/apps/MapJournal/?appid=de2a06f1d66e40eebe8dcd2c6eefacc2",
-                      "thumbnails": [
-                        {
-                          "first_active": true,
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/hiv-epidemic-1.png"
-                        },
-                        {
-                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/hiv-epidemic-2.png"
-                        }
-                      ],
-                      "data_info": {
-                        "source": "Avert.org",
-                        "provider": "Esri",
-                        "item_type": "Story Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 2,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Total Cases (latest yr. avail)",
-                      "data_info": {
-                        "source": "AIDS Data Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/AIDS_DATA_HUB_THAILAND/MapServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "YR_2011",
-                            "outStatisticFieldName": "YR_2011_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 6,
-                  "y": 9,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Total Cases (previous yr)",
-                      "data_info": {
-                        "source": "AIDS Data Bank",
-                        "provider": "ArcGIS Online",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/AIDS_DATA_HUB_THAILAND/MapServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "YR_2010",
-                            "outStatisticFieldName": "YR_2010_sum",
-                            "statisticType": "sum"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "decimal_places" : 0
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Web Map"
                       }
                     }
                   }
                 },
                 {
                   "x": 0,
-                  "y": 11,
+                  "y": 13,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "平均",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places": 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 13,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最小",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_min",
+                            "statisticType": "min"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 13,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最大",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_max",
+                            "statisticType": "max"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
                   "width": 12,
                   "height": 4,
                   "component": {
                     "name": "chart-card",
                     "settings": {
-                      "title": "Number of Cases - Top 15 Provinces",
+                      "title": "トップ15",
                       "specification": {
                         "type": "bar",
                         "dataset": {
-                          "url": "http://arcgis-sdgs-385255865.us-east-1.elb.amazonaws.com/arcgis/rest/services/3.3/AIDS_DATA_HUB_THAILAND/MapServer/0",
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
                           "query": {
-                            "where": "1=1",
-                            "orderByFields": "YR_2011 DESC",
+                            "where": "RANK is not null",
+                            "orderByFields": "RANK ASC",
                             "resultRecordCount": 15
                           },
                           "mappings": {
-                            "sort": "YR_2011 DESC",
+                            "sort": "RANK ASC",
                             "x": {
-                              "field": "PV_NAME_E",
-                              "label": "Province"
+                              "field": "SIKUCHOSON",
+                              "label": ""
                             },
                             "y": {
-                              "field": "YR_2011",
+                              "field": "INCOME_RATE",
                               "label": ""
                             }
                           }
                         },
                         "tooltip": {
-                          "title": "{PV_NAME_E}",
-                          "content": "{YR_2011} Cases in {PV_NAME_E}"
+                          "title": "{SIKUCHOSON}",
+                          "content": "{INCOME_RATE}%"
                         },
                         "override": {
                           "marks": [
@@ -2426,138 +505,40 @@
                       }
                     }
                   }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  },
-  {
-    "country_code": "KE",
-    "country_name": "KENYA",
-    "dashboards": {
-      "2": {
-        "2.1": {
-          "levels": [
-            {
-              "title": "Admin Level 1",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 8,
-                  "height": 5,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Percent of Infants 0 to 59 mos. Breastfed (Bottom 15 Counties)",
-                      "webmap": "d5de48c3476440b3a798bf4ee225bd57",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "Kenya Open Data",
-                        "provider": "Socrata",
-                        "item_type": "Web Map"
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 0,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Percent Stunting",
-                      "data_info": {
-                        "source": "Kenya Open Data",
-                        "provider": "Socrata",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services6.arcgis.com/Y3k193RFrcECJ8xA/arcgis/rest/services/Percent_Undernourished_by_County/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "stuting_2_sd",
-                            "outStatisticFieldName": "stuting_2_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
-                },
-                {
-                  "x": 8,
-                  "y": 3,
-                  "width": 4,
-                  "height": 2,
-                  "component": {
-                    "name": "summary-stat-card",
-                    "settings": {
-                      "title": "Percent Wasting",
-                      "data_info": {
-                        "source": "Kenya Open Data",
-                        "provider": "Socrata",
-                        "item_type": "Statistic"
-                      },
-                      "url": "http://services6.arcgis.com/Y3k193RFrcECJ8xA/arcgis/rest/services/Percent_Undernourished_by_County/FeatureServer/0",
-                      "query": {
-                        "outStatistics": [
-                          {
-                            "onStatisticField": "wasting_2_sd",
-                            "outStatisticFieldName": "wasting_2_sd_avg",
-                            "statisticType": "avg"
-                          }
-                        ]
-                      },
-                      "display_format" : {
-                        "suffix" : "%",
-                        "decimal_places" : 0
-                      }
-                    }
-                  }
                 },
                 {
                   "x": 0,
-                  "y": 5,
+                  "y": 20,
                   "width": 12,
-                  "height": 5,
+                  "height": 4,
                   "component": {
                     "name": "chart-card",
                     "settings": {
-                      "title": "Percent of Infants 0 to 59 mos. Breastfed (Bottom 15 Counties)",
+                      "title": "ワースト 15",
                       "specification": {
                         "type": "bar",
                         "dataset": {
-                          "url": "http://services6.arcgis.com/Y3k193RFrcECJ8xA/arcgis/rest/services/Kenya_First_Supplement_0_to_59_Months/FeatureServer/0",
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
                           "query": {
-                            "orderByFields": "Milk_other_than_breast ASC",
+                            "where": "RANK is not null",
+                            "orderByFields": "RANK DESC",
                             "resultRecordCount": 15
                           },
                           "mappings": {
+                            "sort": "RANK DESC",
                             "x": {
-                              "field": "County",
+                              "field": "SIKUCHOSON",
                               "label": ""
                             },
                             "y": {
-                              "field": "Milk_other_than_breast",
+                              "field": "INCOME_RATE",
                               "label": ""
                             }
                           }
+                        },
+                        "tooltip": {
+                          "title": "{SIKUCHOSON}",
+                          "content": "{INCOME_RATE}%"
                         },
                         "override": {
                           "marks": [
@@ -2565,7 +546,7 @@
                               "properties": {
                                 "hover": {
                                   "fill": {
-                                    "value": "#e5b735"
+                                    "value": "#8b389f"
                                   },
                                   "fillOpacity": {
                                     "value": 0.5
@@ -2573,7 +554,7 @@
                                 },
                                 "update": {
                                   "fill": {
-                                    "value": "#e5b735"
+                                    "value": "#8b389f"
                                   },
                                   "fillOpacity": {
                                     "value": 1
@@ -2585,51 +566,9 @@
                         }
                       },
                       "options": {
-                        "autolabels": false,
+                        "autolabels": true,
                         "renderer": "svg",
-                        "id": "chart1"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  },
-  {
-    "country_code" : "TZ",
-    "country_name" : "Tanzania",
-    "dashboards" : {
-      "3": {
-        "3.8": {
-          "levels" : [
-            {
-              "title": "Country",
-              "items": [
-                {
-                  "x": 0,
-                  "y": 0,
-                  "width": 12,
-                  "height": 4,
-                  "component": {
-                    "name": "map-card",
-                    "settings": {
-                      "title": "Operating Health Facilities (2014)",
-                      "webmap": "b816133e0c3d44979a793a16905ddba6",
-                      "options": {
-                        "mapOptions": {
-                          "slider": false,
-                          "logo": false,
-                          "showAttribution": false
-                        }
-                      },
-                      "data_info": {
-                        "source": "opendata.go.tz",
-                        "provider": "CKAN",
-                        "item_type": "Web Map"
+                        "id": "chart2"
                       }
                     }
                   }

@@ -1,0 +1,26 @@
+<ul class='nav navbar-nav navbar-right'>
+  
+  <li><a href="#" data-toggle="modal" data-target="#aboutModal">{{ t 'application.header.about' }}</a></li>
+  
+   <ul class="nav navbar-nav navbar-right">      
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      {{ t 'application.header.samples' }} <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li>{{#link-to 'sdg' '1' (query-params geo_group="countries" geo_value="GLOBAL" target_id="1.1") }}<b>目標 01: 貧困をなくそう</b> - 全国 (ターゲット 1.1){{/link-to}}</li>
+        <li>{{#link-to 'sdg' '1' (query-params geo_group="countries" geo_value="22" target_id="1.1") }}<b>目標 01: 貧困をなくそう</b> - 静岡 (ターゲット 1.1){{/link-to}}</li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      {{session.locale_label}} <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a  {{action 'changeLocale' 'ja' }} >{{t 'application.languages.ja'}}</a></li>
+        <li><a  {{action 'changeLocale' 'en' }} >{{t 'application.languages.en'}}</a></li>
+        <li><a  {{action 'changeLocale' 'es' }} >{{t 'application.languages.es'}}</a></li>
+        <li><a  {{action 'changeLocale' 'fr' }} >{{t 'application.languages.fr'}}</a></li>
+        <li><a  {{action 'changeLocale' 'ru' }} >{{t 'application.languages.ru'}}</a></li>
+      </ul>
+    </li>
+  </ul>
+</ul>

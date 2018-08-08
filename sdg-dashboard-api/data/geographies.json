@@ -1,0 +1,242 @@
+[
+  {
+    "id": "GLOBAL",
+    "display": "全国",
+    "geo_group": "countries"
+  },
+  {
+    "id": "01",
+    "display": "北海道",
+    "geo_group": "countries"
+  },
+  {
+    "id": "02",
+    "display": "青森県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "03",
+    "display": "岩手県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "04",
+    "display": "宮城県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "05",
+    "display": "秋田県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "06",
+    "display": "山形県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "07",
+    "display": "福島県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "08",
+    "display": "茨城県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "09",
+    "display": "栃木県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "10",
+    "display": "群馬県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "11",
+    "display": "埼玉県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "12",
+    "display": "千葉県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "13",
+    "display": "東京都",
+    "geo_group": "countries"
+  },
+  {
+    "id": "14",
+    "display": "神奈川県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "15",
+    "display": "新潟県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "16",
+    "display": "富山県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "17",
+    "display": "石川県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "18",
+    "display": "福井県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "19",
+    "display": "山梨県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "20",
+    "display": "長野県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "21",
+    "display": "岐阜県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "22",
+    "display": "静岡県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "23",
+    "display": "愛知県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "24",
+    "display": "三重県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "25",
+    "display": "滋賀県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "26",
+    "display": "京都府",
+    "geo_group": "countries"
+  },
+  {
+    "id": "27",
+    "display": "大阪府",
+    "geo_group": "countries"
+  },
+  {
+    "id": "28",
+    "display": "兵庫県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "29",
+    "display": "奈良県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "30",
+    "display": "和歌山県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "31",
+    "display": "鳥取県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "32",
+    "display": "島根県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "33",
+    "display": "岡山県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "34",
+    "display": "広島県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "35",
+    "display": "山口県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "36",
+    "display": "徳島県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "37",
+    "display": "香川県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "38",
+    "display": "愛媛県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "39",
+    "display": "高知県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "40",
+    "display": "福岡県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "41",
+    "display": "佐賀県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "42",
+    "display": "長崎県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "43",
+    "display": "熊本県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "44",
+    "display": "大分県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "45",
+    "display": "宮崎県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "46",
+    "display": "鹿児島県",
+    "geo_group": "countries"
+  },
+  {
+    "id": "47",
+    "display": "沖縄県",
+    "geo_group": "countries"
+  }
+]

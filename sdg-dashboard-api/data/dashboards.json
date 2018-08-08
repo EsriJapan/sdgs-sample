@@ -1,0 +1,583 @@
+[
+  {
+    "country_code": "GLOBAL",
+    "country_name": "全国",
+    "dashboards": {
+      "1": {
+        "1.1": {
+          "levels" : [
+            {
+              "title" : "1.1.1 全国",
+              "items" : [
+                {
+                  "x": 0,
+                  "y": 5,
+                  "width" : 8,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "map-card",
+                    "settings" : {
+                      "title" : "年間収入300万円未満の世帯割合（全国）",
+                      "webmap" : "68a138a89d3240f9b5e1d18058919f3f",
+                      "indicator_id" : "1.1.1",
+                      "options" : {
+                        "mapOptions" : {
+                          "slider" : false,
+                          "logo" : false,
+                          "showAttribution" : false
+                        }
+                      },
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 5,
+                  "width": 4,
+                  "height": 4,
+                  "component": {
+                    "name": "storymap-card",
+                    "settings": {
+                      "title": "世界の貧困",
+                      "url": "http://urbanobservatory.maps.arcgis.com/apps/MapJournal/index.html?appid=3b502ce450414dc29eff9c68a4c982a6&webmap=a1df8a2b683347e0b24aaeffa67708f8",
+                      "thumbnails": [
+                        {
+                          "first_active": true,
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-1.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-2.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-3.png"
+                        },
+                        {
+                          "url": "https://s3.amazonaws.com/sdg-dash-misc/story-map-card-previews/sm-poverty-4.png"
+                        }
+                      ],
+                      "data_info": {
+                        "source": "Urban Observatory",
+                        "provider": "Esri",
+                        "item_type": "Story Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "平均",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places": 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最小",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_min",
+                            "statisticType": "min"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 9,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最大",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_max",
+                            "statisticType": "max"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 11,
+                  "width" : 12,
+                  "height" : 4,
+                  "component" : {
+                    "name" : "chart-card",
+                    "settings": {
+                      "title": "トップ 15",
+                      "indicator_id" : "1.1.1",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                          "query": {
+                            "where" : "1=1 AND INCOME_RATE is not null",
+                            "orderByFields": "RANK ASC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "x": {
+                              "field": "KEN",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "INCOME_RATE",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "tooltip": {
+                          "title": "{KEN}",
+                          "content": "{INCOME_RATE}%"
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#f9c8ce"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#e5243b"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": false,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      },
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 18,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "chart-card",
+                    "settings": {
+                      "title": "ワースト 15",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_all/FeatureServer/0",
+                          "query": {
+                            "where": "1=1 AND INCOME_RATE is not null",
+                            "orderByFields": "RANK DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "sort": "RANK DESC",
+                            "x": {
+                              "field": "KEN",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "INCOME_RATE",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "tooltip": {
+                          "title": "{KEN}",
+                          "content": "{INCOME_RATE}%"
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#8b389f"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#8b389f"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": true,
+                        "renderer": "svg",
+                        "id": "chart2"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "country_code": "22",
+    "country_name": "静岡",
+    "dashboards": {
+      "1": {
+        "1.1": {
+          "levels": [
+            {
+              "title": "1.1.1 静岡",
+              "items": [
+                {
+                  "x": 0,
+                  "y": 0,
+                  "width": 12,
+                  "height": 8,
+                  "component": {
+                    "name": "map-card",
+                    "settings": {
+                      "title": "年間収入300万円未満の世帯割合（静岡）",
+                      "webmap": "fcd53e58ff3f4a26bcefef549eb6047f",
+                      "indicator_id": "1.1.1",
+                      "options": {
+                        "mapOptions": {
+                          "slider": false,
+                          "logo": false,
+                          "showAttribution": false
+                        }
+                      },
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Web Map"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 13,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "平均",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_avg",
+                            "statisticType": "avg"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places": 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 4,
+                  "y": 13,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最小",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_min",
+                            "statisticType": "min"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 8,
+                  "y": 13,
+                  "width": 4,
+                  "height": 2,
+                  "component": {
+                    "name": "summary-stat-card",
+                    "settings": {
+                      "title": "最大",
+                      "data_info": {
+                        "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                        "provider": "総務省統計局",
+                        "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                        "item_type": "Statistic"
+                      },
+                      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                      "query": {
+                        "outStatistics": [
+                          {
+                            "onStatisticField": "INCOME_RATE",
+                            "outStatisticFieldName": "INCOME_RATE_max",
+                            "statisticType": "max"
+                          }
+                        ]
+                      },
+                      "display_format" : {
+                        "decimal_places" : 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 15,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "chart-card",
+                    "settings": {
+                      "title": "トップ15",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                          "query": {
+                            "where": "RANK is not null",
+                            "orderByFields": "RANK ASC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "sort": "RANK ASC",
+                            "x": {
+                              "field": "SIKUCHOSON",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "INCOME_RATE",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "tooltip": {
+                          "title": "{SIKUCHOSON}",
+                          "content": "{INCOME_RATE}%"
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#4c9f38"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#4c9f38"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": true,
+                        "renderer": "svg",
+                        "id": "chart1"
+                      }
+                    }
+                  }
+                },
+                {
+                  "x": 0,
+                  "y": 20,
+                  "width": 12,
+                  "height": 4,
+                  "component": {
+                    "name": "chart-card",
+                    "settings": {
+                      "title": "ワースト 15",
+                      "specification": {
+                        "type": "bar",
+                        "dataset": {
+                          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/sdgs_sample_shizuoka/FeatureServer/0",
+                          "query": {
+                            "where": "RANK is not null",
+                            "orderByFields": "RANK DESC",
+                            "resultRecordCount": 15
+                          },
+                          "mappings": {
+                            "sort": "RANK DESC",
+                            "x": {
+                              "field": "SIKUCHOSON",
+                              "label": ""
+                            },
+                            "y": {
+                              "field": "INCOME_RATE",
+                              "label": ""
+                            }
+                          }
+                        },
+                        "tooltip": {
+                          "title": "{SIKUCHOSON}",
+                          "content": "{INCOME_RATE}%"
+                        },
+                        "override": {
+                          "marks": [
+                            {
+                              "properties": {
+                                "hover": {
+                                  "fill": {
+                                    "value": "#8b389f"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 0.5
+                                  }
+                                },
+                                "update": {
+                                  "fill": {
+                                    "value": "#8b389f"
+                                  },
+                                  "fillOpacity": {
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "options": {
+                        "autolabels": true,
+                        "renderer": "svg",
+                        "id": "chart2"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

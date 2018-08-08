@@ -1,0 +1,39 @@
+[
+  {
+    "dashboard" : [
+      {
+        "title" : "全国",
+        "items" : [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 6,
+            "component": {
+              "name": "map-card",
+              "settings": {
+                "title": "SDGs Index 1（全国）",
+                "isSdgIndexMap" : true,
+                "sdgIndexLayerLocation" : [0, 23],
+                "webmap": "68a138a89d3240f9b5e1d18058919f3f",
+                "options": {
+                  "mapOptions": {
+                    "slider": true,
+                    "logo": false,
+                    "showAttribution": true
+                  }
+                },
+                "data_info": {
+                  "source": "「平成25年住宅・土地統計調査」（総務省統計局）を加工して作成",
+                  "source_url" : "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200522&tstat=000001063455",
+                  "provider": "総務省統計局",
+                  "item_type": "Web Map"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

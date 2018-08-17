@@ -4,7 +4,7 @@ SDGs に関連するデータやサービスを検索するためのプロトタ
 
 EmberCLI を利用して作成されたダッシュボード スタイルのアプリケーションです。セットアップや Ember についての詳細は以下を参照ください。
 
-[View it Live](http://esri.github.io/sdg-dash/)
+[View it Live（英語）](http://esri.github.io/sdg-dash/)
 
 ※ このリポジトリは Esri の [sdg-dash](https://github.com/Esri/sdg-dash) を日本語にしたものです。  
 アプリケーションで使用している目標を表す画像は [JAPAN SDGs Action Platform（出典：外務省ホームページ）](https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html)から取得しました。

@@ -3,15 +3,21 @@
 Esri が提供する SDGs に関連する以下のプロジェクトを日本語にし、集約しました。
 - [sdg-dash](https://github.com/Esri/sdg-dash)
   - sdg-api と sdg-dashboard-api を使用して、SDGs の各指標に関連する情報を地域ごとに地図に可視化するダッシュボード アプリケーションです。
+  - [sdg-dash（日本語）](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dash) は、アプリケーションに日本語のロケール ファイルを追加しています。
 - [sdg-api](https://github.com/Esri/sdg-api)
   - SDGs のメタデータを配信する API です。
+  - [sdg-api（日本語）](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-api) は、メタデータを日本語に変更しています。
 - [sdg-dashboard-api](https://github.com/apfister/sdg-dashboard-api/)
   - ダッシュボードのレイアウトやデータソースを定義した JSON を配信する API です。
+  - [sdg-dashboard-api（日本語）](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dashboard-api) は、日本のサンプル データを表示するよう定義した JSON を配信します。
 
 # 使い方
 
 1. リポジトリをクローンします。
-2. 各プロジェクトの README を参考にプロジェクトをインストールします。
+2. ダッシュボード アプリケーション（[sdg-dash](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dash)）をインストールします。
+3. SDG API（[sdg-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-api)）およびダッシュボード API（[sdg-dashboard-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dashboard-api)）をインストールします。
+
+※ インストール方法は各プロジェクトの README を参照してください。
 
 ## 独自データの使用
 
@@ -19,7 +25,7 @@ Esri が提供する SDGs に関連する以下のプロジェクトを日本語
 サンプルのダッシュボード API は、都道府県ごとに年収 300 万円未満の世帯の割合を表示するレイアウトを配信しています。  
 以下の手順でダッシュボード API を変更することで、アプリケーションに独自のデータを表示できます。
 
-1. 地域の設定
+### 1. 地域の設定
 
 `sdg-dashboard-api\data\geographies.json` にダッシュボードに表示する地域を設定します。
 
@@ -28,7 +34,7 @@ Esri が提供する SDGs に関連する以下のプロジェクトを日本語
 - `display`：ダッシュボードに表示する地域の名称
 - `geo_group`：地域のグループ（`countries` または `cities`）
 
-2. レイアウトの設定
+### 2. レイアウトの設定
 
 `sdg-dashboard-api\data\dashboards.json`（`countries` グループ）または `sdg-dashboard-api\data\dashboards-cities.json`（`cities` グループ）に選択した地域に表示するダッシュボードのレイアウトを定義します。
 

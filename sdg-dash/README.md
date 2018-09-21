@@ -41,7 +41,7 @@ module.exports = function(environment) {
 
 ## セットアップおよびローカルで実行するための前提条件
 
-以下をインストールしておく必要があります。
+以下をインストールしておく必要があります。お使いの環境によってはインストールが上手くいかない場合がありますので、一度、[sdgs sample_setup_tips_wiki](https://github.com/EsriJapan/sdgs-sample/wiki/sdgs-sample_setup_tips_wiki) を読んでから、セットアップすることをお勧めします。
 
 - [Git](http://git-scm.com/)
 - [Node.js](http://nodejs.org/) (with NPM)

@@ -10,14 +10,16 @@ Esri が提供する SDGs に関連する以下のプロジェクトを日本語
 - [sdg-dashboard-api](https://github.com/apfister/sdg-dashboard-api/)
   - ダッシュボードのレイアウトやデータソースを定義した JSON を配信する API です。
   - [sdg-dashboard-api（日本語）](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dashboard-api) は、日本のサンプル データを表示するよう定義した JSON を配信します。
+  - この Sample SDG Dashboards API (sdg-dashboard-api) は、今後廃止され、ArcGIS Open Data へステーブルなフレームワークが作成される予定です
 
-# 使い方
+# 開発環境への設定の仕方
 
 1. リポジトリをクローンします。
-2. ダッシュボード アプリケーション（[sdg-dash](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dash)）をインストールします。
-3. SDG API（[sdg-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-api)）およびダッシュボード API（[sdg-dashboard-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dashboard-api)）をインストールします。
+2. ダッシュボード アプリケーション（[sdg-dash](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dash)）を README を参照しながらインストールまで行います。
+3. SDG API（[sdg-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-api)）およびダッシュボード API（[sdg-dashboard-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dashboard-api)）を README を参照しながらセットアップまで行い、APIのサービスを起動しておきます。
+4. 再度、ダッシュボード アプリケーション（[sdg-dash]) の README を参照しながら、`config/environment.js` の `sdgApi` および `sdgDashboardsApi` のインスタンスの値 を必要に応じて変更し、実行/開発の手順で サンプルアプリケーション が起動したことをローカル環境で確認できます。
 
-※ インストール方法は各プロジェクトの README を参照してください。
+※ インストール方法の詳細は各プロジェクトの README を参照してください。
 
 ## 独自データの使用
 

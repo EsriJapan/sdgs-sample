@@ -21,6 +21,135 @@ Esri が提供する SDGs に関連する以下のプロジェクトを日本語
 
 ※ インストール方法の詳細は各プロジェクトの README を参照してください。
 
+
+# 運用環境への設定の仕方（Windows Serverの場合）
+
+## 配信用APIの設定
+
+1. SDG API（[sdg-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-api)）およびダッシュボード API（[sdg-dashboard-api](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dashboard-api)）を Windows Server 環境で動作させるために、[Windows Server への iisnode の セットアップ](https://github.com/EsriJapan/sdgs-sample/wiki/iisnode_setup_tips_wiki)を参照して、iisnode をセットアップと動作確認をしておきます。
+2. 配信API の配置と設定：
+  本サンプル プロジェクトの配信APIである sdg-api と sdg-dashboard-api を、GitHubから取得したフォルダをコピーして、IIS のデフォルト フォルダへ配置します。
+
+
+    ```
+    C:\inetpub\wwwroot\sdg-api
+    C:\inetpub\wwwroot\sdg-dashboard-api  
+   ```
+
+3. 配信API用のフォルダ下に web.config ファイルを作成：
+  iisnode 用に web.config ファイルを上記の２つのディレクトリ下へ、次のような内容のファイルを作成し、それぞれに配置します（設定内容は同一です）。
+
+    [ファイル名]：web.config
+    ``` 
+    <configuration>
+      <system.webServer>
+      
+      <!-- copy web.config from iisnode express sample and change -->
+      
+      <handlers>
+        <add name="iisnode" path="server.js" verb="*" modules="iisnode" />
+      </handlers>
+      
+      <!-- use URL rewriting to redirect the entire branch of the URL namespace
+      to server.js application; 
+      
+        http://localhost/node/sdg-api/
+        
+      -->
+      <rewrite>
+        <rules>
+          <rule name="server">
+            <match url="/*" />
+            <action type="Rewrite" url="server.js" />
+          </rule>
+        </rules>
+      </rewrite>
+      <directoryBrowse enabled="false" />
+      <iisnode loggingEnabled="false" />
+      </system.webServer>
+    </configuration>
+    ```
+
+4. server.js ファイルの35行目付近の書き換え：
+  それぞれのフォルダ下にある server.js テキストエディタを使って次のように書換えします。 
+  
+    [ファイル名]：sdg-api\server.js
+
+    ```
+    //app.use( require('./controllers') );
+    app.use('/sdg-api' ,require('./controllers') );
+    ```
+
+
+    [ファイル名]：sdg-dashboard-api\server.js
+
+    ```
+    //app.use( require('./controllers') );
+    app.use('/sdg-dashboard-api' ,require('./controllers') );
+    ```
+
+    ＊iisnode で設定したものは、リクエストのたびに読み込みされるので、IISの再起動等は不要です
+
+
+5. IIS Manager で アプリケーションへ変換：
+   IIS Manager を起動後、
+   "Default Web Site/sdg-api" で右クリックし、[アプリケーションへの変換]メニューでウィザードに従って、アプリケーションへ変換します。
+   同様に"Default Web Site/sdg-dashboard-api" で右クリックし、[アプリケーションへの変換]メニューでウィザードに従って、アプリケーションへ変換します。
+
+6. 動作確認：
+   
+   6-1) サーバーのブラウザで次のURLへアクセスしてエラーが発生していないか確認します。
+
+   http://localhost/sdg-api
+
+   http://localhost/sdg-dashboard-api
+   
+   6-2) 別マシンのブラウザからURLへアクセスしてエラーが発生していないか確認します。
+   
+   http://dnsname.xxx.xxxx/sdg-api
+
+   http://dnsname.xxx.xxxx/sdg-dashboard-api
+   
+   
+
+
+## アプリケーションのビルドと設定
+
+1. environment.js ファイルの121行目付近への設定追記：
+
+    [sdg-dash] > [config] > [environment.js] の設定を、次のように上記の配信用APIのURLに設定します。
+
+
+    ```
+    if (environment === 'production') {
+      // 今回はbaseURLは使わない
+      // ENV.baseURL = '/dashboard';
+      ENV.locationType = 'hash';
+      ENV.sdgApi = 'http://dnsname.xxx.xxxx/sdg-api/';
+      ENV.sdgDashboardsApi = 'http://dnsname.xxx.xxxxx/sdg-dashboard-api/';
+    }
+    ```
+
+2. ember build を実行：
+  ダッシュボード アプリケーション（[sdg-dash](https://github.com/EsriJapan/sdgs-sample/tree/master/sdg-dash)）の READMEにあるように、production を指定してビルドします。
+
+
+    > ember build --environment production
+
+3. dist/ のフォルダを C:\inetpub\wwwroot へコピーし、dashboard にリネームします。
+
+4. IIS Manager で アプリケーションへ変換：
+   IIS Manager を起動後、
+   "Default Web Site/dashboard" で右クリックし、[アプリケーションへの変換]メニューでウィザードに従って、アプリケーションへ変換します。
+
+    ここまでの設定が正常に終了していれば、運用環境で実際のアプリケーションが次のURLから確認が可能です（他のマシンからアクセスする場合は、ファイアウォールでのポートも開放されているか確認してください）。
+
+
+    ```
+    http://dnsname.xxx.xxxxx/dashboard/'
+    ```
+
+
 ## 独自データの使用
 
 ダッシュボード アプリケーションで地域ごとに表示されるマップやチャートなどのコンポーネントをどのようにレイアウトするかは、ダッシュボード API（sdg-dashboard-api）により定義されます。  
